@@ -1,0 +1,33 @@
+.flex-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.crest {
+    margin-top: 1rem;
+    max-height: 12rem;
+    display: block;
+}
+
+.team-header {
+    border-bottom: none;
+}
+
+.team-section {
+    border-bottom: 1px solid $lighter-gray;
+}
+
+.partner-section {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    
+    
+    
+    img {
+        height: 5em;
+    }
+}
