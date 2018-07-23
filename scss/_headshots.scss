@@ -24,7 +24,7 @@ i.fas {
         color: $white;
         border-radius: 100%;
         width: 2.5rem;
-        padding: 0.17rem 0.2rem;
+        padding: 0.5rem 0.2rem;
         text-align: center;
         height: 2.5rem;
         text-decoration: none;
@@ -47,6 +47,11 @@ i.fas {
                 position: relative;
                 left: 0.02rem;
             }
+        }
+
+        &:hover {
+            background-color: $yellow;
+            color: $white;
         }
     }
 }
