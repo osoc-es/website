@@ -2,6 +2,10 @@ i.fas {
     font-family: 'FontAwesome';
 }
 
+i.fa {
+    color: $white;
+}
+
 .headshot-gallery {
     text-align: center;
 }
@@ -39,13 +43,21 @@ i.fas {
 
             &.fa-linkedin {
                 position: relative;
-                top: -0.1rem;
                 left: 0.05rem;
             }
 
             &.fa-github {
                 position: relative;
                 left: 0.02rem;
+            }
+            
+            &.fas {
+                top: .015rem;
+                color: $white !important;
+            }
+
+            &.fa-linkedin {
+                top: 0.01rem;
             }
         }
     }

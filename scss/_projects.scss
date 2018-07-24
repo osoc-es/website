@@ -22,12 +22,26 @@
     
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
     
-    
-    
-    img {
-        height: 5em;
+    .project-partner {
+        margin-top: 1.5em;
+        width: 20% !important;
+        
+        img {
+            max-height: 8em;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .partner-section .project-partner {
+        width: 55% !important;
+        
+        &:not(:last-child) {
+            margin-bottom: 3em;
+        }
     }
 }
