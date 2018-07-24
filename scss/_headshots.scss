@@ -1,8 +1,5 @@
 i.fas {
     font-family: 'FontAwesome';
-}
-
-i.fa {
     color: $white;
 }
 
@@ -28,7 +25,7 @@ i.fa {
         color: $white;
         border-radius: 100%;
         width: 2.5rem;
-        padding: 0.17rem 0.2rem;
+        padding: 0.5rem 0.2rem;
         text-align: center;
         height: 2.5rem;
         text-decoration: none;
@@ -59,6 +56,11 @@ i.fa {
             &.fa-linkedin {
                 top: 0.01rem;
             }
+        }
+
+        &:hover {
+            background-color: $yellow;
+            color: $white;
         }
     }
 }
