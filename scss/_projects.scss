@@ -27,7 +27,7 @@
     justify-content: flex-start;
     align-content: flex-start;
     text-align: center;
-    
+
     a img {
         opacity: 0.8;
         filter: grayscale(100%);
@@ -56,11 +56,16 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .partner-section .project-partner {
-        width: 55% !important;
-        
-        &:not(:last-child) {
-            margin-bottom: 3em;
+    .partner-section {
+        flex-direction: column !important;
+
+        .cell {
+
+            width: 90% !important;
+
+            &:not(:last-child) {
+                margin-bottom: 3em;
+            }
         }
     }
 }
