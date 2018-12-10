@@ -213,7 +213,7 @@ img {vertical-align: middle;}
     display: inline-block;
     position: relative;
     width: 20%;
-    min-height: 410px;
+    min-height: 28.5rem;
     float: left;
     padding: 1.5rem;
     margin-bottom: 2rem;
@@ -228,13 +228,46 @@ img {vertical-align: middle;}
 }
 
 .partners_wrapper article h3 {
-	padding-top: 1.5rem;
+	padding-top: 1.2rem;
 	font-size: 1.2rem;
 }
 
 .partner-fix__height {
-	min-height: 150px;
+	min-height: 100px;
 
 }
+
+.partners_wrapper article p {
+  padding-top: 0.2rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.imgcontainer {
+  min-height: 11rem;
+  max-height: 11rem;
+}
+
+.imgcontainer img {
+  max-height: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
