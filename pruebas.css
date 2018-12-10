@@ -17,9 +17,10 @@
 
 
 
-/*partners*/
+/*partners
 
 .wrapper_partners {
+	display: block;
 	width: 80%;
 	margin: 0 auto;
 	padding: 4rem;
@@ -28,18 +29,21 @@
 
 .u-margin--b {
 	max-width: 15rem;
-}
+}*/
 
 .right_item {
 	text-align: right;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
 
 /*index*/
 
 .wrapper_video {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
+	background-color: #f2f2f4;
 
 }
 
@@ -169,6 +173,68 @@ img {vertical-align: middle;}
 
 .centrar {
 	margin-left: 10rem;
+}
+
+/*footer*/
+
+.logobot17 {
+	max-width: 5.7rem;
+}
+
+
+/*articles*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.partners_wrapper {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #F5F5F5;
+
+}
+/*
+.article_partners {
+	display: block;
+    line-height: 1.5;
+    text-align: center;
+    padding: 1rem;
+    color: #446161;
+}*/
+
+.partners_wrapper article {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    min-height: 410px;
+    float: left;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.partner1 {
+	margin-left: 3.5rem;
+}
+
+.partners_wrapper article h3 {
+	padding-top: 1.5rem;
+	font-size: 1.2rem;
+}
+
+.partner-fix__height {
+	min-height: 150px;
+
 }
 
 
