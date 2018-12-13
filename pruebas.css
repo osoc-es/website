@@ -4,17 +4,25 @@
 	text-align: center;
 }
 
-
+.projects-img-container {
+  min-height: 8rem;
+}
 
 .c-projects-image {
-	max-width: 20rem;
+	max-width: 13rem;
 	max-height: 8rem;
+
 }
 
 .c-projects-project {
 	text-align: center;
 }
 
+.c-projects {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
 
 
 /*partners
@@ -85,6 +93,7 @@ img {vertical-align: middle;}
   padding: 1rem;
 }
 
+
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -106,6 +115,10 @@ img {vertical-align: middle;}
 }
 
 /* The dots/bullets/indicators */
+
+.dots{
+  padding-bottom: 2rem;
+}
 .dot {
   height: 15px;
   width: 15px;
@@ -254,7 +267,17 @@ img {vertical-align: middle;}
   max-height: 10rem;
 }
 
+/*partners img*/
 
+
+.c-partners img {
+  max-height: 4.5rem;
+}
+
+.partner_container {
+ width: 80%;
+ margin: 0 auto;
+}
 
 
 
