@@ -24,6 +24,17 @@
   padding-top: 4rem;
 }
 
+/*header nav
+.top-bar-left {
+background-color: tomato;
+
+}
+
+.osoc_title {
+display: inline-block;
+background-color: white;
+float: right;
+}*/
 
 /*partners
 
@@ -205,7 +216,7 @@ img {vertical-align: middle;}
     height: 0;
 }
 
-.partners_wrapper {
+.partners_wrapper, .team_wrapper {
 	display: block;
 	width: 100%;
 	margin: 0 auto;
@@ -222,11 +233,12 @@ img {vertical-align: middle;}
     color: #446161;
 }*/
 
-.partners_wrapper article {
+.partners_wrapper article, .team_wrapper article {
     display: inline-block;
     position: relative;
     width: 20%;
-    min-height: 28.5rem;
+    min-height: 31rem;
+    max-height: 31rem;
     float: left;
     padding: 1.5rem;
     margin-bottom: 2rem;
@@ -236,26 +248,33 @@ img {vertical-align: middle;}
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.partner1 {
+.partner1, .member5, .member1 {
 	margin-left: 3.5rem;
 }
 
-.partners_wrapper article h3 {
+.partners_wrapper, .team_wrapper article h3 {
 	padding-top: 1.2rem;
 	font-size: 1.2rem;
 }
 
-.partner-fix__height {
+.partner-fix__height, .member-fix__height {
 	min-height: 100px;
 
 }
 
-.partners_wrapper article p {
+.partners_wrapper, .team_wrapper article p {
   padding-top: 0.2rem;
   padding-bottom: 0;
   margin-bottom: 0;
   font-size: 0.8rem;
-  text-align: left;
+}
+
+.partners_wrapper article {
+  padding-top: 2rem;
+}
+
+article p {
+  text-align: center;
 }
 
 .imgcontainer {
@@ -274,11 +293,135 @@ img {vertical-align: middle;}
   max-height: 4.5rem;
 }
 
-.partner_container {
+/*.partner_container {
  width: 80%;
  margin: 0 auto;
+}*/
+
+.team_title {
+  padding-top: 3.5rem;
 }
 
+.partners_title {
+  padding-top: 2rem;
+} 
+
+.memberimg img {
+  max-height: 16rem;
+}
+
+.team_wrapper article {
+  padding-top: 2.5rem;
+}
+
+.fa {
+  padding: 0.5rem;
+  line-height: 1.5;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 0.13rem;
+  margin-right: 0.13rem;
+  margin-top: 0.7rem;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  background-color: #F5F5F5;
+  color: #0A0839;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top:50%;
+  left:50%;
+  width:400px;  /* adjust as per your needs */
+  height:650px;   /* adjust as per your needs */
+  margin-left:-200px;   /* negative half of width above */  
+  margin-top:-500px;   /* negative half of height above */
+  /*left: 50%;
+    bottom: 125%;
+      width: 500px;
+
+*/
+  margin-left: -200px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.popuptext img {
+  padding: 1rem;
+  padding-bottom: 0;
+  max-height: 20rem;
+}
+
+.popuptext p {
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.popup h3:hover {
+  color: #3ee6ba;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
 
 
 
