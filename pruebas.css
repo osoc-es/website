@@ -423,13 +423,28 @@ article p {
   to {opacity:1 ;}
 }
 
+/*FAQS*/
 
+.como-llegar {
+  display: block;
+  list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  font-size: 1rem;
+  line-height: 1.2;
+}
 
+.subtitle_when {
+  text-align: center;
+  font-weight: 600;
 
-
-
-
-
+}
 
 
 
