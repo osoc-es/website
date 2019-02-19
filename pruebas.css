@@ -274,7 +274,7 @@ img {vertical-align: middle;}
 }
 
 article p {
-  text-align: center;
+  text-align: left;
 }
 
 .imgcontainer {
@@ -447,8 +447,23 @@ article p {
 }
 
 
+/*Logo y texto*/
 
+.top-bar-left img {
+  float: left;
+  margin-right: 2rem;
 
+}
+
+.top-bar-left h1 {
+  position: relative;
+  line-height: 1.6;
+  padding-top: 0.5rem;
+}
+
+.top-bar-left a {
+  text-decoration: none;
+}
 
 
 
