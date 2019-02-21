@@ -248,13 +248,17 @@ img {vertical-align: middle;}
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.team_wrapper article {
+  padding-top: 1rem;
+}
+
 .partner1, .member5, .member1 {
 	margin-left: 3.5rem;
 }
 
 .partners_wrapper, .team_wrapper article h3 {
-	padding-top: 1.2rem;
-	font-size: 1.2rem;
+	padding-top: 1rem;
+	font-size: 1rem;
 }
 
 .partner-fix__height, .member-fix__height {
@@ -262,7 +266,11 @@ img {vertical-align: middle;}
 
 }
 
-.partners_wrapper, .team_wrapper article p {
+.team_wrapper article h3 {
+  padding-top: 0.7rem;
+}
+
+.partners_wrapper article p {
   padding-top: 0.2rem;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -273,8 +281,17 @@ img {vertical-align: middle;}
   padding-top: 2rem;
 }
 
-article p {
+.team_wrapper article h4 {
+  font-size: 0.8rem;
+  text-align: center;
+
+}
+
+.team_wrapper article p {
+  font-size: 0.8rem;
   text-align: left;
+  min-height: 6.6rem;
+  max-height: 6.6rem;
 }
 
 .imgcontainer {
@@ -306,13 +323,10 @@ article p {
   padding-top: 2rem;
 } 
 
-.memberimg img {
-  max-height: 16rem;
+.memberimg, .memberimg img {
+  max-height: 14rem;
 }
 
-.team_wrapper article {
-  padding-top: 2.5rem;
-}
 
 .fa {
   padding: 0.5rem;
@@ -465,5 +479,188 @@ article p {
   text-decoration: none;
 }
 
+/*medias título*/
+
+@media (max-width: 97rem) {
+.osoctitle {
+  font-size: 1.5rem;
+  margin-top: 0.3rem;
+}
+}
+@media (max-width: 90rem) {
+.osoctitle {
+  font-size: 1.2rem;
+  margin-top: 0.6rem;
+}
+
+.button {
+  font-size: 0.8rem;
+
+}
+
+.menu a, .menu .button {
+  padding:0.5rem;
+}
+
+}
+
+@media (max-width: 72rem) {
+
+.osoctitle {
+font-size: 0.9rem;
+margin-top: 0.85rem;
+
+}
 
 
+}
+
+/*medias quiénes somos*/
+
+@media (max-width: 82.31rem) {
+
+.partners_wrapper article h3, .team_wrapper article h3 {
+  font-size: 1rem;
+}
+
+.partners_wrapper article h3 {
+  padding-top: 1.7rem;
+}
+
+.team_wrapper article {
+
+    position: relative;  
+    width: 30%;
+    float: none;
+    margin: 1rem 1rem;
+}
+
+.partners_wrapper article {
+
+    position: relative;  
+    width: 35%;
+    float: none;
+    margin: 1rem 1rem;
+    min-height: 27rem;
+    max-height: 27rem;
+}
+
+
+}
+
+@media (max-width: 74rem) { 
+
+.partners_wrapper article {
+
+    position: relative;  
+    width: 50%;
+    float: none;
+    margin: 1rem 1rem;
+    min-height: 27rem;
+    max-height: 27rem;
+}
+
+}
+
+@media (max-width: 65rem) {
+
+.team_wrapper article, .partners_wrapper article {
+
+  width: 60%;
+}
+
+.team_wrapper article h3 {
+  font-size: 1.1rem;
+
+}
+
+.team_wrapper article h4 {
+  font-size: 1rem;
+}
+
+.team_wrapper article p {
+  font-size: 0.9rem
+  min-height: 6rem;
+  max-height: 6rem;
+  margin-bottom: 0.2rem;
+}
+
+
+} 
+
+@media (max-width: 40rem) {
+
+  .team_wrapper article, .partners_wrapper article {
+
+  width: 80%;
+}
+
+
+
+}
+
+
+/*medias index*/
+
+@media (max-width: 58rem) {
+
+.centrar {
+  margin-left: 0;
+}
+
+.centrar h2 a:before {
+  margin-right: 0.7rem;
+}
+
+
+}
+
+@media (max-width: 40rem) {
+
+  .right_item iframe{
+  width: 500px;
+  margin-right: 3rem;
+}
+}
+
+
+/*medias estudiantes y empresas*/
+
+@media (max-width: 68rem) {
+.students_wrapper, .coaches_wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+}
+
+/*medias mentores*/
+@media (max-width: 49rem) {
+
+.wrapper_coaches_img {
+  width: 70%;
+}
+}
+
+/*medias 2018*/
+
+@media (max-width: 65rem) {
+  .grid-x .small-6 {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    float: none;
+  }
+ .hero-text {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  shape-margin: 0;
+  float: none;
+  padding: 1rem;
+  margin: 0 auto;
+ }
+
+}
