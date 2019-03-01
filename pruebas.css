@@ -69,13 +69,16 @@ float: right;
 
 }
 
-.video-container {
+/*
+.video_container {
   position:relative;
   overflow: hidden;
   padding-top: 56.25%;
+  width: 35rem;
+  height: 19rem;
 }
 
-.video-container iframe {
+.video_container iframe {
   position: absolute;
     top: 0;
     left: 0;
@@ -83,6 +86,8 @@ float: right;
     height: 100%;
     border: 0;
 }
+*/
+
 
 /*
 @media (max-width: 50rem) {
@@ -301,7 +306,7 @@ img {vertical-align: middle;}
 
 
 /*articles*/
-bann
+
 
 .partners_wrapper, .team_wrapper {
 	display: block;
@@ -362,6 +367,7 @@ bann
   padding-bottom: 0;
   margin-bottom: 0;
   font-size: 0.8rem;
+  text-align: left;
 }
 
 .partners_wrapper article {
