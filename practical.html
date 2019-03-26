@@ -39,9 +39,16 @@
     <link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
     <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
     <meta name="msapplication-TileColor" content="‪#FFFFFF">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="theme-color" content="‪#FFFFFF">
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
+
   </head>
 
   <body><!-- topbar --><div class="title-bar hide-for-large" data-responsive-toggle="nav-menu" data-hide-for="large">
@@ -161,11 +168,21 @@
                             </li>
                         </ul>
           </div>
-          <div class="small-12 medium-6 large-7 cell">
-            <div class="loading loading--map u-margin--b"><iframe width="700" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.6992592550814156%2C40.34730183800529%2C-3.694753143936396%2C40.35000830840451&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/>
-            </div>
+         <!--  <div class="small-12 medium-6 large-7 cell">
+           <div class="loading loading--map u-margin--b"><iframe width="700" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.7008744478225712%2C40.34745583977498%2C-3.694490790367127%2C40.34985977411079&amp;layer=mapnik&amp;marker=40.348657817653326%2C-3.6976826190948486" style="border: 1px solid black"></iframe>
+              <br/>
+            </div> </div> -->
+            <div id="mapid" class="small-12 medium-6 large-7 cell"></div>
+                <script type="text/javascript">
+    var mymap = L.map('mapid').setView([40.34866, -3.69701], 13);
+   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.streets',
+    accessToken: 'pk.eyJ1IjoicG1jaG96YXMiLCJhIjoiY2pzeDE0M2Q2MGw3cTQzcHZ2eDRhZWRyaCJ9.0Owsk44_Ag47q3eiNGEw6Q'}).addTo(mymap);
+  </script>
             <small><a href="https://www.openstreetmap.org/#map=18/40.34866/-3.69701">Ver mapa más grande</a></small></div>
-          </div>
+          
         </div>
 
 
@@ -477,6 +494,7 @@
                     <!-- contact --><div class="small-4 medium-4 cell">
               <ul class="inline-list">
                 <li><a href="https://twitter.com/osocode_es" target="_blank">Twitter</a></li>
+                <li><a href="https://www.facebook.com/osocspain" target="_blank">Facebook</a></li>
               </ul>
             </div>
           </div>
@@ -492,5 +510,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>
     <script src="js/app.js"></script>
+    
+  
   </body>
 </html>

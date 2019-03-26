@@ -243,6 +243,15 @@ img {vertical-align: middle;}
     line-height: 0;
     height: 0;
 }
+
+.twitter-embed {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
 .banner-image {
   display: block;
   position: relative;
@@ -273,14 +282,21 @@ img {vertical-align: middle;}
   font-weight: 900;
 }
 
+.banner-text-link {
+    text-decoration: none;
+color: #fcb70e;
+}
+
 .banner-text h3 {
   color: white;
 }
 
+
 .banner-text-button {
   text-decoration: none;
   background-color: #1DE1AE;
-  color: #0A0839;
+  color: #F14A3B;
+
   border: none;
   outline: 0;
   display: inline-block;
@@ -773,3 +789,7 @@ margin-top: 0.85rem;
 }
 
 /*media*/
+ /*mapa*/
+
+#mapid { height: 180px; }
+
