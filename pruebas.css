@@ -259,7 +259,7 @@ img {vertical-align: middle;}
   position: relative;
   float:none;
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/osoc19/nave.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/osoc19/tumbados1.jpeg");
 
   /* Set a specific height */
   height: 50%;
@@ -704,7 +704,7 @@ margin-top: 0.85rem;
 }
 
 .team_wrapper article p {
-  font-size: 0.9rem
+  font-size: 0.9rem;
   min-height: 6rem;
   max-height: 6rem;
   margin-bottom: 0.2rem;
