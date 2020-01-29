@@ -1,9 +1,10 @@
-var gulp          = require('gulp');
-var browserSync   = require('browser-sync').create();
-var $             = require('gulp-load-plugins')();
-var autoprefixer  = require('autoprefixer');
+let gulp          = require('gulp');
+let browserSync   = require('browser-sync').create();
+let $             = require('gulp-load-plugins')();
+let autoprefixer  = require('autoprefixer');
+let template = require('gulp-template-html');
 
-var sassPaths = [
+let sassPaths = [
   'node_modules/foundation-sites/scss',
   'node_modules/motion-ui/src'
 ];
@@ -18,19 +19,26 @@ function sass() {
     .pipe($.postcss([
       autoprefixer({ browsers: ['last 2 versions', 'ie >= 9'] })
     ]))
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('./dist/css'))
     .pipe(browserSync.stream());
 };
 
 function serve() {
   browserSync.init({
-    server: "./"
+    server: "./dist/"
   });
 
   gulp.watch("scss/*.scss", sass);
   gulp.watch("*.html").on('change', browserSync.reload);
 }
 
+function html(){
+	    return gulp.src('content/*.html')
+      .pipe(template('templates/template.html'))
+      .pipe(gulp.dest('dist'));
+}
+
 gulp.task('sass', sass);
-gulp.task('serve', gulp.series('sass', serve));
-gulp.task('default', gulp.series('sass', serve));
+gulp.task('html', html);
+gulp.task('serve', gulp.series('sass', 'html', serve));
+gulp.task('default', gulp.series('sass', 'html', serve));
