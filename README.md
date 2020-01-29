@@ -1,53 +1,38 @@
-# oSoc18-website
+# oSoC-es website
 
-Website for open Summer of code 2018
+Website for open Summer of Code
 
--- This site is based on Foundation for Sites Template
+# Template structure
 
-# Foundation for Sites Template documentation
+## /templates
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+Contains the structure of every page, except the changing content
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+## /content
 
-## Installation
+Contains the content to integrate in the template (essentially, the body and some custom css). Every file will become an independent .html page in the /dist folder
 
-To use this template, your computer needs:
+## How to compile
 
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
-- [Git](https://git-scm.com/)
+1. ```npx gulp html```
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
 
-### Using the CLI
+# Translation
 
-Install the Foundation CLI with this command:
+Edit the JSON files in `/dist/locales`, the name should be a lower case ISO code (es.json, de.json...).
 
-```bash
-npm install foundation-cli --global
-```
+# Local deploy (generate CSS and HTML from templates)
 
-Use this command to set up a blank Foundation for Sites project with this template:
+1. Clone this repository in your computer
+2. Install node and npm -> [https://nodejs.org/es/download/]
+3. Enter the directory ```cd website/```
+4. Install the needed node modules ```npm install```
+5. Start the local server ```npm start```
 
-```bash
-foundation new --framework sites --template basic
-```
+# Production
 
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
+Use the Dockerfile to generate a cointainer with the generated code
 
-### Manual Setup
 
-To manually set up the template, first download it with Git:
 
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-```
-
-Finally, run `gulp` to run the Sass compiler. It will re-run every time you save a Sass file.
+**This site is based on Foundation for Sites Template**

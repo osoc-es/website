@@ -1,0 +1,35 @@
+{
+	"template": {
+		"menu": {
+			"home": "Inicio",
+			"students": "Estudiantes",
+			"organizations": "Organizaciones",
+			"coaches": "Mentores",
+			"whoweare": "Quiénes somos",
+			"inscribe": "Inscríbete!",
+			"previous": "Ediciones anteriores",
+			"faq": "Preguntas frecuentes"
+		}
+	},
+	
+	"home": {
+		
+		
+		
+	},
+	
+	"students": {
+		
+	},
+	
+	"organizations": {
+		
+		
+	},
+	
+	"coaches": {
+		
+		
+	}
+	
+}
