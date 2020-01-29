@@ -32,7 +32,7 @@
 	}
 
 	a:before {
-		content:"For ";
+		content:"Para ";
 
 		@include breakpoint(medium) {
 			display: block;

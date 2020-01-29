@@ -17,7 +17,7 @@
 		left: 6vw;
 		width: 4rem;
 		height: 4rem;
-		animation: move-o 2s infinite;
+		animation: move-o 2s 1;
 
 		@include breakpoint(medium) {
 			background-size: 5rem;
@@ -105,9 +105,9 @@
 
 @keyframes move-s {
 	0% { transform: translate3d(0vh, 0, 0) rotate(0deg) };
-	25% { transform: translate3d(2vh, 1vh, 0) rotate(25deg) };
+	25% { transform: translate3d(2vh, 1vh, 0) rotate(2deg) };
 	50% { transform: translate3d(0vh, 0, 0) rotate(0deg) };
-	75% { transform: translate3d(2vh, 1vh, 0) rotate(-25deg) };
+	75% { transform: translate3d(2vh, 1vh, 0) rotate(-2deg);};
 	100% { transform: translate3d(0vh, 0, 0) rotate(0deg) };
 }
 
@@ -115,8 +115,8 @@
 	0% { transform: translate3d(0, 0, 0) };
 	92% { transform: translate3d(0, 0, 0); opacity: 0.2; };
 	96% { transform: translate3d(5vh, 7vh, 0); opacity: 0.1; };
-    98% { transform: translate3d(-5vh, 3vh, 0) opacity: 0.2; };
-	100% { transform: translate3d(0, 0, 0) opacity: 1; };
+    98% { transform: translate3d(-5vh, 3vh, 0); opacity: 0.2; };
+	100% { transform: translate3d(0, 0, 0); opacity: 1; };
 }
 
 @keyframes move-c {
