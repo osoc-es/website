@@ -122,7 +122,103 @@
 	
 	"faq": {
 		
+		"title": "Preguntas frecuentes",
+		"subtitle": "Porque no existen las preguntas tontas.",
 		
+		"menu": {
+			"general": "Preguntas generales",
+			"students": "Estudiantes",
+			"organizations": "Organizaciones",
+			"coaches": "Mentores",
+			"when": "¿Cuándo?",
+			"where": "¿Dónde?"
+		},
+		
+		"when": {
+			
+			"date": "1 - 26 de julio <span class='subheader'>de lunes a jueves de 9:30 a 17:30</span>",
+			"freetime": "¡El viernes y los fines de semana son libres!"
+		},
+		
+		"where": {
+			
+			"place": "La Nave<br><span class='subheader'>Calle Cifuentes, 5, 28021 Madrid</span>",
+			"renfe": "<p><b>Cercanías:</b></p><p><u>C4 / C5 / Regional</u></p><p>Puente Alcocer</p>",
+			"bus": "<p><b>Autobús:</b></p><p><u>Carretera de Andalucía-Alcocer:</u></p><p>líneas 59/79/N13</p><p><u>Intercambiador:</u></p><p>líneas 411 / 412 / 415 / 422 / 423 /424 /426 / 427 / 432 / 447 / 448</p><p><u>Villaverde Cruce:</u></p><p>líneas 22/79/130/18/116/130</p>",
+			"metro": " <p><b>Metro:</b></p><p><u>Línea 3</u></p><p>Villaverde Bajo-Cruce</p>"
+
+		},
+		
+		"general": {
+			
+			"q1": "¿Es #oSoc19 presencial? ¿Hay que estar en La Nave los días que se indica?",
+			"a1": "Sí, #oSoc19 es un trabajo. Así lo hemos diseñado. Para poder participar el desarrollo de los proyectos propuestos hay que estar presente, compartir jornadas con el resto de compañeros del equipo, debatir y preguntar las dudas que tengamos. Aprender y poder aplicar lo aprendido en el proyecto para el que se seleccione a cada uno.",
+			"q2": "¿Es #oSoc19 un programa de aprendizaje­?",
+			"a2": "Sí. Es una manera de abordar y aplicar los conocimientos adquiridos durante los estudios. Aprenderás a gestionar y a desarrollar el proyecto propuesto, podrás probar tus habilidades… y tendrás un mentor, que guiará el aprendizaje durante el desarrollo de todo el programa.",
+			"q3": "¿Cómo puedo entender #oSoc19?",
+			"a3": "#oSoc19 es un programa para encontrar talento en la Universidad. Está pensado para que estudiantes de distintas disciplinas formen parte de un mismo proyecto, intercambiando experiencias y conocimientos para aplicarlos al entorno empresarial.",
+			"q4": "¿Tiene #oSoc19 alguna obligación contractual?",
+			"a40": "Sí. Cuando un alumno se compromete a participar en el programa debe acudir y desarrollar el proyecto para el que se le haya seleccionado, bajo las condiciones establecidas y previamente firmadas, ya que el alumno obtendrá una remuneración por su trabajo dentro del #oSoc19.",
+			"a41": "Además de esta suma, el #oSoc19 permite al estudiante ampliar su red de contactos, adquirir experiencia en proyectos multidisciplinares y aprender de las habilidades de los mentores.",
+			"q5": "El código desarrollado por los alumnos ¿pasa a ser del dominio de la empresa?",
+			"a5": "No. Todo se desarrolla en código abierto, aunque sí se puede pactar una licencia. Es dominio de todos.",
+			"q6": "¿Dónde puedo encontrar información sobre #oSoc19? ¿Cómo puedo explicar a compañeros de la Universidad qué es #oSoc19?",
+			"a6": "Puedes descargarte los folletos y las imágenes que hay en nuestra web. Síguenos, también, en twitter (@oSocode_es). Haz todos los retuits que puedas, acude a las sesiones informativas....",
+			"q7": "¿Puedo ser estudiante y a la vez mentor de #oSoc19?",
+			"a7": "Son perfiles distintos, pero algunos perfiles de estudiantes de perfil “avanzado” (si han terminado sus estudios, cuentan con experiencia profesional… ) pueden dar lugar a un “coach” de equipo. Los estudiantes formarán parte del grupo asignado –del que se les informará con tiempo, antes del inicio del programa–, y los mentores son profesionales que guiarán a cada equipo a lo largo del desarrollo de todo #oSoc19 y que darán atención pormenorizada a los grupos.",
+			"q8": "¿Puedo contactar con #oSoc19 si tengo más dudas?",
+			"a8": "Sí. Utiliza nuestra dirección de e-mail: <u>osocspain@gmail.com</u> siempre que tengas algo que preguntar, sea lo que sea. No te lo pienses dos veces."
+	
+		},
+		
+		"students": {
+			
+			"q1": "¿Cuándo puedo apuntarme a #oSoc19?",
+			"a1": "Desde ya. <strike>Cuando quieras, simplemente rellena este formulario</strike> (Las inscripciones están cerradas para #oSoc19). Una vez que lo obtengamos nos pondremos en contacto contigo vía email para explicarte los siguientes pasos.",
+			"q2": "¿Necesito un perfil de estudiante concreto para participar en #oSoc19?",
+			"a2": "Sí. Esperamos que cuentes con conocimientos avanzados en el área de tu competencia. Deberás estar ya cursando alguna carrera universitaria. No hace falta que estudies un tema concreto, en #oSoc19 tienen cabida estudiantes de Tecnologías, de Ciencias y de Humanidades.",
+			"q3": "¿Cuántos estudiantes se asignan a cada Proyecto de #oSoc19?",
+			"a3": "Depende del tipo de proyecto y de lo que la empresa pueda necesitar. El mínimo son dos, pero el máximo lo establecemos, desde la organización, en función de las necesidades de cada proyecto.",
+			"q4": "¿Qué requisitos hacen falta para participar en #oSoc19?",
+			"a4": "Ser mayor de edad y estar cursando una carrera universitaria o un máster. Si has terminado tus estudios hace poco… pues también puedes formar parte de un equipo en #oSoc19.",
+			"q5": "¿Cómo y cuándo se me informará de que he sido aceptado?",
+			"a5": "Cuando hagas la inscripción te pediremos los datos necesarios para llamarte y confirmar tu participación. Así estableceremos las condiciones, necesidades, aptitudes… que vamos a necesitar para el buen desarrollo del programa y del equipo que se asigne. Sabrás con tiempo suficiente para organizarte si formas parte de un proyecto. Y de cuál...",
+			"q6": "¿Puedo presentar mi propio proyecto?",
+			"a6": "No. #oSoc19 cuenta con proyectos propuestos por start-ups, que quedan definidos en reuniones previas con nosotros, y asignados a los perfiles de estudiantes que mejor se adapten."
+			
+			
+		},
+		
+		"organizations": {
+			
+			"q1": "¿Cómo puedo solicitar un equipo para desarrollar un proyecto?",
+			"a1": "Envíanos un e-mail a la dirección <u>osocspain@gmail.com</u> y explícanos cuál es el proyecto que quieres desarrollar. Te asesoraremos sobre el equipo de estudiantes que más se ajusta a tus necesidades para llevarlo a cabo con éxito.",
+			"q2": "¿Las empresas pueden contratar a los alumnos que participan en #oSoc19?",
+			"a2": "Sí. De hecho es uno de los objetivos de #oSoc19: facilitar la empleabilidad de los estudiantes que participan, acercando el talento a la empresa.",
+			"q3": "¿Qué ocurre si al finalizar #oSoc19 el proyecto no está totalmente terminado?",
+			"a3": "Nuestro objetivo es dimensionar el equipo de estudiantes para que esto no ocurra pero en el desarrollo de proyectos pueden surgir imprevistos. El equipo (mentores y estudiantes) intentarán minimizar el impacto de estos imprevistos al máximo.",
+			"q4": "¿Reciben dinero las empresas por participar en #oSoc19?",
+			"a4": "No. Las empresas apoyan económicamente a los alumnos y eligen si quieren seguir desarrollando el proyecto una vez finalizado #oSoc19."
+			
+		},
+		
+		"coaches": {
+
+			"q1": "¿Puedo apuntarme para ser mentor de algún grupo?",
+			"a1": "Sí. Envíanos un e-mail a <u>osocspain@gmail.com</u> y dinos cuál es tu experiencia y en qué área te sientes más cómodo mentorizando (desarrollo, diseño, economía,...). Nos pondremos en contacto contigo para establecer las bases de una posible colaboración.",
+			"q2": "¿Si me apunto como mentor, cuál sería mi función en #oSoc19?",
+			"a2": "Asesorar en las áreas de conocimiento de las que eres experto al equipo o equipos de estudiantes que se te designe previamente durante el desarrollo del proyecto adjudicado. Además, te encargarás de comprobar que se van implementando las directrices que vayas aportando para garantizar el cumplimiento de los plazos.",
+			"q3": "¿Qué beneficios tiene ser mentor de #oSoc19?",
+			"a3": "Ampliar tu CV con proyectos de co-creación en innovación. Contactar con empresas innovadoras y ampliar networking."
+			
+		},
+		
+		"moreinfo": {
+			"q": "¿No encuentras la información que buscas?",
+			"a": "Envíanos cualquier duda a <u>osocspain@gmail.com</u>"
+			
+		}
+	
 	}
 	
 	
