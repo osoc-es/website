@@ -18,6 +18,7 @@
 	},
 	
 	"home": {
+		
 		"wellcome1": "Bienvenido al Open Summer of Code",
 		"wellcome2": "Programa formativo para entusiastas del código abierto y de la innovación.",
 		"forstudents": "Para <br> estudiantes",
@@ -38,31 +39,30 @@
 		"titlepartners": "Patrocinadores",
 		"titleorganizers": "Organizadores",
 		"titlesupport": "Soporte"
-		
-		
-		
+
 	},
 	
 	"students": {
 		
+		"title": "oSoc <br> para estudiantes",
+		"list": "desarrolladores <br> diseñadores <br> ingenieros <br> analistas empresariales <br> científicos de datos <br> y otros perfiles digitales",
 		"wellcome1": "Open Summer of Code está pensado para cualquier persona con motivación, entusiasmo y talento. ¡Anímate!",
 		"wellcome2": "Puedes inscribirte <a href='./inscription.html'>aquí</a>.",
 		"wellcome3": "Una <b>experiencia formativa</b> inolvidable para cualquier estudiante con ganas de aprender. <br>Participarás en proyectos del mundo real que potenciarán tu CV y ayudarán a expandir tu red de contactos.",
 		"wellcome4": "¡Te lo pasarás genial!",
 		"wellcome5": "Si quieres saber más, <a href='practical.html'>ve a nuestras FAQ</a> o envíanos un mensaje a <u>osocspain@gmail.com</u>",
 		"wellcome6": "PD: Además, obtendrás una remuneración por participar.",
-		
 		"opinions": "Algunas opiniones de ediciones previas..."
 		
 	},
 	
 	"organizations": {
 		
-		"title": "OSoC <br> para organizaciones",
+		"title": "oSoc <br> para organizaciones",
 		"list": "startups <br> organizaciones sin ánimo de lucro <br> gobierno <br> agencias <br> servicios <br> y otras empresas",
 		"descl1": "Cualquier tipo de empresa u organización tendrá la oportunidad de contar con un grupo de estudiantes que desarrolle su siguiente <b>proyecto de innovación.</b>",
-		"descl2": "Toda la información necesaria está descrita en nuestra <a href='./files/osoc20-propuesta.pdf'>propuesta para empresas.</a>",
-		"descr1": "Este programa pretende motivar a nuevas generaciones de estudiantes a construir proyectos de código abierto junto a empresas del mundo real.",
+		"descl2": "Toda la información necesaria está descrita en nuestra <a href='./files/osoc20-propuesta.pdf'>propuesta </a> para empresas y organizaciones.",
+		"descr1": "Este programa pretende motivar a nuevas generaciones de estudiantes a construir proyectos de código abierto junto a empresas y organizaciones del mundo real.",
 		"descr2": "<b>Open Summer of Code</b> es la oportunidad perfecta para conocer proyectos de innovación, encontrar nuevos talentos y expandir tu red de contactos.",
 		"descr3": "Para más información, <a href='practical.html'>echa un vistazo a las FAQ</a> o envíanos un mensaje a <u>osocspain@gmail.com</u>."
 		
@@ -70,7 +70,60 @@
 	
 	"coaches": {
 		
+		"title": "oSoc <br> para mentores",
+		"list": "desarrolladores <br> diseñadores <br> ingenieros <br> analistas de negocios <br> científicos de datos <br> y otros perfiles digitales",		
+		"titlecoach": "No necesitas ser profesor para compartir tus conocimientos.",
+		"descl1": "Si te interesa la innovación tecnológica y sus aplicaciones en la sociedad, ven y <b>cuéntanos tu experiencia.</b>",
+		"descl2": "Seguro que además aprendás cosas nuevas. <b>Para ser mentor en el oSoc19</b>, envía un mensaje a <u>osocspain@gmail.com</u>.",
+		"descr1": "Todos los estudiantes necesitan a alguien que les enseñe lo que no pueden aprender en la universidad. Es tu oportunidad para <strong>compartir lo que sabes</strong>, aportar a la comunidad, desarrollar nuevas capacidades y ampliar tu red de contactos.",
+		"descr2": "Podrás tutelar a un grupo de estudiantes con diferentes perfiles y mucho talento, ¡puede que hasta contrates a alguno!",
+		"descr3": "<a href='practical.html'>Visita nuestras FAQ</a> para saber más, o envíanos un mensaje a <u>osocspain@gmail.com</u></a>.",
+		"imgcaption": "Mentores y estudiantes del oSoC18 Madrid"
+		
+	},
+	
+	"whoweare": {
+		
+		"title": "Quiénes somos",
+		"list": "desarrolladores <br> diseñadores <br> ingenieros <br> científicos de datos <br>  estudiantes <br> y otros perfiles digitales",
+		"titleteam": "El equipo",
+		"david1": "Coordinador de oSoc España",
+		"david2": "Desde 2016 apuesta por una fuerte transferencia desde la investigación que realiza en el Grupo de Ingeniería Ontológica de la UPM al mundo de la innovación.",
+		"carlos1": "Técnico de proyecto y mentor",
+		"carlos2": "Ingeniero Software especializado en la construcción de arquitecturas orientadas a la recolección y explotación de datos masivos en tiempo-real sobre entornos Java.",
+		"esteban1": "Técnico de proyecto y mentor",
+		"esteban2": "Ingeniero Software entusiasta de la Ciencia Ciudadana y la Astronomía. Ha participado en proyectos como el Telescopio Abierto de Divulgación, GLORIA y STARS4ALL.",
+		"patricia1": "Técnica de proyecto y mentora",
+		"patricia2": "Investigadora predoctoral en el Grupo de Ingeniería Ontológica donde combina técnicas de la Inteligencia Artificial con el mundo de la traducción.",
+		"adolfo1": "Comunicación, técnico y mentor",
+		"adolfo2": "Doctor en Ciencias de la Información por la Universidad Complutense de Madrid y profesor de periodismo de datos en el máster de la Agencia EFE de periodismo de agencia.",
+		"flora1": "Comunicación, diseño y mentora",
+		"flora2": "Periodista especializada en diseño y visualización de datos, formándose actualmente como diseñadora de productos digitales.",
+		"juan1": "Gestión empresarial",
+		"juan2": "Coordinador del AI.nnovation Space, centro de referencia en la aplicación de la ciencia y la innovación a casos de negocio reales en el terreno de la Inteligencia Artificial.",
+		"vicky1": "Comunicación",
+		"vicky2": "Periodista. Responsable de gestionar la Comunicación y las Redes Sociales en el Grupo de Ingeniería Ontológica (OEG) de la ETSIINF, en la UPM.",
+		"titleorg": "Las organizaciones",
+		"oeg": "El OEG es un grupo de investigación en Ingeligencia Artificial de la Universidad Politécnica de Madrid especializado en Tecnologías de la Web Semántica.",
+		"odi": "El nodo ODI Madrid se dedica a movilizar y potenciar el uso de los datos abiertos con fines sociales a través de la innovación digital.",
+		"upm": "La UPM tiene doble sello de Campus de Excelencia Internacional en reconocimiento a la calidad de su actividad docente e investigadora.",
+		"okb": "Open Knowledge Belgium es una organización sin ánimo de lucro que promueve iniciativas para fomentar que el conocimiento se comparta abiertamente."
+	},
+	
+	"inscribe": {
+		
+		
+	},
+	
+	"previous": {
+		
+		
+	},
+	
+	"faq": {
+		
 		
 	}
+	
 	
 }
