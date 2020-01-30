@@ -31,14 +31,6 @@
 		}
 	}
 
-	a:before {
-		content:"Para ";
-
-		@include breakpoint(medium) {
-			display: block;
-		}
-	}
-
 	a:after {
 		content:"→";
 		padding-left: 0.5rem;
@@ -72,3 +64,16 @@
 		padding-bottom: 5vh;
 	}
 }
+
+.hero-title{
+	
+	text-transform: uppercase;
+	margin-top: 15px; 
+	padding-left: 30px;
+}
+
+.c-partners{
+
+	margin-top: 25px;
+	
+	}

@@ -8,11 +8,36 @@
 			"whoweare": "Quiénes somos",
 			"inscribe": "Inscríbete!",
 			"previous": "Ediciones anteriores",
-			"faq": "Preguntas frecuentes"
+			"faq": "FAQ"
+		},
+		"footer": {
+			"poweredby": "Impulsado por el <a href='http://www.oeg-upm.net/'>Ontology Engineering Group</a> y el <a href='https://www.openknowledge.be/'>Open Knowledge Belgium</a>",
+			"source": "Código fuente disponible en <a href='https://github.com/osoc-es/website'>GitHub</a>"
+			
 		}
 	},
 	
 	"home": {
+		"wellcome1": "Bienvenido al Open Summer of Code",
+		"wellcome2": "Programa formativo para entusiastas del código abierto y de la innovación.",
+		"forstudents": "Para <br> estudiantes",
+		"fororganizations": "Para <br> organizaciones",
+		"forcoaches": "Para <br> mentores",
+		"titlewhat": "Qué es",
+		"descwhat": "Un programa de 4 semanas que ayuda a <b>estudiantes</b> de universidades españolas a <b>desarrollar proyectos de innovación</b> para empresas y organizaciones y convertirlos en <b>servicios de utilidad para la sociedad</b>.",
+		"stats1-t": "participaron",
+		"stats1-b": "estudiantes",
+		"stats2-t": "de",
+		"stats2-b": "universidades",
+		"stats3-t": "desarrollaron",
+		"stats3-b": "proyectos",
+		"stats4-t": "junto con",
+		"stats4-b": "organizaciones",
+		"stats5-t": "y el apoyo de",
+		"stats5-b": "mentores",
+		"titlepartners": "Patrocinadores",
+		"titleorganizers": "Organizadores",
+		"titlesupport": "Soporte"
 		
 		
 		
@@ -20,10 +45,26 @@
 	
 	"students": {
 		
+		"wellcome1": "Open Summer of Code está pensado para cualquier persona con motivación, entusiasmo y talento. ¡Anímate!",
+		"wellcome2": "Puedes inscribirte <a href='./inscription.html'>aquí</a>.",
+		"wellcome3": "Una <b>experiencia formativa</b> inolvidable para cualquier estudiante con ganas de aprender. <br>Participarás en proyectos del mundo real que potenciarán tu CV y ayudarán a expandir tu red de contactos.",
+		"wellcome4": "¡Te lo pasarás genial!",
+		"wellcome5": "Si quieres saber más, <a href='practical.html'>ve a nuestras FAQ</a> o envíanos un mensaje a <u>osocspain@gmail.com</u>",
+		"wellcome6": "PD: Además, obtendrás una remuneración por participar.",
+		
+		"opinions": "Algunas opiniones de ediciones previas..."
+		
 	},
 	
 	"organizations": {
 		
+		"title": "OSoC <br> para organizaciones",
+		"list": "startups <br> organizaciones sin ánimo de lucro <br> gobierno <br> agencias <br> servicios <br> y otras empresas",
+		"descl1": "Cualquier tipo de empresa u organización tendrá la oportunidad de contar con un grupo de estudiantes que desarrolle su siguiente <b>proyecto de innovación.</b>",
+		"descl2": "Toda la información necesaria está descrita en nuestra <a href='./files/osoc20-propuesta.pdf'>propuesta para empresas.</a>",
+		"descr1": "Este programa pretende motivar a nuevas generaciones de estudiantes a construir proyectos de código abierto junto a empresas del mundo real.",
+		"descr2": "<b>Open Summer of Code</b> es la oportunidad perfecta para conocer proyectos de innovación, encontrar nuevos talentos y expandir tu red de contactos.",
+		"descr3": "Para más información, <a href='practical.html'>echa un vistazo a las FAQ</a> o envíanos un mensaje a <u>osocspain@gmail.com</u>."
 		
 	},
 	
