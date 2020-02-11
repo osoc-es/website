@@ -61,7 +61,7 @@
 		"title": "oSoc <br> para organizaciones",
 		"list": "startups <br> organizaciones sin ánimo de lucro <br> gobierno <br> agencias <br> servicios <br> y otras empresas",
 		"descl1": "Cualquier tipo de empresa u organización tendrá la oportunidad de contar con un grupo de estudiantes que desarrolle su siguiente <b>proyecto de innovación.</b>",
-		"descl2": "Toda la información necesaria está descrita en nuestra <a href='./files/osoc20-propuesta.pdf'>propuesta </a> para empresas y organizaciones.",
+		"descl2": "Toda la información necesaria está descrita en nuestra <a href='./files/osoc20-propuesta.pdf'>propuesta</a> para empresas y organizaciones.",
 		"descr1": "Este programa pretende motivar a nuevas generaciones de estudiantes a construir proyectos de código abierto junto a empresas y organizaciones del mundo real.",
 		"descr2": "<b>Open Summer of Code</b> es la oportunidad perfecta para conocer proyectos de innovación, encontrar nuevos talentos y expandir tu red de contactos.",
 		"descr3": "Para más información, <a href='practical.html'>echa un vistazo a las FAQ</a> o envíanos un mensaje a <u>osocspain@gmail.com</u>."
@@ -154,64 +154,76 @@
 		
 		"general": {
 			
-			"q1": "¿Es #oSoc19 presencial? ¿Hay que estar en La Nave los días que se indica?",
-			"a1": "Sí, #oSoc19 es un trabajo. Así lo hemos diseñado. Para poder participar el desarrollo de los proyectos propuestos hay que estar presente, compartir jornadas con el resto de compañeros del equipo, debatir y preguntar las dudas que tengamos. Aprender y poder aplicar lo aprendido en el proyecto para el que se seleccione a cada uno.",
-			"q2": "¿Es #oSoc19 un programa de aprendizaje­?",
+			"q1": "¿Es #oSoc20 presencial? ¿Hay que estar en La Nave los días que se indica?",
+			"a1": "Sí, #oSoc20 es un trabajo. Así lo hemos diseñado. Para poder participar el desarrollo de los proyectos propuestos hay que estar presente, compartir jornadas con el resto de compañeros del equipo, debatir y preguntar las dudas que tengamos. Aprender y poder aplicar lo aprendido en el proyecto para el que se seleccione a cada uno.",
+			"q2": "¿Es #oSoc20 un programa de aprendizaje­?",
 			"a2": "Sí. Es una manera de abordar y aplicar los conocimientos adquiridos durante los estudios. Aprenderás a gestionar y a desarrollar el proyecto propuesto, podrás probar tus habilidades… y tendrás un mentor, que guiará el aprendizaje durante el desarrollo de todo el programa.",
-			"q3": "¿Cómo puedo entender #oSoc19?",
-			"a3": "#oSoc19 es un programa para encontrar talento en la Universidad. Está pensado para que estudiantes de distintas disciplinas formen parte de un mismo proyecto, intercambiando experiencias y conocimientos para aplicarlos al entorno empresarial.",
-			"q4": "¿Tiene #oSoc19 alguna obligación contractual?",
-			"a40": "Sí. Cuando un alumno se compromete a participar en el programa debe acudir y desarrollar el proyecto para el que se le haya seleccionado, bajo las condiciones establecidas y previamente firmadas, ya que el alumno obtendrá una remuneración por su trabajo dentro del #oSoc19.",
-			"a41": "Además de esta suma, el #oSoc19 permite al estudiante ampliar su red de contactos, adquirir experiencia en proyectos multidisciplinares y aprender de las habilidades de los mentores.",
+			"q3": "¿Cómo puedo entender #oSoc20?",
+			"a3": "#oSoc20 es un programa para encontrar talento en la Universidad. Está pensado para que estudiantes de distintas disciplinas formen parte de un mismo proyecto, intercambiando experiencias y conocimientos para aplicarlos al entorno empresarial.",
+			"q4": "¿Tiene #oSoc20 alguna obligación contractual?",
+			"a40": "Sí. Cuando un alumno se compromete a participar en el programa debe acudir y desarrollar el proyecto para el que se le haya seleccionado, bajo las condiciones establecidas y previamente firmadas, ya que el alumno obtendrá una remuneración por su trabajo dentro del #oSoc20.",
+			"a41": "Además de esta suma, el #oSoc20 permite al estudiante ampliar su red de contactos, adquirir experiencia en proyectos multidisciplinares y aprender de las habilidades de los mentores.",
 			"q5": "El código desarrollado por los alumnos ¿pasa a ser del dominio de la empresa?",
 			"a5": "No. Todo se desarrolla en código abierto, aunque sí se puede pactar una licencia. Es dominio de todos.",
-			"q6": "¿Dónde puedo encontrar información sobre #oSoc19? ¿Cómo puedo explicar a compañeros de la Universidad qué es #oSoc19?",
+			"q6": "¿Dónde puedo encontrar información sobre #oSoc20? ¿Cómo puedo explicar a compañeros de la Universidad qué es #oSoc20?",
 			"a6": "Puedes descargarte los folletos y las imágenes que hay en nuestra web. Síguenos, también, en twitter (@oSocode_es). Haz todos los retuits que puedas, acude a las sesiones informativas....",
-			"q7": "¿Puedo ser estudiante y a la vez mentor de #oSoc19?",
-			"a7": "Son perfiles distintos, pero algunos perfiles de estudiantes de perfil “avanzado” (si han terminado sus estudios, cuentan con experiencia profesional… ) pueden dar lugar a un “coach” de equipo. Los estudiantes formarán parte del grupo asignado –del que se les informará con tiempo, antes del inicio del programa–, y los mentores son profesionales que guiarán a cada equipo a lo largo del desarrollo de todo #oSoc19 y que darán atención pormenorizada a los grupos.",
-			"q8": "¿Puedo contactar con #oSoc19 si tengo más dudas?",
+			"q7": "¿Puedo ser estudiante y a la vez mentor de #oSoc20?",
+			"a7": "Son perfiles distintos, pero algunos perfiles de estudiantes de perfil “avanzado” (si han terminado sus estudios, cuentan con experiencia profesional… ) pueden dar lugar a un “coach” de equipo. Los estudiantes formarán parte del grupo asignado –del que se les informará con tiempo, antes del inicio del programa–, y los mentores son profesionales que guiarán a cada equipo a lo largo del desarrollo de todo #oSoc20 y que darán atención pormenorizada a los grupos.",
+			"q8": "¿Puedo contactar con #oSoc20 si tengo más dudas?",
 			"a8": "Sí. Utiliza nuestra dirección de e-mail: <u>osocspain@gmail.com</u> siempre que tengas algo que preguntar, sea lo que sea. No te lo pienses dos veces."
 	
 		},
 		
 		"students": {
 			
-			"q1": "¿Cuándo puedo apuntarme a #oSoc19?",
-			"a1": "Desde ya. <strike>Cuando quieras, simplemente rellena este formulario</strike> (Las inscripciones están cerradas para #oSoc19). Una vez que lo obtengamos nos pondremos en contacto contigo vía email para explicarte los siguientes pasos.",
-			"q2": "¿Necesito un perfil de estudiante concreto para participar en #oSoc19?",
-			"a2": "Sí. Esperamos que cuentes con conocimientos avanzados en el área de tu competencia. Deberás estar ya cursando alguna carrera universitaria. No hace falta que estudies un tema concreto, en #oSoc19 tienen cabida estudiantes de Tecnologías, de Ciencias y de Humanidades.",
-			"q3": "¿Cuántos estudiantes se asignan a cada Proyecto de #oSoc19?",
+			"q1": "¿Cuándo puedo apuntarme a #oSoc20?",
+			"a1": "Desde ya. <strike>Cuando quieras, simplemente rellena este formulario</strike> (Las inscripciones están cerradas para #oSoc20). Una vez que lo obtengamos nos pondremos en contacto contigo vía email para explicarte los siguientes pasos.",
+			"q2": "¿Necesito un perfil de estudiante concreto para participar en #oSoc20?",
+			"a2": "Sí. Esperamos que cuentes con conocimientos avanzados en el área de tu competencia. Deberás estar ya cursando alguna carrera universitaria. No hace falta que estudies un tema concreto, en #oSoc20 tienen cabida estudiantes de Tecnologías, de Ciencias y de Humanidades.",
+			"q3": "¿Cuántos estudiantes se asignan a cada Proyecto de #oSoc20?",
 			"a3": "Depende del tipo de proyecto y de lo que la empresa pueda necesitar. El mínimo son dos, pero el máximo lo establecemos, desde la organización, en función de las necesidades de cada proyecto.",
-			"q4": "¿Qué requisitos hacen falta para participar en #oSoc19?",
-			"a4": "Ser mayor de edad y estar cursando una carrera universitaria o un máster. Si has terminado tus estudios hace poco… pues también puedes formar parte de un equipo en #oSoc19.",
+			"q4": "¿Qué requisitos hacen falta para participar en #oSoc20?",
+			"a4": "Ser mayor de edad y estar cursando una carrera universitaria o un máster. Si has terminado tus estudios hace poco… pues también puedes formar parte de un equipo en #oSoc20.",
 			"q5": "¿Cómo y cuándo se me informará de que he sido aceptado?",
 			"a5": "Cuando hagas la inscripción te pediremos los datos necesarios para llamarte y confirmar tu participación. Así estableceremos las condiciones, necesidades, aptitudes… que vamos a necesitar para el buen desarrollo del programa y del equipo que se asigne. Sabrás con tiempo suficiente para organizarte si formas parte de un proyecto. Y de cuál...",
 			"q6": "¿Puedo presentar mi propio proyecto?",
-			"a6": "No. #oSoc19 cuenta con proyectos propuestos por start-ups, que quedan definidos en reuniones previas con nosotros, y asignados a los perfiles de estudiantes que mejor se adapten."
+			"a6": "No. #oSoc20 cuenta con proyectos propuestos por start-ups, que quedan definidos en reuniones previas con nosotros, y asignados a los perfiles de estudiantes que mejor se adapten."
 			
 			
 		},
 		
 		"organizations": {
 			
-			"q1": "¿Cómo puedo solicitar un equipo para desarrollar un proyecto?",
-			"a1": "Envíanos un e-mail a la dirección <u>osocspain@gmail.com</u> y explícanos cuál es el proyecto que quieres desarrollar. Te asesoraremos sobre el equipo de estudiantes que más se ajusta a tus necesidades para llevarlo a cabo con éxito.",
-			"q2": "¿Las empresas pueden contratar a los alumnos que participan en #oSoc19?",
-			"a2": "Sí. De hecho es uno de los objetivos de #oSoc19: facilitar la empleabilidad de los estudiantes que participan, acercando el talento a la empresa.",
-			"q3": "¿Qué ocurre si al finalizar #oSoc19 el proyecto no está totalmente terminado?",
-			"a3": "Nuestro objetivo es dimensionar el equipo de estudiantes para que esto no ocurra pero en el desarrollo de proyectos pueden surgir imprevistos. El equipo (mentores y estudiantes) intentarán minimizar el impacto de estos imprevistos al máximo.",
-			"q4": "¿Reciben dinero las empresas por participar en #oSoc19?",
-			"a4": "No. Las empresas apoyan económicamente a los alumnos y eligen si quieren seguir desarrollando el proyecto una vez finalizado #oSoc19."
-			
+			"q1": "¿Por qué el coste es reducido?",
+			"a1": "Ten en cuenta que los proyectos son desarrollados por estudiantes a los que se les remunera por un trabajo que les permite aplicar lo aprendido en sus grados o másteres y desarrollar sus capacidades personales de la mano de empresas y expertos. Las empresas apoyan económicamente a los alumnos y eligen si quieren seguir desarrollando el proyecto una vez finalizado #oSoc20.",
+
+			"q2": "¿Por qué no puedo llevarme a mi grupo de estudiantes a mi sede?",
+			"a2": "Con Open Summer of Code puedes centrarte en lo importante: co-crear una solución digital que cubra tus expectativas y permita el crecimiento de tu empresa u organización. Nosotros nos encargamos de  todo lo demás. <br>Creamos el mejor entorno posible para el desarrollo de los trabajos de los estudiantes con el fin de que el proyecto sea presentado en el DemoDay que celebramos el último día del evento. Además creemos que un entorno en el que conviven todos los estudiantes de los distintos proyectos favorece el crecimiento de los conocimientos que adquieren durante la celebración del campus y asegura una mejor consecución de los objetivos.",
+
+			"q3": "¿Puedo reunirme con el equipo de estudiantes durante el Open Summer of Code?",
+			"a3": "¡Por supuesto! De hecho, será necesario que la organización proponga a un mentor que, junto con el propuesto por la Universidad, tratarán de ayudar lo máximo posible a que el proyecto se finalice con éxito. Además, el mentor formará parte de la comisión responsable de otorgar los premios a la mejor aplicación/desarrollo.",
+
+			"q4": "¿Cómo se hace para contratar un equipo?",
+			"a4": "Necesitamos saber desde el principio qué tipo de proyecto quieres llevar a cabo para designarte un equipo acorde con tus necesidades. Por este motivo, proponemos alguna reunión inicial para concretar las ideas y los deseos en unas necesidades concretas para, de esta forma, organizar los grupos de trabajo apropiados. Envíanos un e-mail a la dirección <u>osocspain@gmail.com</u> y explícanos cuál es el proyecto que quieres desarrollar. Te asesoraremos sobre el equipo de estudiantes que más se ajusta a tus necesidades para llevarlo a cabo con éxito.",
+
+			"q5": "¿Qué hacemos con los resultados del proyecto?",
+			"a5": "Open Summer of Code nace con el objetivo de promover la ciencia abierta por lo que todos los códigos desarrollados durante el evento que sean de utilidad para el resultado final de cada proyecto se publican en GitHub al finalizar el mismo. La organización garantiza  el anonimato de los datos y desarrollos previos aportados por la organización colaboradora.",
+
+			"q6": "¿Qué ocurre si al finalizar #oSoc20 el proyecto no está totalmente terminado?",
+			"a6": "Nuestro objetivo es dimensionar el equipo de estudiantes para que esto no ocurra pero en el desarrollo de proyectos pueden surgir imprevistos. El equipo (mentores y estudiantes) intentarán minimizar el impacto de estos imprevistos al máximo.",
+						
+			"q7": "¿Las empresas pueden contratar a los alumnos que participan en #oSoc20?",
+			"a7": "Sí. De hecho es uno de los objetivos de #oSoc20: facilitar la empleabilidad de los estudiantes que participan, acercando el talento a la empresa."
+						
 		},
 		
 		"coaches": {
 
 			"q1": "¿Puedo apuntarme para ser mentor de algún grupo?",
 			"a1": "Sí. Envíanos un e-mail a <u>osocspain@gmail.com</u> y dinos cuál es tu experiencia y en qué área te sientes más cómodo mentorizando (desarrollo, diseño, economía,...). Nos pondremos en contacto contigo para establecer las bases de una posible colaboración.",
-			"q2": "¿Si me apunto como mentor, cuál sería mi función en #oSoc19?",
+			"q2": "¿Si me apunto como mentor, cuál sería mi función en #oSoc20?",
 			"a2": "Asesorar en las áreas de conocimiento de las que eres experto al equipo o equipos de estudiantes que se te designe previamente durante el desarrollo del proyecto adjudicado. Además, te encargarás de comprobar que se van implementando las directrices que vayas aportando para garantizar el cumplimiento de los plazos.",
-			"q3": "¿Qué beneficios tiene ser mentor de #oSoc19?",
+			"q3": "¿Qué beneficios tiene ser mentor de #oSoc20?",
 			"a3": "Ampliar tu CV con proyectos de co-creación en innovación. Contactar con empresas innovadoras y ampliar networking."
 			
 		},
