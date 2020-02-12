@@ -19,6 +19,7 @@
 	
 	"home": {
 		
+		"title": "Inicio | Open Summer of Code",
 		"wellcome1": "Bienvenido al Open Summer of Code",
 		"wellcome2": "Programa formativo para entusiastas del código abierto y de la innovación.",
 		"forstudents": "Para <br> estudiantes",
@@ -45,7 +46,8 @@
 	
 	"students": {
 		
-		"title": "oSoc <br> para estudiantes",
+		"title": "Estudiantes | Open Summer of Code",
+		"stitle": "oSoc <br> para estudiantes",
 		"list": "desarrolladores <br> diseñadores <br> ingenieros <br> analistas empresariales <br> científicos de datos <br> y otros perfiles digitales",
 		"wellcome1": "Open Summer of Code está pensado para cualquier persona con motivación, entusiasmo y talento. ¡Anímate!",
 		"wellcome2": "Puedes inscribirte <a href='./inscription.html'>aquí</a>.",
@@ -59,7 +61,8 @@
 	
 	"organizations": {
 		
-		"title": "oSoc <br> para organizaciones",
+		"title": "Organizaciones | Open Summer of Code",
+		"stitle": "oSoc <br> para organizaciones",
 		"list": "startups <br> organizaciones sin ánimo de lucro <br> gobierno <br> agencias <br> servicios <br> y otras empresas",
 		"descl1": "Cualquier tipo de empresa u organización tendrá la oportunidad de contar con un grupo de estudiantes que desarrolle su siguiente <b>proyecto de innovación.</b>",
 		"descl2": "Toda la información necesaria está descrita en nuestra <a href='./files/osoc20-propuesta.pdf'>propuesta</a> para empresas y organizaciones.",
@@ -71,21 +74,23 @@
 	
 	"coaches": {
 		
-		"title": "oSoc <br> para mentores",
+		"title": "Mentores | Open Summer of Code",
+		"stitle": "oSoc <br> para mentores",
 		"list": "desarrolladores <br> diseñadores <br> ingenieros <br> analistas de negocios <br> científicos de datos <br> y otros perfiles digitales",		
 		"titlecoach": "No necesitas ser profesor para compartir tus conocimientos.",
 		"descl1": "Si te interesa la innovación tecnológica y sus aplicaciones en la sociedad, ven y <b>cuéntanos tu experiencia.</b>",
-		"descl2": "Seguro que además aprendás cosas nuevas. <b>Para ser mentor en el oSoc19</b>, envía un mensaje a <u>osocspain@gmail.com</u>.",
+		"descl2": "Seguro que además aprendás cosas nuevas. <b>Para ser mentor en el #oSoc20</b>, envía un mensaje a <u>osocspain@gmail.com</u>.",
 		"descr1": "Todos los estudiantes necesitan a alguien que les enseñe lo que no pueden aprender en la universidad. Es tu oportunidad para <strong>compartir lo que sabes</strong>, aportar a la comunidad, desarrollar nuevas capacidades y ampliar tu red de contactos.",
 		"descr2": "Podrás tutelar a un grupo de estudiantes con diferentes perfiles y mucho talento, ¡puede que hasta contrates a alguno!",
 		"descr3": "<a href='practical.html'>Visita nuestras FAQ</a> para saber más, o envíanos un mensaje a <u>osocspain@gmail.com</u></a>.",
-		"imgcaption": "Mentores y estudiantes del oSoC18 Madrid"
+		"imgcaption": "Mentores y estudiantes del #oSoC18 Madrid"
 		
 	},
 	
 	"whoweare": {
 		
-		"title": "Quiénes somos",
+		"title": "Quiénes somos | Open Summer of Code",
+		"stitle": "Quiénes somos",
 		"list": "desarrolladores <br> diseñadores <br> ingenieros <br> científicos de datos <br>  estudiantes <br> y otros perfiles digitales",
 		"titleteam": "El equipo",
 		"david1": "Coordinador de oSoc España",
@@ -112,21 +117,25 @@
 	},
 	
 	"inscription": {
-		"title": "Inscripción",
+		
+		"title": "Inscripción | Open Summer of Code",
+		"stitle": "Inscripción",
 		"msg": "Las inscripciones para la edición 2020 del oSoc están aún cerradas. <br>Estate atento a la fecha de apertura de inscripciones!"
 		
 	},
 	
 	"previous": {
 		
-		"title": "Ediciones anteriores"
+		"title": "Ediciones anteriores  | Open Summer of Code",
+		"stitle": "Ediciones anteriores"
 		
 		
 	},
 	
 	"faq": {
 		
-		"title": "Preguntas frecuentes",
+		"title": "Preguntas frecuentes  | Open Summer of Code",
+		"stitle": "Preguntas frecuentes",
 		"subtitle": "Porque no existen las preguntas tontas.",
 		
 		"menu": {
