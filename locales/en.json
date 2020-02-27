@@ -1,146 +1,152 @@
 {
 	"template": {
 		"menu": {
-			"home": "Inicio",
-			"students": "Estudiantes",
-			"organizations": "Organizaciones",
-			"coaches": "Mentores",
-			"whoweare": "Quiénes somos",
-			"inscribe": "Inscríbete!",
-			"previous": "Ediciones anteriores",
+			"home": "Home",
+			"students": "Students",
+			"organizations": "Organizations",
+			"coaches": "Coaches",
+			"whoweare": "Who we are",
+			"inscribe": "Register!",
+			"previous": "Previous editions",
 			"faq": "FAQ"
 		},
 		"footer": {
-			"poweredby": "Impulsado por el <a href='http://www.oeg-upm.net/'>Ontology Engineering Group</a> y el <a href='https://www.openknowledge.be/'>Open Knowledge Belgium</a>",
-			"source": "Código fuente disponible en <a href='https://github.com/osoc-es/website'>GitHub</a>"
+			"poweredby": "Powered by <a href='http://www.oeg-upm.net/'>Ontology Engineering Group</a> and <a href='https://www.openknowledge.be/'>Open Knowledge Belgium</a>",
+			"source": "Source code available at <a href='https://github.com/osoc-es/website'>GitHub</a>"
 			
 		}
 	},
 	
 	"home": {
 		
-		"wellcome1": "Bienvenido al Open Summer of Code",
-		"wellcome2": "Programa formativo para entusiastas del código abierto y de la innovación.",
-		"forstudents": "Para <br> estudiantes",
-		"fororganizations": "Para <br> organizaciones",
-		"forcoaches": "Para <br> mentores",
-		"titlewhat": "Qué es",
-		"descwhat": "Un programa de 4 semanas que ayuda a <b>estudiantes</b> de universidades españolas a <b>desarrollar proyectos de innovación</b> para empresas y organizaciones y convertirlos en <b>servicios de utilidad para la sociedad</b>.",
-		"stats1-t": "participaron",
-		"stats1-b": "estudiantes",
-		"stats2-t": "de",
-		"stats2-b": "universidades",
-		"stats3-t": "desarrollaron",
-		"stats3-b": "proyectos",
-		"stats4-t": "junto con",
-		"stats4-b": "organizaciones",
-		"stats5-t": "y el apoyo de",
-		"stats5-b": "mentores",
-		"titlepartners": "Patrocinadores",
-		"titleorganizers": "Organizadores",
-		"titlesupport": "Soporte"
+		"title": "Home | Open Summer of Code",
+		"wellcome1": "Welcome to Open Summer of Code",
+		"wellcome2": "Training programme for open source and innovation fans.",
+		"forstudents": "For <br> students",
+		"fororganizations": "For <br> organizations",
+		"forcoaches": "For <br> coaches",
+		"titlewhat": "What is oSoc?",
+		"descwhat": "A four-week programme that helps <b>students</b> from Spanish universities <b>develop innovation projects</b> for companies and organizations, and transform them in <b>useful services for our society</b>.",
+		"titlestats": "In the previous edition...",
+		"stats1-t": "participated",
+		"stats1-b": "students",
+		"stats2-t": "from",
+		"stats2-b": "universities",
+		"stats3-t": "developed",
+		"stats3-b": "projects",
+		"stats4-t": "together with",
+		"stats4-b": "organizations",
+		"stats5-t": "and the support of",
+		"stats5-b": "coaches",
+		"titlepartners": "Sponsors",
+		"titleorganizers": "Organisers",
+		"titlesupport": "Support"
 
 	},
 	
 	"students": {
 		
-		"title": "oSoc <br> para estudiantes",
-		"list": "desarrolladores <br> diseñadores <br> ingenieros <br> analistas empresariales <br> científicos de datos <br> y otros perfiles digitales",
-		"wellcome1": "Open Summer of Code está pensado para cualquier persona con motivación, entusiasmo y talento. ¡Anímate!",
-		"wellcome2": "Puedes inscribirte <a href='./inscription.html'>aquí</a>.",
-		"wellcome3": "Una <b>experiencia formativa</b> inolvidable para cualquier estudiante con ganas de aprender. <br>Participarás en proyectos del mundo real que potenciarán tu CV y ayudarán a expandir tu red de contactos.",
-		"wellcome4": "¡Te lo pasarás genial!",
-		"wellcome5": "Si quieres saber más, <a href='practical.html'>ve a nuestras FAQ</a> o envíanos un mensaje a <u>osocspain@gmail.com</u>",
-		"wellcome6": "PD: Además, obtendrás una remuneración por participar.",
-		"opinions": "Algunas opiniones de ediciones previas..."
+		"title": "Students | Open Summer of Code",
+		"stitle": "oSoc <br> for students",
+		"list": "developers <br> designers <br> engineers <br> business analysts <br> data scientists <br> and many other digital profiles",
+		"wellcome1": "Open Summer of Code is thought for any motivated, enthusiastic and talented person. Don't be shy, apply!",
+		"wellcome2": "You can register <a href='./inscription.html'>here</a>.",
+		"wellcome3": "An unforgettable <b>formative experience</b> for any student willing to learn. <br>You'll participate in real world projects that will boost your CV and help boost your network.",
+		"wellcome4": "You'll have a great time!",
+		"wellcome5": "If you need more info, <a href='practical.html'>go to our FAQ</a> or send us a message to <u>osocspain@gmail.com</u>",
+		"wellcome6": "PS: Also, you'll get some remuneration for participating.",
+		"opinions": "Some opinions about previous editions..."
 		
 	},
 	
 	"organizations": {
 		
-		"title": "oSoc <br> para organizaciones",
-		"list": "startups <br> organizaciones sin ánimo de lucro <br> gobierno <br> agencias <br> servicios <br> y otras empresas",
-		"descl1": "Cualquier tipo de empresa u organización tendrá la oportunidad de contar con un grupo de estudiantes que desarrolle su siguiente <b>proyecto de innovación.</b>",
-		"descl2": "Toda la información necesaria está descrita en nuestra <a href='./files/osoc20-propuesta.pdf'>propuesta </a> para empresas y organizaciones.",
-		"descr1": "Este programa pretende motivar a nuevas generaciones de estudiantes a construir proyectos de código abierto junto a empresas y organizaciones del mundo real.",
-		"descr2": "<b>Open Summer of Code</b> es la oportunidad perfecta para conocer proyectos de innovación, encontrar nuevos talentos y expandir tu red de contactos.",
-		"descr3": "Para más información, <a href='practical.html'>echa un vistazo a las FAQ</a> o envíanos un mensaje a <u>osocspain@gmail.com</u>."
+		"title": "Organizations | Open Summer of Code",
+		"stitle": "oSoc <br> for organizations",
+		"list": "startups <br> non-profit organizations <br> government <br> agencies <br> services <br> and other companies",
+		"descl1": "Any kind of company or organization can have the opportunity to count with a group of students to develop their next <b>innovation project.</b>",
+		"descl2": "All the necessary information is described in our <a href='./files/osoc20-propuesta.pdf'>proposal</a> for companies and organizations.",
+		"descr1": "This programme wants to motivate new generations to build open source projects along with real world companies and organizations.",
+		"descr2": "<b>Open Summer of Code</b> is the perfect opportunity to discover new innovation projects, find talented people and expand your network.",
+		"descr3": "For more information, <a href='practical.html'>check our FAQ</a> or send us a message to <u>osocspain@gmail.com</u>."
 		
 	},
 	
 	"coaches": {
 		
-		"title": "oSoc <br> para mentores",
-		"list": "desarrolladores <br> diseñadores <br> ingenieros <br> analistas de negocios <br> científicos de datos <br> y otros perfiles digitales",		
-		"titlecoach": "No necesitas ser profesor para compartir tus conocimientos.",
-		"descl1": "Si te interesa la innovación tecnológica y sus aplicaciones en la sociedad, ven y <b>cuéntanos tu experiencia.</b>",
-		"descl2": "Seguro que además aprendás cosas nuevas. <b>Para ser mentor en el oSoc19</b>, envía un mensaje a <u>osocspain@gmail.com</u>.",
-		"descr1": "Todos los estudiantes necesitan a alguien que les enseñe lo que no pueden aprender en la universidad. Es tu oportunidad para <strong>compartir lo que sabes</strong>, aportar a la comunidad, desarrollar nuevas capacidades y ampliar tu red de contactos.",
-		"descr2": "Podrás tutelar a un grupo de estudiantes con diferentes perfiles y mucho talento, ¡puede que hasta contrates a alguno!",
-		"descr3": "<a href='practical.html'>Visita nuestras FAQ</a> para saber más, o envíanos un mensaje a <u>osocspain@gmail.com</u></a>.",
-		"imgcaption": "Mentores y estudiantes del oSoC18 Madrid"
+		"title": "Coaches | Open Summer of Code",
+		"stitle": "oSoc <br> for coaches",
+		"list": "developers <br> designers <br> engineers <br> business analysts <br> data scientists <br> and other digital profiles",
+		"titlecoach": "You don't need to be a teacher to share your knowledge.",
+		"descl1": "If you are interested in technological innovation and its applications in society, come and <b>tell us your experience.</b>",
+		"descl2": "You'll learn a lot, for sure! <b>To be a coach in #oSoc20</b>, send us a message to <u>osocspain@gmail.com</u>.",
+		"descr1": "The students need someone to teach what they cannot learn at university. This is your opportunity to <strong>share your knowledge</strong>, support the community, develop new skills and expand your network.",
+		"descr2": "You can be the coach of a group of students with different profiles and a lot of talent. You may even want to hire some of them!",
+		"descr3": "<a href='practical.html'>Visit our FAQ</a> for more info or send us a message <u>osocspain@gmail.com</u></a>.",
+		"imgcaption": "Coaches and students of #oSoC18 Madrid"
 		
 	},
 	
 	"whoweare": {
 		
-		"title": "Quiénes somos",
-		"list": "desarrolladores <br> diseñadores <br> ingenieros <br> científicos de datos <br>  estudiantes <br> y otros perfiles digitales",
-		"titleteam": "El equipo",
-		"david1": "Coordinador de oSoc España",
-		"david2": "Desde 2016 apuesta por una fuerte transferencia desde la investigación que realiza en el Grupo de Ingeniería Ontológica de la UPM al mundo de la innovación.",
-		"carlos1": "Técnico de proyecto y mentor",
-		"carlos2": "Ingeniero Software especializado en la construcción de arquitecturas orientadas a la recolección y explotación de datos masivos en tiempo-real sobre entornos Java.",
-		"esteban1": "Técnico de proyecto y mentor",
-		"esteban2": "Ingeniero Software entusiasta de la Ciencia Ciudadana y la Astronomía. Ha participado en proyectos como el Telescopio Abierto de Divulgación, GLORIA y STARS4ALL.",
-		"patricia1": "Técnica de proyecto y mentora",
-		"patricia2": "Investigadora predoctoral en el Grupo de Ingeniería Ontológica donde combina técnicas de la Inteligencia Artificial con el mundo de la traducción.",
-		"adolfo1": "Comunicación, técnico y mentor",
-		"adolfo2": "Doctor en Ciencias de la Información por la Universidad Complutense de Madrid y profesor de periodismo de datos en el máster de la Agencia EFE de periodismo de agencia.",
-		"flora1": "Comunicación, diseño y mentora",
-		"flora2": "Periodista especializada en diseño y visualización de datos, formándose actualmente como diseñadora de productos digitales.",
-		"juan1": "Gestión empresarial",
-		"juan2": "Coordinador del AI.nnovation Space, centro de referencia en la aplicación de la ciencia y la innovación a casos de negocio reales en el terreno de la Inteligencia Artificial.",
-		"vicky1": "Comunicación",
-		"vicky2": "Periodista. Responsable de gestionar la Comunicación y las Redes Sociales en el Grupo de Ingeniería Ontológica (OEG) de la ETSIINF, en la UPM.",
-		"titleorg": "Las organizaciones",
-		"oeg": "El OEG es un grupo de investigación en Ingeligencia Artificial de la Universidad Politécnica de Madrid especializado en Tecnologías de la Web Semántica.",
-		"odi": "El nodo ODI Madrid se dedica a movilizar y potenciar el uso de los datos abiertos con fines sociales a través de la innovación digital.",
-		"upm": "La UPM tiene doble sello de Campus de Excelencia Internacional en reconocimiento a la calidad de su actividad docente e investigadora.",
-		"okb": "Open Knowledge Belgium es una organización sin ánimo de lucro que promueve iniciativas para fomentar que el conocimiento se comparta abiertamente."
+		"title": "Who we are | Open Summer of Code",
+		"stitle": "Who we are",
+		"list": "developers <br> designers <br> engineers <br> data scientists <br>  students <br> y other digital profiles",
+		"titleteam": "The team",
+		"david1": "Coordinator of oSoc Spain",
+		"david2": "From 2016, David works to transfer his research from the Ontology Engineering Group of UPM to the innovation world.",
+		"esteban1": "Project Technician and Coach",
+		"esteban2": "Software Engineer and enthusiast of Open Science and Astronomy. Esteban has participated in several projects, such as TAD, GLORIA and STARS4ALL.",
+		"patricia1": "Project Technician and Coach",
+		"patricia2": "Predoctoral researcher at the Ontology Engineering Group, where she applies Artificial Intelligence techniques to the Translation field.",
+		"flora1": "Communication, Design and Coach",
+		"flora2": "Journalist, specialised in design and data visualization, studying for designing digital products.",
+		"juan1": "Business Management",
+		"juan2": "Coordinator of AI.nnovation Space, centre of reference for innovation and science application to real business cases in the Artificial Intelligence area.",
+		"vicky1": "Communication",
+		"vicky2": "Journalist. Responsible of Communication and Social Networks of the Ontology Engineering Group, (ETSIINF - UPM).",
+		"titleorg": "Organizations",
+		"oeg": "The Ontology Engineering Group is a research group on Artificial Intelligence from Universidad Politécnica de Madrid, specialised in Web Semantic Technologies.",
+		"odi": "ODI Node Madrid is devoted to support and boost the use of open data for social goods through digital innovation.",
+		"upm": "UPM hast double seal of International Excellence Campus, to recognise the quality of its educational and researcher activities.",
+		"okb": "Open Knowledge Belgium is a non-profit organization that promotes initiatives to support openly shared knowledge."
 	},
 	
 	"inscription": {
-		"title": "Inscripción",
-		"msg": "Las inscripciones para la edición 2020 del oSoc están aún cerradas. <br>Estate atento a la fecha de apertura de inscripciones!"
+		
+		"title": "Registration | Open Summer of Code",
+		"stitle": "Registration",
+		"msg": "Registration for oSoc 2020 is still closed. <br>Stay tuned!"
 		
 	},
 	
 	"previous": {
 		
-		"title": "Ediciones anteriores"
+		"title": "Previous editions | Open Summer of Code",
+		"stitle": "Previous editions"
 		
 		
 	},
 	
 	"faq": {
 		
-		"title": "Preguntas frecuentes",
-		"subtitle": "Porque no existen las preguntas tontas.",
+		"title": "FAQ  | Open Summer of Code",
+		"stitle": "FAQ",
+		"subtitle": "Because there are no such things as silly questions.",
 		
 		"menu": {
-			"general": "Preguntas generales",
-			"students": "Estudiantes",
-			"organizations": "Organizaciones",
-			"coaches": "Mentores",
-			"when": "¿Cuándo?",
-			"where": "¿Dónde?"
+			"general": "General questions",
+			"students": "Students",
+			"organizations": "Organizations",
+			"coaches": "Coaches",
+			"when": "When?",
+			"where": "Where?"
 		},
 		
 		"when": {
 			
-			"date": "1 - 26 de julio <span class='subheader'>de lunes a jueves de 9:30 a 17:30</span>",
-			"freetime": "¡El viernes y los fines de semana son libres!"
+			"date": "1st - 26th July <span class='subheader'> Monday to Thursday, from 9:30 to 17:30</span>",
+			"freetime": "Fridays and weekends are free!"
 		},
 		
 		"where": {
@@ -154,71 +160,83 @@
 		
 		"general": {
 			
-			"q1": "¿Es #oSoc19 presencial? ¿Hay que estar en La Nave los días que se indica?",
-			"a1": "Sí, #oSoc19 es un trabajo. Así lo hemos diseñado. Para poder participar el desarrollo de los proyectos propuestos hay que estar presente, compartir jornadas con el resto de compañeros del equipo, debatir y preguntar las dudas que tengamos. Aprender y poder aplicar lo aprendido en el proyecto para el que se seleccione a cada uno.",
-			"q2": "¿Es #oSoc19 un programa de aprendizaje­?",
-			"a2": "Sí. Es una manera de abordar y aplicar los conocimientos adquiridos durante los estudios. Aprenderás a gestionar y a desarrollar el proyecto propuesto, podrás probar tus habilidades… y tendrás un mentor, que guiará el aprendizaje durante el desarrollo de todo el programa.",
-			"q3": "¿Cómo puedo entender #oSoc19?",
-			"a3": "#oSoc19 es un programa para encontrar talento en la Universidad. Está pensado para que estudiantes de distintas disciplinas formen parte de un mismo proyecto, intercambiando experiencias y conocimientos para aplicarlos al entorno empresarial.",
-			"q4": "¿Tiene #oSoc19 alguna obligación contractual?",
-			"a40": "Sí. Cuando un alumno se compromete a participar en el programa debe acudir y desarrollar el proyecto para el que se le haya seleccionado, bajo las condiciones establecidas y previamente firmadas, ya que el alumno obtendrá una remuneración por su trabajo dentro del #oSoc19.",
-			"a41": "Además de esta suma, el #oSoc19 permite al estudiante ampliar su red de contactos, adquirir experiencia en proyectos multidisciplinares y aprender de las habilidades de los mentores.",
-			"q5": "El código desarrollado por los alumnos ¿pasa a ser del dominio de la empresa?",
-			"a5": "No. Todo se desarrolla en código abierto, aunque sí se puede pactar una licencia. Es dominio de todos.",
-			"q6": "¿Dónde puedo encontrar información sobre #oSoc19? ¿Cómo puedo explicar a compañeros de la Universidad qué es #oSoc19?",
-			"a6": "Puedes descargarte los folletos y las imágenes que hay en nuestra web. Síguenos, también, en twitter (@oSocode_es). Haz todos los retuits que puedas, acude a las sesiones informativas....",
-			"q7": "¿Puedo ser estudiante y a la vez mentor de #oSoc19?",
-			"a7": "Son perfiles distintos, pero algunos perfiles de estudiantes de perfil “avanzado” (si han terminado sus estudios, cuentan con experiencia profesional… ) pueden dar lugar a un “coach” de equipo. Los estudiantes formarán parte del grupo asignado –del que se les informará con tiempo, antes del inicio del programa–, y los mentores son profesionales que guiarán a cada equipo a lo largo del desarrollo de todo #oSoc19 y que darán atención pormenorizada a los grupos.",
-			"q8": "¿Puedo contactar con #oSoc19 si tengo más dudas?",
-			"a8": "Sí. Utiliza nuestra dirección de e-mail: <u>osocspain@gmail.com</u> siempre que tengas algo que preguntar, sea lo que sea. No te lo pienses dos veces."
+			"q1": "Is #oSoc20 a face-to-face activity? Do we have to be in La Nave during the duration of the event?",
+			"a1": "Yes, #oSoc20 is a job. That's how it has been designed. To participate in the development of the proposed projects, the team has to work face-to-face in order to learn new skills and apply them in the team project.",
+			"q2": "Is #oSoc20 training programme?",
+			"a2": "Yes. It is a method apply the knowledge acquired during the career. You will learn to manage and develop the proposed project and test your skills with a coach that will guide you through the whole programme.",
+			"q3": "What is #oSoc20?",
+			"a3": "#oSoc20 is a programme to find talented University students. It is thought to help students from different universities join efforts on the same project, interchanging experiments and knowledge to apply it to the business area.",
+			"q4": "Does #oSoc20 have any contractual obligation?",
+			"a40": "Yes. If the students are committed to participate in the programme, they must attend and develop the project for which they have been selected, under the signed established conditions, since the students will get a remuneration for their work at #oSoc20.",
+			"a41": "In addition to this amount, #oSoc20 helps the students expand their network, acquire experience in multidisciplinary projects and learn new skills.",
+			"q5": "Will the company own the code developed by the students?",
+			"a5": "No. Everything is open source. However, a licence can be agreed.",
+			"q6": "Where can I find more information about #oSoc20? How can I explain my classmates what is #oSoc20?",
+			"a6": "You can download brochures and images from our website. Follow us on Twitter (@oSocode_es) and Instagram (@oSocode_es). Retweet and stay tuned.",
+			"q7": "Can I be student and coach at the same time?",
+			"a7": "They are different profiles, but if there are advanced students (that already finished their studies and have some professional experience) can act as coaches of their teams. Students will be part of their assigned team –information about this will be given before the start of the programme–, and coaches will guide each team throughout the whole #oSoc20, giving special attention to their specific team.",
+			"q8": "Can I contact #oSoc20 if I have more doubts?",
+			"a8": "Yes. Use our e-mail address <u>osocspain@gmail.com</u> at any time. For any doubt. Don't think twice."
 	
 		},
 		
 		"students": {
 			
-			"q1": "¿Cuándo puedo apuntarme a #oSoc19?",
-			"a1": "Desde ya. <strike>Cuando quieras, simplemente rellena este formulario</strike> (Las inscripciones están cerradas para #oSoc19). Una vez que lo obtengamos nos pondremos en contacto contigo vía email para explicarte los siguientes pasos.",
-			"q2": "¿Necesito un perfil de estudiante concreto para participar en #oSoc19?",
-			"a2": "Sí. Esperamos que cuentes con conocimientos avanzados en el área de tu competencia. Deberás estar ya cursando alguna carrera universitaria. No hace falta que estudies un tema concreto, en #oSoc19 tienen cabida estudiantes de Tecnologías, de Ciencias y de Humanidades.",
-			"q3": "¿Cuántos estudiantes se asignan a cada Proyecto de #oSoc19?",
-			"a3": "Depende del tipo de proyecto y de lo que la empresa pueda necesitar. El mínimo son dos, pero el máximo lo establecemos, desde la organización, en función de las necesidades de cada proyecto.",
-			"q4": "¿Qué requisitos hacen falta para participar en #oSoc19?",
-			"a4": "Ser mayor de edad y estar cursando una carrera universitaria o un máster. Si has terminado tus estudios hace poco… pues también puedes formar parte de un equipo en #oSoc19.",
-			"q5": "¿Cómo y cuándo se me informará de que he sido aceptado?",
-			"a5": "Cuando hagas la inscripción te pediremos los datos necesarios para llamarte y confirmar tu participación. Así estableceremos las condiciones, necesidades, aptitudes… que vamos a necesitar para el buen desarrollo del programa y del equipo que se asigne. Sabrás con tiempo suficiente para organizarte si formas parte de un proyecto. Y de cuál...",
-			"q6": "¿Puedo presentar mi propio proyecto?",
-			"a6": "No. #oSoc19 cuenta con proyectos propuestos por start-ups, que quedan definidos en reuniones previas con nosotros, y asignados a los perfiles de estudiantes que mejor se adapten."
+			"q1": "When can I register at #oSoc20?",
+			"a1": "Now. <strike>Whenever you want, you only have to fill this form in.</strike> (Registration for #oSoc20 is still closed). Once we receive the form, we will contact you via e-mail to tell you about the next steps.",
+			"q2": "Do I need a specific profile to participate at #oSoc20?",
+			"a2": "Yes. We expect you to have advanced knowledge of your area of expertise. You must be a university student. However, you don't need to study a specific topic: students from Technology, Sciences and Humanities are very welcome.",
+			"q3": "How many students are assigned to each #oSoc20? project?",
+			"a3": "It depends on the type of project and on the company needs. Minimum number is two and the maximum fixed according to the needs of each year's project.",
+			"q4": "What are the requirements to participate in #oSoc20?",
+			"a4": "You have to be +18 and studying at the university (bachelor's or master's degree) If you have recently finished your studies, you can also participate in #oSoc20.",
+			"q5": "When and how will I be informed of the acceptance in the programme?",
+			"a5": "We will ask for your personal data in your registration, including the telephone number, to call you and confirm your participation. This way, we'll establish the conditions, requirements and skills for the sake of your team and the programme. We will contact you with enough time to organise your summer.",
+			"q6": "Can I propose my own project?",
+			"a6": "No. #oSoc20 is composed of projects proposed by start-ups, that have already been defined in previous meetings. Then we assign each project to appropriate student profiles."
 			
 			
 		},
 		
 		"organizations": {
 			
-			"q1": "¿Cómo puedo solicitar un equipo para desarrollar un proyecto?",
-			"a1": "Envíanos un e-mail a la dirección <u>osocspain@gmail.com</u> y explícanos cuál es el proyecto que quieres desarrollar. Te asesoraremos sobre el equipo de estudiantes que más se ajusta a tus necesidades para llevarlo a cabo con éxito.",
-			"q2": "¿Las empresas pueden contratar a los alumnos que participan en #oSoc19?",
-			"a2": "Sí. De hecho es uno de los objetivos de #oSoc19: facilitar la empleabilidad de los estudiantes que participan, acercando el talento a la empresa.",
-			"q3": "¿Qué ocurre si al finalizar #oSoc19 el proyecto no está totalmente terminado?",
-			"a3": "Nuestro objetivo es dimensionar el equipo de estudiantes para que esto no ocurra pero en el desarrollo de proyectos pueden surgir imprevistos. El equipo (mentores y estudiantes) intentarán minimizar el impacto de estos imprevistos al máximo.",
-			"q4": "¿Reciben dinero las empresas por participar en #oSoc19?",
-			"a4": "No. Las empresas apoyan económicamente a los alumnos y eligen si quieren seguir desarrollando el proyecto una vez finalizado #oSoc19."
-			
+			"q1": "Why #oSoc20 has a reduced cost?",
+			"a1": "Our projects are developed by students that get a remuneration for developing what they learnt at the university and their personal skills. Companies give them economic support and decide if they want to continue developing the project once #oSoc20 is finished.",
+
+			"q2": "What shouldn't we take the students to our headquarters?",
+			"a2": "With Open Summer of Code you can focus on what matters: co-create a digital solution to cover your expectations and allow the growth of your company or organization. We take care of everything else. <br>We create the best environment for the development of the students' work, with the aim of presenting the project at the DemoDay, celebrated the last day of the programme. Also, we think that having all the students working together improves the acquisition of new knowledge and assures the achievement of the objectives.",
+
+			"q3": "Can I have organized meetings with the student team during the Open Summer of Code?",
+			"a3": "Of course! In fact, the organization needs to choose a representative that, along with the oSoc coach, will work together with the students for the success of the project. Moreover, the coach will be part of the commission responsible of giving a reward to the best project.",
+
+			"q4": "What can I do to hire a team?",
+			"a4": "First, we need to know which kind of project you want to develop in order to choose the appropriate team according to your needs. For this reason, we schedule a first meeting to fix the ideas and requirements. Send us an e-mail to the address <u>osocspain@gmail.com</u> and describe the project you want to develop. We will advise you about the best student profiles for its development.",
+
+			"q5": "What do we do with the results of the project?",
+			"a5": "Open Summer of Code has been designed with the goal of promoting open science; that's why the code developed in the programme will be published in GitHub when the event finishes. The organization guarantees the anonymity of the data and previous developments of the collaborating organization.",
+
+			"q6": "What happens if #oSoc20 ends but the project is not finished?",
+			"a6": "Our aim is to go create a student team according to the needs of the project to avoid this kind of situations. However, there always are some issues during the development. The team, both students and coaches will work to minimize the impact of such issues to the minimum.",
+						
+			"q7": "Will the companies be able to hire #oSoc20 students?",
+			"a7": "Yes. In fact, that's one of our objectives: easing the employability of the participating students, bringing talent to companies."
+						
 		},
 		
 		"coaches": {
 
-			"q1": "¿Puedo apuntarme para ser mentor de algún grupo?",
-			"a1": "Sí. Envíanos un e-mail a <u>osocspain@gmail.com</u> y dinos cuál es tu experiencia y en qué área te sientes más cómodo mentorizando (desarrollo, diseño, economía,...). Nos pondremos en contacto contigo para establecer las bases de una posible colaboración.",
-			"q2": "¿Si me apunto como mentor, cuál sería mi función en #oSoc19?",
-			"a2": "Asesorar en las áreas de conocimiento de las que eres experto al equipo o equipos de estudiantes que se te designe previamente durante el desarrollo del proyecto adjudicado. Además, te encargarás de comprobar que se van implementando las directrices que vayas aportando para garantizar el cumplimiento de los plazos.",
-			"q3": "¿Qué beneficios tiene ser mentor de #oSoc19?",
-			"a3": "Ampliar tu CV con proyectos de co-creación en innovación. Contactar con empresas innovadoras y ampliar networking."
+			"q1": "Can I register as a coach of a team?",
+			"a1": "Yes. Send us an e-mail to <u>osocspain@gmail.com</u> and tell us about your experience, your area of expertise and the tasks you feel more comfortable with: development, design, economy... We will contact you to establish the basis of the possible collaboration.",
+			"q2": "What would be my duties as a coach of #oSoc20?",
+			"a2": "Give advice to the student team(s) assigned during the duration of the programme. Also, you'll have to check that the guidelines are implemented in order to respect the deadlines.",
+			"q3": "What are the benefits of being coach at #oSoc20?",
+			"a3": "Expanding your CV with innovation projects, contacting innovation companies and networking."
 			
 		},
 		
 		"moreinfo": {
-			"q": "¿No encuentras la información que buscas?",
-			"a": "Envíanos cualquier duda a <u>osocspain@gmail.com</u>"
+			"q": "Do you have any other questions?",
+			"a": "Contact us at <u>osocspain@gmail.com</u>"
 			
 		}
 	
