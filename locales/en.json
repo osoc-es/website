@@ -3,7 +3,7 @@
 		"menu": {
 			"home": "Home",
 			"students": "Students",
-			"organizations": "Organizations",
+			"organizations": "Organisations",
 			"coaches": "Coaches",
 			"whoweare": "Who we are",
 			"inscribe": "Register!",
@@ -23,19 +23,19 @@
 		"wellcome1": "Welcome to Open Summer of Code",
 		"wellcome2": "Training programme for open source and innovation fans.",
 		"forstudents": "For <br> students",
-		"fororganizations": "For <br> organizations",
+		"fororganizations": "For <br> organisations",
 		"forcoaches": "For <br> coaches",
 		"titlewhat": "What is oSoc?",
-		"descwhat": "A four-week programme that helps <b>students</b> from Spanish universities <b>develop innovation projects</b> for companies and organizations, and transform them in <b>useful services for our society</b>.",
+		"descwhat": "A four-week programme that helps <b>students</b> from Spanish universities <b>develop innovation projects</b> for companies and organisations to transform them in <b>useful services for our society</b>.",
 		"titlestats": "In the previous edition...",
-		"stats1-t": "participated",
+		"stats1-t": "we had",
 		"stats1-b": "students",
 		"stats2-t": "from",
 		"stats2-b": "universities",
-		"stats3-t": "developed",
+		"stats3-t": "developing",
 		"stats3-b": "projects",
 		"stats4-t": "together with",
-		"stats4-b": "organizations",
+		"stats4-b": "organisations",
 		"stats5-t": "and the support of",
 		"stats5-b": "coaches",
 		"titlepartners": "Sponsors",
@@ -51,24 +51,24 @@
 		"list": "developers <br> designers <br> engineers <br> business analysts <br> data scientists <br> and many other digital profiles",
 		"wellcome1": "Open Summer of Code is thought for any motivated, enthusiastic and talented person. Don't be shy, apply!",
 		"wellcome2": "You can register <a href='./inscription.html'>here</a>.",
-		"wellcome3": "An unforgettable <b>formative experience</b> for any student willing to learn. <br>You'll participate in real world projects that will boost your CV and help boost your network.",
+		"wellcome3": "An unforgettable <b>formative experience</b> for any student willing to learn. <br>You'll participate in real world projects that will boost your CV and expand your network.",
 		"wellcome4": "You'll have a great time!",
-		"wellcome5": "If you need more info, <a href='practical.html'>go to our FAQ</a> or send us a message to <u>osocspain@gmail.com</u>",
-		"wellcome6": "PS: Also, you'll get some remuneration for participating.",
+		"wellcome5": "If you need more info, <a href='practical.html'>go to our FAQ</a> or send us an e-mail to <u>osocspain@gmail.com</u>",
+		"wellcome6": "PS: And... you'll get some remuneration for participating!",
 		"opinions": "Some opinions about previous editions..."
 		
 	},
 	
 	"organizations": {
 		
-		"title": "Organizations | Open Summer of Code",
-		"stitle": "oSoc <br> for organizations",
-		"list": "startups <br> non-profit organizations <br> government <br> agencies <br> services <br> and other companies",
-		"descl1": "Any kind of company or organization can have the opportunity to count with a group of students to develop their next <b>innovation project.</b>",
-		"descl2": "All the necessary information is described in our <a href='./files/osoc20-propuesta.pdf'>proposal</a> for companies and organizations.",
-		"descr1": "This programme wants to motivate new generations to build open source projects along with real world companies and organizations.",
+		"title": "Organisations | Open Summer of Code",
+		"stitle": "oSoc <br> for organisations",
+		"list": "startups <br> non-profit organisations <br> government <br> agencies <br> services <br> and other companies",
+		"descl1": "Any kind of company or organisation can enjoy the opportunity of having a group of students to help develop their next <b>innovation project.</b>",
+		"descl2": "All the necessary information is described in our <a href='./files/osoc20-propuesta.pdf'>proposal</a> for companies and organisations.",
+		"descr1": "This programme wants to motivate new generations to build open source projects along with real world companies and organisations.",
 		"descr2": "<b>Open Summer of Code</b> is the perfect opportunity to discover new innovation projects, find talented people and expand your network.",
-		"descr3": "For more information, <a href='practical.html'>check our FAQ</a> or send us a message to <u>osocspain@gmail.com</u>."
+		"descr3": "For more information, <a href='practical.html'>check our FAQ</a> or send us an e-mail to <u>osocspain@gmail.com</u>."
 		
 	},
 	
@@ -79,10 +79,10 @@
 		"list": "developers <br> designers <br> engineers <br> business analysts <br> data scientists <br> and other digital profiles",
 		"titlecoach": "You don't need to be a teacher to share your knowledge.",
 		"descl1": "If you are interested in technological innovation and its applications in society, come and <b>tell us your experience.</b>",
-		"descl2": "You'll learn a lot, for sure! <b>To be a coach in #oSoc20</b>, send us a message to <u>osocspain@gmail.com</u>.",
-		"descr1": "The students need someone to teach what they cannot learn at university. This is your opportunity to <strong>share your knowledge</strong>, support the community, develop new skills and expand your network.",
+		"descl2": "You'll definitely learn a lot! <b>To be a coach in #oSoc20</b>, send us an e-mail to <u>osocspain@gmail.com</u>.",
+		"descr1": "The students need someone to teach them what cannot be learnt at the university. This is your opportunity to <strong>share your knowledge</strong>, support the community, develop new skills and expand your network.",
 		"descr2": "You can be the coach of a group of students with different profiles and a lot of talent. You may even want to hire some of them!",
-		"descr3": "<a href='practical.html'>Visit our FAQ</a> for more info or send us a message <u>osocspain@gmail.com</u></a>.",
+		"descr3": "<a href='practical.html'>Visit our FAQ</a> for more info or send us an e-mail <u>osocspain@gmail.com</u></a>.",
 		"imgcaption": "Coaches and students of #oSoC18 Madrid"
 		
 	},
@@ -94,22 +94,22 @@
 		"list": "developers <br> designers <br> engineers <br> data scientists <br>  students <br> y other digital profiles",
 		"titleteam": "The team",
 		"david1": "Coordinator of oSoc Spain",
-		"david2": "From 2016, David works to transfer his research from the Ontology Engineering Group of UPM to the innovation world.",
+		"david2": "From 2016, David works to transfer his research at the Ontology Engineering Group of UPM to the innovation field.",
 		"esteban1": "Project Technician and Coach",
 		"esteban2": "Software Engineer and enthusiast of Open Science and Astronomy. Esteban has participated in several projects, such as TAD, GLORIA and STARS4ALL.",
 		"patricia1": "Project Technician and Coach",
 		"patricia2": "Predoctoral researcher at the Ontology Engineering Group, where she applies Artificial Intelligence techniques to the Translation field.",
 		"flora1": "Communication, Design and Coach",
-		"flora2": "Journalist, specialised in design and data visualization, studying for designing digital products.",
+		"flora2": "Journalist, specialised in design and data visualisation, studying for designing digital products.",
 		"juan1": "Business Management",
 		"juan2": "Coordinator of AI.nnovation Space, centre of reference for innovation and science application to real business cases in the Artificial Intelligence area.",
 		"vicky1": "Communication",
 		"vicky2": "Journalist. Responsible of Communication and Social Networks of the Ontology Engineering Group, (ETSIINF - UPM).",
-		"titleorg": "Organizations",
+		"titleorg": "Organisations",
 		"oeg": "The Ontology Engineering Group is a research group on Artificial Intelligence from Universidad Politécnica de Madrid, specialised in Web Semantic Technologies.",
 		"odi": "ODI Node Madrid is devoted to support and boost the use of open data for social goods through digital innovation.",
 		"upm": "UPM hast double seal of International Excellence Campus, to recognise the quality of its educational and researcher activities.",
-		"okb": "Open Knowledge Belgium is a non-profit organization that promotes initiatives to support openly shared knowledge."
+		"okb": "Open Knowledge Belgium is a non-profit organisation that promotes initiatives to support openly shared knowledge."
 	},
 	
 	"inscription": {
@@ -123,7 +123,9 @@
 	"previous": {
 		
 		"title": "Previous editions | Open Summer of Code",
-		"stitle": "Previous editions"
+		"stitle": "Previous editions",
+		"projects": "Projects",
+		"galery": "Photo Gallery"
 		
 		
 	},
@@ -137,7 +139,7 @@
 		"menu": {
 			"general": "General questions",
 			"students": "Students",
-			"organizations": "Organizations",
+			"organizations": "Organisations",
 			"coaches": "Coaches",
 			"when": "When?",
 			"where": "Where?"
@@ -204,16 +206,16 @@
 			"a1": "Our projects are developed by students that get a remuneration for developing what they learnt at the university and their personal skills. Companies give them economic support and decide if they want to continue developing the project once #oSoc20 is finished.",
 
 			"q2": "What shouldn't we take the students to our headquarters?",
-			"a2": "With Open Summer of Code you can focus on what matters: co-create a digital solution to cover your expectations and allow the growth of your company or organization. We take care of everything else. <br>We create the best environment for the development of the students' work, with the aim of presenting the project at the DemoDay, celebrated the last day of the programme. Also, we think that having all the students working together improves the acquisition of new knowledge and assures the achievement of the objectives.",
+			"a2": "With Open Summer of Code you can focus on what matters: co-create a digital solution to cover your expectations and allow the growth of your company or organisation. We take care of everything else. <br>We create the best environment for the development of the students' work, with the aim of presenting the project at the DemoDay, celebrated the last day of the programme. Also, we think that having all the students working together improves the acquisition of new knowledge and assures the achievement of the objectives.",
 
-			"q3": "Can I have organized meetings with the student team during the Open Summer of Code?",
-			"a3": "Of course! In fact, the organization needs to choose a representative that, along with the oSoc coach, will work together with the students for the success of the project. Moreover, the coach will be part of the commission responsible of giving a reward to the best project.",
+			"q3": "Can I have organised meetings with the student team during the Open Summer of Code?",
+			"a3": "Of course! In fact, the organisation needs to choose a representative that, along with the oSoc coach, will work together with the students for the success of the project. Moreover, the coach will be part of the commission responsible of giving a reward to the best project.",
 
 			"q4": "What can I do to hire a team?",
 			"a4": "First, we need to know which kind of project you want to develop in order to choose the appropriate team according to your needs. For this reason, we schedule a first meeting to fix the ideas and requirements. Send us an e-mail to the address <u>osocspain@gmail.com</u> and describe the project you want to develop. We will advise you about the best student profiles for its development.",
 
 			"q5": "What do we do with the results of the project?",
-			"a5": "Open Summer of Code has been designed with the goal of promoting open science; that's why the code developed in the programme will be published in GitHub when the event finishes. The organization guarantees the anonymity of the data and previous developments of the collaborating organization.",
+			"a5": "Open Summer of Code has been designed with the goal of promoting open science; that's why the code developed in the programme will be published in GitHub when the event finishes. The organisation guarantees the anonymity of the data and previous developments of the collaborating organisation.",
 
 			"q6": "What happens if #oSoc20 ends but the project is not finished?",
 			"a6": "Our aim is to go create a student team according to the needs of the project to avoid this kind of situations. However, there always are some issues during the development. The team, both students and coaches will work to minimize the impact of such issues to the minimum.",
