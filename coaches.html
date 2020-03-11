@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./css/app.css">
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C600%2C700%7COpen%2BSans%3A300%2C400" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
 	<!-- build:extrahead -->
 
@@ -50,6 +50,30 @@
     <meta name="msapplication-TileColor" content="‪#FFFFFF">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="theme-color" content="‪#FFFFFF">
+    <style>
+			
+	.langflag img{
+		border-radius: 8px;
+	}
+    
+    .langflag{
+		filter: grayscale(50%);
+		outline: none;
+		background:none !important;
+		padding: 0px 5px 0px 5px !important;
+		margin-right: 0px !important;
+    }
+    
+    .langflag:hover{
+		filter: grayscale(0%);
+		outline: none;
+		background:none !important;
+		padding: 0px 5px 0px 5px !important;
+		margin-right: 0px !important;
+    }
+    
+    
+    </style>
   </head>
 
   <body onLoad="i18n_init();">
@@ -79,6 +103,7 @@
             <li><a href="previous.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.previous"></a></li>
             <li><a href="practical.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.faq"></a></li>
             <li><a href="inscription.html" class="button lowercase u-margin--right inscribe i18n" data-i18n="template.menu.inscribe"></a></li>
+            <li><a href="#" class="button lowercase u-margin--right langflag" onclick="switch_lang()"><img id="lang-flag" src=""></a></li>
           </ul>
         </div>
       </div>
@@ -210,6 +235,8 @@
 
     <script src="./js/app.js"></script>
     <script src="./js/i18n.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
     
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 

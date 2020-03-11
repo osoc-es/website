@@ -4,10 +4,35 @@ function update_content(){
 	
 		$('.i18n').localize();
 		
+		
+		
+	}
+	
+	if(i18next.language === "es"){
+		
+			document.getElementById("lang-flag").src = "img/flags/es.png";
+		
+	}else{
+			
+			document.getElementById("lang-flag").src = "img/flags/en.png";
+		
 	}
 	
 }
 
+function switch_lang(){
+	
+	if(i18next.language === "es"){
+		
+		i18next.changeLanguage("en");
+		
+	}else{
+		
+		i18next.changeLanguage("es");
+	
+	}
+	
+}
 
 function i18n_init(){
 	
@@ -26,6 +51,8 @@ function i18n_init(){
 		    jqueryI18next.init(i18next, $);
 			$('.i18n').localize();
 	});
+	
+	
 	
 	i18next.on('languageChanged', () => {
 	  update_content();
