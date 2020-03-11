@@ -8,7 +8,7 @@ function update_content(){
 		
 	}
 	
-	if(i18next.language === "es"){
+	if(i18next.language === "en"){
 		
 			document.getElementById("lang-flag").src = "img/flags/es.png";
 		
