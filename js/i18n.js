@@ -11,10 +11,15 @@ function update_content(){
 	if(i18next.language === "en"){
 		
 			document.getElementById("lang-flag").src = "img/flags/es.png";
+			document.getElementById("lang-flag").alt = "Cambiar a español";
+			document.getElementById("lang-flag").name = "Cambiar a español";
+		
 		
 	}else{
 			
 			document.getElementById("lang-flag").src = "img/flags/en.png";
+			document.getElementById("lang-flag").alt = "Switch to English";
+			document.getElementById("lang-flag").name = "Switch to English";
 		
 	}
 	
