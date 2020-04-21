@@ -1,0 +1,596 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open summer of code 2019</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="pruebas2.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <meta name="description" content="Proyectos innovadores de código abierto desarrollados por estudiantes, mentores y organizaciones entusiastas.">
+    <meta name="keywords" content="oSoc19, open, summer, code, Spain, oeg, nave, madrid">
+    <meta name="author" content="oSoc19 team, oSoc Spain">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="open summer of code 2019" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://2019.summerofcode.es" />
+    <meta property="og:image" content="https://2019.summerofcode.es/img/logo/logo-osoc-color.svg" />
+    <meta property="og:description" content="Proyectos innovadores de código abierto desarrollados por estudiantes, mentores y organizaciones entusiastas." />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@osocode_es">
+    <meta name="twitter:title" content="open summer of code 2019">
+    <meta name="twitter:description" content="Proyectos innovadores de código abierto desarrollados por estudiantes, profesores y organizaciones entusiastas.">
+    <meta name="twitter:image" content="https://2019.summerofcode.es/img/logo/logo-osoc-color.svg" />
+    <meta name="twitter:url" content="https://2019.summerofcode.es/" />
+
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+    <meta name="msapplication-TileColor" content="‪#FFFFFF">
+    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <meta name="theme-color" content="‪#FFFFFF">
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
+
+  </head>
+
+<body>
+    <!-- topbar -->
+    <div class="title-bar hide-for-large" data-responsive-toggle="nav-menu" data-hide-for="large">
+        <div data-toggle="nav-menu">
+            <button class="menu-icon" type="button"></button>
+            <div class="logo logo--animated title-bar-title"><span class="c-yellow">open</span> <span class="c-yellow">summer</span> <span class="c-yellow">of</span> <span class="c-yellow">code</span></div>
+        </div>
+    </div>
+
+    <div data-sticky-container>
+        <div class="top-bar bs--darken-light" id="nav-menu" data-sticky data-options="marginTop:0;" style="width:100%">
+            <div class="top-bar-left show-for-large">
+                <a class="logo" href="index.html" data-hide-for="medium">
+                    <img src="img/logo/logo-osoc-color.svg" alt="open summer of code logo, very abstract, fun, but professional">
+                    <h1 class="osoctitle">Open Summer of Code</h1>
+                </a>
+                
+            </div>
+             <div class="top-bar-right">
+              <ul class="menu vertical large-horizontal">
+                <li><a href="index.html" class="button link lowercase u-margin--right">Inicio</a></li>
+                <li><a href="students.html" class="button link lowercase u-margin--right">Estudiantes</a></li>
+                <li><a href="companies.html" class="button link lowercase u-margin--right">Empresas</a></li>
+                <li><a href="coaches.html" class="button link lowercase u-margin--right">Mentores</a></li>
+                <li><a href="whoweare.html" class="button link lowercase u-margin--right">Quiénes somos</a></li>
+                    <li><a href="practical.html" class="button link lowercase u-margin--right">FAQ</a></li>
+                <li><a href="2019.html" class="button link lowercase u-margin--right">2019</a></li>
+                </ul>
+        </div>
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="hero-detail u-padding-x-large--tb">
+        <div class="grid-x grid-padding-x">
+            <div class="medium-12 medium-offset-0 large-4 cell">
+                <h1 class="hero-head">
+                    Proyectos #oSoc19
+                </h1>
+            </div>
+
+            <div class="small-6 medium-offset-0 large-3 cell large-offset-1">
+                <p class="hero-text">
+                    innovación
+                    <br> exploración
+                    <br> contratación
+                    <br> diversión
+                    <br> feedback
+                    <br> experiencia
+                    <br> código abierto
+                </p>
+            </div>
+
+            <div class="small-6 medium-offset-0 large-3 cell">
+                <p class="hero-text">
+                    comunidad
+                    <br> aprendizaje
+                    <br> network
+                    <br> diversidad
+                    <br> visibilidad
+                    <br> impacto
+                    <br> datos abiertos
+                </p>
+                <div class="osoc-float-element-o-small"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- projects -->
+    <div class="u-padding-x-large--tb c-projects">
+        <div class="grid-x grid-padding-x">
+
+            <div class="small-6 medium-6 large-4 cell c-projects-project">
+                <a href="https://osoc-es.github.io/onett/" target="_blank" class="c-projects-image">
+            <img src="img/projects/onett.png" alt="Logo of project ONETT">
+          </a>
+                <div class="c-projects-content">
+                    <h2 class="h5"><a href="https://osoc-es.github.io/onett/" target="_blank">ONETT</a></h2>
+                    <p>Open NETwork of public Transport</p>
+                </div>
+            </div>
+
+            <div class="small-6 medium-6 large-4 cell c-projects-project">
+                <a href="https://osoc-es.github.io/WhoTalks/" target="_blank" class="c-projects-image">
+            <img src="img/projects/who_talks.png" alt="Logo of project WhoTalks">
+          </a>
+                <div class="c-projects-content">
+                    <h2 class="h5"><a href="https://osoc-es.github.io/WhoTalks/" target="_blank">WhoTalks</a></h2>
+                    <p>Subtitles assistance for meetings</p>
+                </div>
+            </div>
+
+            <div class="small-6 medium-6 large-4 cell c-projects-project">
+                <a href="https://osoc-es.github.io/roctar-voting/" target="_blank" class="c-projects-image">
+            <img src="img/projects/roctar.png" alt="Logo of project RoctarVoting">
+          </a>
+                <div class="c-projects-content">
+                    <h2 class="h5"><a href="https://osoc-es.github.io/roctar-voting/" target="_blank">RoctarVoting</a></h2>
+                    <p>Voting system extension for the current Roctar platform</p>
+                </div>
+            </div>
+
+            <div class="small-6 medium-6 large-4 cell c-projects-project">
+                <a href="https://osoc-es.github.io/lynx-Sight/" target="_blank" class="c-projects-image">
+            <img src="img/projects/lynx.png" alt="Logo of project LynxSight">
+          </a>
+                <div class="c-projects-content">
+                    <h2 class="h5"><a href="https://osoc-es.github.io/lynx-Sight/" target="_blank">LynxSight</a></h2>
+                    <p>Web-based Visualisation system of legal events by means of graphs.</p>
+                </div>
+            </div>
+
+            <div class="small-6 medium-6 large-4 cell c-projects-project">
+                <a href="https://osoc-es.github.io/arbility/" target="_blank" class="c-projects-image">
+            <img src="img/projects/arbility.png" alt="Logo of project Arbility">
+          </a>
+                <div class="c-projects-content">
+                    <h2 class="h5"><a href="https://osoc-es.github.io/arbility/" target="_blank">Arbility</a></h2>
+                    <p>AR simulation to check accessibility</p>
+                </div>
+            </div>
+
+            <div class="small-6 medium-6 large-4 cell c-projects-project">
+                <a href="https://osoc-es.github.io/social-web/" target="_blank" class="c-projects-image">
+            <img src="img/projects/socialdinapp.png" alt="Logo of project Code Prevent">
+          </a>
+                <div class="c-projects-content">
+                    <h2 class="h5"><a href="https://osoc-es.github.io/social-web/" target="_blank">CodePrevent</a></h2>
+                    <p>Web service to prevent social conflicts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- header -->
+    <header class="hero-detail u-padding-x-large--tb border-top-medium-gray">
+        <div class="grid-x grid-padding-x">
+            <div class="medium-12 medium-offset-0 large-4 cell">
+                <h1 class="hero-head">
+                    Estudiantes #oSoc19
+                    <div class="osoc-float-element-c"></div>
+                </h1>
+            </div>
+
+            <div class="small-6 medium-offset-0 large-3 cell large-offset-1">
+                <p class="hero-text">
+                    developers
+                    <br> designers
+                    <br> marketers
+                    <br> business&nbsp;analysts
+                    <br> data scientists
+                    <br> &amp; other digital skills
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- student gallery -->
+    <div class="u-padding-x-large--tb headshot-gallery">
+        <div class="grid-x grid-padding-x">
+
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/alejandro-benitez.jpg" alt="Picture of Alexander Vandoren" />
+                <h2 class="h4">Alejandro 
+                    <br> Benitez
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/BenitezDev" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/alejandro-ben%C3%ADtez-l%C3%B3pez/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/benitezdev" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/alejandro-rey.jpg" alt="Picture of Alexis Lecocq" />
+                <h2 class="h4">Alejandro
+                    <br> Rey
+                </h2>
+                <div class="student-social">
+                   <a href="https://twitter.com/nolliejandro" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/alejandro-rey-l%C3%B3pez-2b1429128/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/coredamnwork" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/carlos-pozuelo.jpg" alt="Picture of Andrews Leruth" />
+                <h2 class="h4">Carlos
+                    <br> Pozuelo
+                </h2>
+                <div class="student-social">
+                    <a href="https://www.linkedin.com/in/carlos-pozuelo-rivas-033584177/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/Pochu15" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/cristina-canelo.jpg" alt="Picture of Antoine Richez" />
+                <h2 class="h4">Cristina 
+                    <br> Canelo
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/talto_chan" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/TaltoCanelo" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/daniel-dona.jpg" alt="Picture of Astrid Sercu" />
+                <h2 class="h4">Daniel
+                    <br> Doña
+                </h2>
+                <div class="student-social">
+                    <a href="https://github.com/daniel-dona/" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/daniel-do%C3%B1a-%C3%A1lvarez-07109221/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/daniel-sabbagh.jpg" alt="Picture of Beau-Alexander Jocic" />
+                <h2 class="h4">Daniel
+                    <br>Sabbagh</h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/DaniSabbagh97" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/daniel-sabbagh-pastor-07a375163/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/DaniSabbagh97" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/emilio-crespo.jpg" alt="Picture of Bert Marcelis" />
+                <h2 class="h4">Emilio
+                    <br> Crespo
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/emili_cp" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/emilio-crespo-aa95a8a5/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/EmilioCrespoPeran" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/jesus-fermin.jpg" alt="Picture of Bert Schoovaerts" />
+                <h2 class="h4">Jesus
+                    <br> Villar
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/pokoidev" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/jesus-fermin-villar-ramirez/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/Pokoi" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/jhon-toledo.jpg" alt="Picture of Bram Bleys" />
+                <h2 class="h4">Jhon
+                    <br> Toledo
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/jhon_anibal" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/jatoledo" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/jorge-marcos.jpg" alt="Picture of Bram De Coninck" />
+                <h2 class="h4">Jorge
+                    <br> Marcos</h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/jorgeelalto" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/jorge-marcos/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/Jorgeelalto" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/luis-de-la-cal.jpg" alt="Picture of Greet Strobbe" />
+                <h2 class="h4">Luis
+                    <br> De La Cal
+                </h2>
+                <div class="student-social">
+                    <a href="https://www.linkedin.com/in/luis-de-la-cal/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/luiscal4a" target="_blank"><i class="fa fa-github"></i></a>                    
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/luis-pozo.jpg" alt="Picture of Brian Dendauw" />
+                <h2 class="h4">Luis
+                    <br> Pozo
+                </h2>
+                <div class="student-social">
+                    <a href="https://www.linkedin.com/in/luis-pozo-472b6317a/ " target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/w0xter " target="_blank"><i class="fa fa-github"></i></a>    
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/maria-gonzalez.jpg" alt="Picture of Bruce Boelens" />
+                <h2 class="h4">Maria
+                    <br> González
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/xana_c7" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/mariagonrod" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/marta-retana.jpg" alt="Picture of Brysen Ackx" />
+                <h2 class="h4">Marta
+                    <br> Retana
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/martaretana98" target="_blank"><i class="fa fa-twitter"></i></a>   
+                    <a href="https://www.linkedin.com/in/marta-retana-96385a152/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/MartaRetana" target="_blank"><i class="fa fa-github"></i></a>
+                    
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/muhammad-laiq.jpg" alt="Picture of David Adegnon" />
+                <h2 class="h4">Muhammad 
+                    <br> Laiq
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/laiqujan" target="_blank"><i class="fa fa-twitter"></i></a>   
+                    <a href="https://www.linkedin.com/in/muhammad-laiq-841835a3/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/laiqujan" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/pablo-castellanos.jpg" alt="Picture of Dylan Van Assche" />
+                <h2 class="h4">Pablo
+                    <br> Castellanos</h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/pabs_sc" target="_blank"><i class="fa fa-twitter"></i></a>   
+                    <a href="https://www.linkedin.com/in/pablo-c-942645162/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/P4B5" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/sergio-gavilan.jpg" alt="Picture of Emile Sonneveld" />
+                <h2 class="h4">Sergio
+                    <br> Gavilán
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/srgxv" target="_blank"><i class="fa fa-twitter"></i></a>   
+                    <a href="https://github.com/srgssj" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/blank.jpg" alt="Picture of Eva Jacobs" />
+                <h2 class="h4">Andrei
+                    <br> Erhan
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/ItsAndravitar" target="_blank"><i class="fa fa-twitter"></i></a>   
+                    <a href="https://www.linkedin.com/in/andrei-erhan-1764bb182" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/Andravitar" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="hero-detail u-padding-x-large--tb border-top-medium-gray">
+        <div class="grid-x grid-padding-x">
+            <div class="medium-12 medium-offset-0 large-4 cell">
+                <h1 class="hero-head">
+                    This year's coaches
+                    <div class="osoc-float-element-s"></div>
+                </h1>
+            </div>
+
+            <div class="small-6 medium-offset-0 large-3 cell large-offset-1">
+                <p class="hero-text">
+                    developers
+                    <br> designers
+                    <br> marketers
+                    <br> business&nbsp;analysts
+                    <br> data scientists
+                    <br> &amp; other digital skills
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- coach gallery -->
+    <div class="u-padding-x-large--tb headshot-gallery">
+        <div class="grid-x grid-padding-x">
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/david-chaves.jpg" alt="Picture of David Chaves" />
+                <h2 class="h4">David
+                    <br> Chaves</h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/dchavesf" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/david-chaves-fraga/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/dachafra" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/patricia-martin.jpg" alt="Picture of Patricia Martín" />
+                <h2 class="h4">Patricia
+                    <br> Martín
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/pmchozas" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/pmchozas" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/pmchozas" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/edna.jpg" alt="Picture of Edna Ruckhaus" />
+                <h2 class="h4">Edna
+                    <br> Ruckhaus
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/eruckhaus" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ednaruckhaus/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/ednaru" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/esteban-gonzalez.jpg" alt="Picture of Esteban González" />
+                <h2 class="h4">Esteban
+                    <br> González
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/eglezguardia" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/esgg" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/carlos-badenes.jpg" alt="Picture of Carlos Badenes" />
+                <h2 class="h4">Carlos
+                    <br> Badenes
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/carbadol" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/cbadenes" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/cbadenes" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/flora-fosset.jpg" alt="Picture of Flora Fosset" />
+                <h2 class="h4">Flora
+                    <br> Fosset
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/florafosset" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/florafosset/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/ffosset" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+            <article class="small-6 medium-4 large-3 cell headshot-detail">
+                <img src="img/headshots/adolfo-anton.jpg" alt="Picture of Adolfo Antón" />
+                <h2 class="h4">Adolfo
+                    <br> Antón
+                </h2>
+                <div class="student-social">
+                    <a href="https://twitter.com/adolflow" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/adolfoantonbravo" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/flowsta" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- partners      <div class="grid-x align-center c-partners">
+        <div class="small-12 cell">
+            <div class="grid-x partner_container">
+                <div class="small-5 medium-auto cell"><a href="https://www.snap-project.eu/" target="_blank" class="vertical-align-container"><img src="img/osoc19/logo-snap.png"></a></div>
+
+            </div>
+        </div>
+    </div>-->
+
+
+
+    <!-- footer -->
+<footer>
+      <div class="grid-x grid-padding-x">
+        <div class="small-12 medium-12 large-6 cell"><!-- previous edition -->
+
+          <div class="grid-x c-previous-editions">            
+            <div class="small-3 medium-auto cell"><a href="http://2013.summerofcode.be" target="_blank"><img src="img/previous-editions/2013W.svg"></a></div>
+            <div class="small-3 medium-auto cell"><a href="http://2014.summerofcode.be" target="_blank"><img src="img/previous-editions/2014W.svg"></a></div>
+            <div class="small-3 medium-auto cell"><a href="http://2015.summerofcode.be" target="_blank"><img src="img/previous-editions/2015W.svg"></a></div>
+            <div class="small-3 medium-auto cell"><a href="http://2016.summerofcode.be" target="_blank"><img src="img/previous-editions/2016W.svg"></a></div>
+            <div class="small-3 medium-auto cell logobot17"><a href="http://2017.summerofcode.be" target="_blank"><img src="img/previous-editions/2017W.svg"></a></div>
+            <div class="small-3 medium-auto cell"><a href="http://2018.summerofcode.es/" target="_blank"><img src="img/previous-editions/2018madrid.png"></a></div>
+          </div>
+
+        </div>        
+
+        <div class="small-12 medium-12 large-6 cell">
+          <div class="grid-x grid-padding-x">
+            <!-- links -->
+                                <div class="small-4 medium-4 cell">
+                        <ul class="inline-list">
+                            <li>
+                                <a href="students.html">Estudiantes</a>
+                            </li>
+                            <li>
+                                <a href="companies.html">Empresas</a>
+                            </li>
+                            <li>
+                                <a href="coaches.html">Mentores</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="small-4 medium-4 cell">
+                        <ul class="inline-list">
+                            <li>
+                                <a href="whoweare.html" target="_blank">Quiénes somos</a>
+                            </li>
+                            <li>
+                                <a href="practical.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="2018.html">oSoC 2018</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- contact --><div class="small-4 medium-4 cell">
+              <ul class="inline-list">
+                <li><a href="https://twitter.com/osocode_es" target="_blank">Twitter</a></li>
+                <li><a href="https://www.facebook.com/osocspain" target="_blank">Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="small-12 medium-12 large-6 cell">
+          <p>Powered by <a href="http://www.oeg-upm.net/">Ontology Engineering Group</a> and <a href="https://www.openknowledge.be/" target="_blank">Open Knowledge Belgium</a> | <a href="https://github.com/oSoc18/website" target="_blank">Source code freely available on GitHub</a> | <a href="https://github.com/oSoc18/website/blob/master/CONTRIBUTORS.md" target="_blank">Contributors</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>
+    <script src="js/app.js"></script>
+    
+  
+  </body>
+
+</html>
