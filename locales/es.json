@@ -4,6 +4,8 @@
 			"home": "Inicio",
 			"students": "Estudiantes",
 			"organizations": "Organizaciones",
+			"hackathon": "Retos",
+			"agenda": "Agenda",
 			"coaches": "Mentores",
 			"whoweare": "Quiénes somos",
 			"inscribe": "Inscríbete!",
@@ -12,7 +14,7 @@
 		},
 		"footer": {
 			"poweredby": "Impulsado por el <a href='http://www.oeg-upm.net/'>Ontology Engineering Group</a> y el <a href='https://www.openknowledge.be/'>Open Knowledge Belgium</a>",
-			"source": "Código fuente disponible en <a href='https://github.com/osoc-es/website/tree/deploy'>GitHub</a>"
+			"source": "Código fuente disponible en <a href='https://github.com/osoc-es/website/tree/deploy-online'>GitHub</a>"
 			
 		}
 	},
@@ -118,7 +120,7 @@
 		
 		"title": "Inscripción | Open Summer of Code",
 		"stitle": "Inscripción",
-		"msg": "Las inscripciones están ya abiertas!!! <a target='_blank' href='https://docs.google.com/forms/d/1bsCGvss4LPoCop-apnE8kNvixVucVazske96eWPVrY0/viewform'>Rellena el formulario</a>"
+		"msg": "Las inscripciones están ya abiertas!!! <br><a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScGnuiol98FPtykrP7wab3l7p5oS2CNA2bccP90rzQ2f55UVA/viewform'>Rellena el formulario</a>"
 		
 	},
 	
