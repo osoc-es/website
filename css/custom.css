@@ -1,3 +1,4 @@
+
 	
 
 body {
@@ -536,17 +537,6 @@ color: #fcb70e;
 
 /*medias título*/
 
-@media (max-width: 97rem) {
-.osoctitle {
-  font-size: 1.5rem;
-  margin-top: 0.3rem;
-}
-}
-@media (max-width: 90rem) {
-.osoctitle {
-  font-size: 1.2rem;
-  margin-top: 0.6rem;
-}
 
 .button {
   font-size: 0.8rem;
@@ -557,18 +547,7 @@ color: #fcb70e;
   padding:0.5rem;
 }
 
-}
 
-@media (max-width: 72rem) {
-
-.osoctitle {
-font-size: 0.9rem;
-margin-top: 0.85rem;
-
-}
-
-
-}
 
 /*medias quiénes somos*/
 
@@ -761,4 +740,25 @@ margin-top: 0.85rem;
 }
 .negro{
   color: #1e1d36!important;
+}
+
+
+.osoctitle{
+text-align: right;
+padding-right: 60px;
+font-size: 1.2rem;
+margin-top: 0.6rem;
+}
+
+.osocsubtitle{
+font-weight: normal;
+text-align: right;
+padding-right: 60px;
+margin-top: -15px;
+}
+
+.top-bar{
+
+background-color: rgba(240,255,240,1);
+
 }

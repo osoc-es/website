@@ -113,22 +113,7 @@
 		padding: 0px 5px 0px 5px !important;
 		margin-right: 0px !important;
     }
-    
-    .warning{
-		
-		position: fixed;
-		bottom: 10px;
-		left: 2%;
-		width: 96%;
-		background-color: rgba(255,240,240,1);
-		padding: 25px;
-		z-index: 10000;
-		border: 3px solid rgba(255,50,50,1);
-		-webkit-box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
-		-moz-box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
-		box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
-		border-radius: 5px;
-	}
+
     
     
     </style>
@@ -138,13 +123,12 @@
 	  
 	<!-- topbar -->
 	  
-	<div class="warning i18n" data-i18n="warning.msg"></div>
-
 	  
 	<div class="title-bar hide-for-large" data-responsive-toggle="nav-menu" data-hide-for="large">
       <div data-toggle="nav-menu">
         <button class="menu-icon" type="button"></button>
         <div class="logo logo--animated title-bar-title"><span class="c-yellow">open</span> <span class="c-yellow">summer</span> <span class="c-yellow">of</span> <span class="c-yellow">code</span></div>
+        <div class="sublogo">online edition</div>
       </div>
     </div>
 
@@ -152,18 +136,21 @@
       <div class="top-bar bs--darken-light" id="nav-menu" data-sticky data-options="marginTop:0;" style="width:100%">
         
         
-        <div class="top-bar-left show-for-large"><a class="logo" href="index.html" data-hide-for="medium"><img src="img/logo/logo-osoc-color.svg" alt="open summer of code logo, very abstract, fun, but professional"></a>
-         <a href="index.html"> <h1 class="osoctitle">Open Summer of Code</h1></a>
+        <div class="top-bar-left show-for-large" style="max-width: 425px;">
+			<a class="logo" href="index.html" data-hide-for="medium">
+				<img src="img/logo/logo-osoc-color.svg" alt="open summer of code logo, very abstract, fun, but professional">
+			</a>
+         <a href="index.html" > 
+			 <h1 class="osoctitle">Open Summer of Code</h1>
+			 <h6 class="osocsubtitle">online edition</h6></a>
         </div>
 
         <div class="top-bar-right">
           <ul class="menu vertical large-horizontal">
             <li><a href="index.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.home"></a></li>
-            <li><a href="students.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.students"></a></li>
-            <li><a href="organizations.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.organizations"></a></li>
-            <li><a href="coaches.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.coaches"></a></li>
+            <li><a href="index.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.hackathon">Agenda</a></li>
+            <li><a href="index.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.hackathon">Hackathon</a></li>
             <li><a href="whoweare.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.whoweare"></a></li>
-            <li><a href="previous.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.previous"></a></li>
             <li><a href="practical.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.faq"></a></li>
             <li><a href="inscription.html" class="button lowercase u-margin--right inscribe i18n" data-i18n="template.menu.inscribe"></a></li>
             <li><a href="#" class="button lowercase u-margin--right langflag" onclick="switch_lang()"><img id="lang-flag" src=""></a></li>
