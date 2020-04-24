@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C600%2C700%7COpen%2BSans%3A300%2C400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	
 
 <style>
@@ -81,6 +81,26 @@
 		margin-right: 0px !important;
     }
     
+    .warning{
+		
+		position: fixed;
+		bottom: 10px;
+		left: 2%;
+		width: 96%;
+		background-color: rgba(255,250,250,1);
+		padding: 25px;
+		z-index: 10000;
+		border: 3px solid rgba(255,150,150,1);
+		-webkit-box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
+		-moz-box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
+		box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
+		border-radius: 5px;
+	}
+	
+	.warning p{
+		margin: 0px !important;
+	}
+    
     
     </style>
   </head>
@@ -88,6 +108,13 @@
   <body onLoad="i18n_init();">
 	  
 	<!-- topbar -->
+	  
+	<div class="warning">
+		<h3 class="i18n" data-i18n="warning.title"></h3>
+		<p class="i18n" data-i18n="warning.msg"></p>
+		<a href="https://online2020.summerofcode.es" class="i18n btn float-right btn-sm btn-outline-dark" role="button"  data-i18n="warning.button">Saber más...</a>
+	</div>
+
 	  
 	<div class="title-bar hide-for-large" data-responsive-toggle="nav-menu" data-hide-for="large">
       <div data-toggle="nav-menu">
@@ -98,6 +125,8 @@
 
     <div data-sticky-container>
       <div class="top-bar bs--darken-light" id="nav-menu" data-sticky data-options="marginTop:0;" style="width:100%">
+        
+        
         <div class="top-bar-left show-for-large"><a class="logo" href="index.html" data-hide-for="medium"><img src="img/logo/logo-osoc-color.svg" alt="open summer of code logo, very abstract, fun, but professional"></a>
          <a href="index.html"> <h1 class="osoctitle">Open Summer of Code</h1></a>
         </div>

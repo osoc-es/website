@@ -243,8 +243,15 @@
 			"a": "Envíanos cualquier duda a <u>osocspain@gmail.com</u>"
 			
 		}
-	
+		
+		
+	},
+		
+	"warning": {
+		"title": "Aviso importante!",
+		"button": "Saber más...",
+		"msg": "Por motivo de la situación sanitaria actual la edición presencial del oSoc 2020 ha quedado suspendida. Te invitamos a participar en el reto virtual que estamos organizando."
+			
 	}
-	
 	
 }

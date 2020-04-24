@@ -243,8 +243,15 @@
 			"a": "Contact us at <u>osocspain@gmail.com</u>"
 			
 		}
-	
+			
+	},
+		
+	"warning": {
+		"title": "Warning!",
+		"button": "Know more...",
+		"msg": "Due to the current health situation, the face-to-face edition of oSoc 2020 has been suspended. We invite you to participate in the virtual challenge that we are organizing."
+			
 	}
 	
-	
 }
+
