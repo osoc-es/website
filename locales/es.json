@@ -19,6 +19,10 @@
 		}
 	},
 	
+	"home": {
+		"title": "Open Summer of Code",
+	},
+	
 	"agenda": {
 		
 		"title": "Agenda | Open Summer of Code",
