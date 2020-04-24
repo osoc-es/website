@@ -19,32 +19,6 @@
 		}
 	},
 	
-	"home": {
-		
-		"title": "Home | Open Summer of Code",
-		"wellcome1": "Welcome to Open Summer of Code",
-		"wellcome2": "Training programme for open source and innovation fans.",
-		"forstudents": "For <br> students",
-		"fororganizations": "For <br> organisations",
-		"forcoaches": "For <br> coaches",
-		"titlewhat": "What is oSoc?",
-		"descwhat": "A four-week programme that helps <b>students</b> from Spanish universities <b>develop innovation projects</b> for companies and organisations to transform them in <b>useful services for our society</b>.",
-		"titlestats": "In the previous edition...",
-		"stats1-t": "we had",
-		"stats1-b": "students",
-		"stats2-t": "from",
-		"stats2-b": "universities",
-		"stats3-t": "developing",
-		"stats3-b": "projects",
-		"stats4-t": "together with",
-		"stats4-b": "organisations",
-		"stats5-t": "and the support of",
-		"stats5-b": "coaches",
-		"titlepartners": "Sponsors",
-		"titleorganizers": "Organisers",
-		"titlesupport": "Support"
-
-	},
 	
 	"agenda": {
 		
@@ -68,10 +42,13 @@
 				"description": "On the 17th there will be an open exhibition of the work done in what we call Demo Day. From 16:00 to 17:00."
 			}
 		}
-			
-			
+
+	},
+	
+	"challenges": {
 		
-	}
+		"msg": "We are working on it!"
+	},
 	
 	"inscription": {
 		
@@ -93,27 +70,27 @@
 		"general": {
 			
 			"q1": "Is #oSoc20 a virtual programme?",
-			"a1": "Sí, la edición oSoc 2020 será con una participación no presencial. Así lo hemos diseñado. Para poder participar el desarrollo de los proyectos propuestos habrá que estar presente de forma virtual (slack, skype, etc). Tendremos videoconferencias programadas cada día para planificar y conocer las tareas realizadas y también para compartir jornadas con el resto de compañeros del equipo, debatir y preguntar las dudas que tengamos. Durante el día los integrantes del equipo, incluyendo a los mentores, estarán en línea para cualquier duda o comentario específico a algún proyecto.",
-			"q2": "¿Es #oSoc20 un programa de aprendizaje­?",
-			"a2": "Sí. Es una manera de abordar y aplicar los conocimientos adquiridos durante los estudios. Aprenderás a gestionar y a desarrollar el proyecto propuesto, podrás probar tus habilidades… y tendrás un mentor que guiará el aprendizaje durante el desarrollo de todo el programa.",
-			"q3": "¿Cómo puedo entender #oSoc20?",
-			"a3": "#oSoc20 es una escuela de verano dónde pondrás a prueba tus habilidades. Está pensado para que estudiantes de distintas disciplinas formen parte de un mismo proyecto, intercambiando experiencias y conocimientos para aplicarlos en al reto que se ha diseñado para este año.",
-			"q4": "¿Qué compromiso adquiero con #oSoc20 al inscribirme? ",
-			"a4": "Cuando un alumno se compromete a formar parte del programa debe participar en el desarrollo del proyecto bajo las condiciones del compromiso previamente firmado. Además, el #oSoc20 permite al estudiante ampliar su red de contactos, adquirir experiencia en proyectos multidisciplinares y aprender de las habilidades de los mentores.",
-			"q5": "El diseño y código desarrollado por los alumnos ¿pasa a ser del dominio de la UPM?",
-			"a5": "No. Todo el desarrollo es abierto. Tanto el diseño como el código es dominio de todos.",
-			"q6": "¿Dónde puedo encontrar información sobre #oSoc20? ¿Cómo puedo explicar a compañeros de la Universidad qué es #oSoc20?",
-			"a6": "Tenemos información en nuestra web https://summerofcode.es/  y en redes sociales! Hemos abierto un perfil en Instagram en el que iremos informando de los avances en la preparación de la edición de este año: https://www.instagram.com/osocode_es. Nuestra cuenta en Twitter es https://twitter.com/oSocode_es (haz todos los retuits que puedas) y nuestro perfil en Facebook es https://fb.me/oSocodees. Acude también a las sesiones informativas....",
-			"q7": "¿Puedo ser estudiante y a la vez mentor de #oSoc20?",
-			"a7": "Son perfiles distintos, pero algunos perfiles de estudiantes de perfil “avanzado” (si han terminado sus estudios, cuentan con experiencia profesional… ) pueden dar lugar a un “coach” de equipo. Los estudiantes formarán parte del grupo asignado –del que se les informará con tiempo, antes del inicio del programa–, y los mentores son profesionales que guiarán a cada equipo a lo largo del desarrollo de todo #oSoc20 y que darán atención pormenorizada a los grupos.",
-			"q8": "¿Puedo contactar con #oSoc20 si tengo más dudas?",
-			"a8": "Sí. Utiliza nuestra dirección de e-mail: osocspain@gmail.com siempre que tengas algo que preguntar, sea lo que sea. No te lo pienses dos veces.",
-			"q9": "¿Cuales son los cambios relevantes respecto a anteriores ediciones?",
-			"a9": "Hemos diseñado un reto que será el eje principal de todos los proyectos que se desarrollen durante #oSoc20. Inicialmente cada participante se apunta en una propuesta. Luego, se hará “brainstorming” para definir con más detalle el proyecto. El día final del programa se celebrará un Demo Day para dar a conocer los resultados del proyecto.",
-			"q10": "¿Cuanto dura #oSoc20?",
-			"a10": "La edición de este año, de forma excepcional, tendrá una duración de dos semanas: del 6 al 17 de julio.",
-			"q11": "¿Es #oSoc20 un programa remunerado?",
-			"a11": "Teniendo en cuenta la situación excepcional causada por la crisis del Covid-19, no tenemos empresas que financien nuestros proyectos, por lo que la participación es voluntaria."
+			"a1": "Yes, oSoc 2020 will be online. This is how we have designed it. Participants must be virtually present (slack, skype, etc.) in order to take part in the proposed projects. We’ll schedule daily calls to organize the work, update on the progress, chat amongst the participants and ask any doubt we may have. During the day, the members of each team, including coaches, will be online for any doubt or project-specific comment.",
+			"q2": "Is #oSoc20 a training programme?",
+			"a2": "Yes. It’s intended to put in practice the knowledge acquired at the university. You’ll learn to manage and develop the proposed project and test your skills. You’ll also have a coach that will guide your training during the whole programme.",
+			"q3": "How is #oSoc20 understood?",
+			"a3": "#oSoc20 is a summer school where you can test your skills. It’s thought for students with different backgrounds to participate in the same project, interchanging experience and knowledge, applying it to the challenge we have designed this year.",
+			"q4": "Which is my commitment when applying to #oSoc20?",
+			"a4": "When the students apply, they are committed to participate in the development of the project under the conditions of the previously signed agreement. In fact, #oSoc20 helps students expand their contact network, acquire experience in multidisciplinary projects and learn from the coaches’ skills.",
+			"q5": "Will the design and the code developed by students belong to the UPM?",
+			"a5": "No. The development is open source. Both the design and the code belong to everyone. ",
+			"q6": "Where can I find information about #oSoc20? How can I explain #oSoc20 to my university partners? ",
+			"a6": "We have more information on our website https://summerofcode.es/ and social networks! We’ve recently opened an Instagram profile in which we’ll inform about the preparations of this year’s edition: https://www.instagram.com/osocode_es. Our Twitter account is https://twitter.com/oSocode_es (please RT!) and our Facebook profile is https://fb.me/oSocodees. Join our informative sessions too!",
+			"q7": "Can I be student and coach of #oSoc20?",
+			"a7": "They are different profiles, but some “advanced students” (if they have finished their studies and have some professional experience) can also be “coaches” of a team. The students will be part of the assigned team –they’ll be informed before the programme starts– and the coaches are experts that will guide each team during the whole #oSoc20, giving specific attention to their teams.",
+			"q8": "Can I contact #oSoc20 if I have more doubts? ",
+			"a8": "Yes. Use our e-mail address osocspain@gmail.com whenever you have something to ask. Don’t think twice!",
+			"q9": "Which are the most relevant changes regarding previous editions? ",
+			"a9": "We’ve designed a challenge that will be core idea of every project developed during #oSoc20. Initially, each participant chooses a proposal. Then, we’ll have a brainstorming stage to define more details of each project. The final day of the programme we’ll celebratethe Demo Day to expose the results of our projects. ",
+			"q10": "How long is #oSoc20?",
+			"a10": "This year’s edition will exceptionally be two weeks long: from the 6th to the 17th of July.",
+			"q11": "Is #oSoc20 a remunerated programme?",
+			"a11": "Considering the exceptional situation brought by the Covid-19 crisis, we don’t have funding companies behind our projects, so the participation is voluntary. "
 	
 		}
 			

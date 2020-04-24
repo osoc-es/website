@@ -44,6 +44,12 @@
 		
 	},
 	
+	"challenges": {
+		
+		"msg": "¡Estamos trabajando en ello!"
+		
+	},
+	
 	"inscription": {
 		
 		"title": "Inscripción | Open Summer of Code",
