@@ -1,0 +1,295 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<title class="i18n" data-i18n="students.title"></title>
+
+    <link rel="stylesheet" type="text/css" href="./css/app.css">
+    <link rel="stylesheet" type="text/css" href="./css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C600%2C700%7COpen%2BSans%3A300%2C400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+	<!-- build:extrahead -->
+
+    <meta name="description" content="Proyectos innovadores de código abierto desarrollados por estudiantes, mentores y organizaciones entusiastas.">
+    <meta name="keywords" content="oSoc20, open, summer, code, Spain, oeg, nave, madrid">
+    <meta name="author" content="oSoc20 team, oSoc Spain">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="Open Summer of Code" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://summerofcode.es" />
+    <meta property="og:image" content="./img/logo/logo-osoc-color.svg" />
+    <meta property="og:description" content="Proyectos innovadores de código abierto desarrollados por estudiantes, mentores y organizaciones entusiastas." />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@osocode_es">
+    <meta name="twitter:title" content="Open Summer of Code">
+    <meta name="twitter:description" content="Proyectos innovadores de código abierto desarrollados por estudiantes, profesores y organizaciones entusiastas.">
+    <meta name="twitter:image" content="./img/logo/logo-osoc-color.svg" />
+    <meta name="twitter:url" content="https://summerofcode.es/" />
+
+
+    <!-- favicons (?) -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="./img/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-.png" sizes="16x16">
+    <link rel="manifest" href="./img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="‪#FFFFFF">
+    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <meta name="theme-color" content="‪#FFFFFF">
+    <style>
+			
+	.langflag img{
+		border: 1px solid black;
+		border-radius: 4px;
+		width: 30px;
+		margin-top: 6px;
+	}
+    
+    .langflag{
+		filter: grayscale(50%);
+		outline: none;
+		background:none !important;
+		padding: 0px 5px 0px 5px !important;
+		margin-right: 0px !important;
+    }
+    
+    .langflag:hover{
+		filter: grayscale(0%);
+		outline: none;
+		background:none !important;
+		padding: 0px 5px 0px 5px !important;
+		margin-right: 0px !important;
+    }
+
+    
+    
+    </style>
+  </head>
+
+  <body onLoad="i18n_init();">
+	  
+	<!-- topbar -->
+	  
+	  
+	<div class="title-bar hide-for-large" data-responsive-toggle="nav-menu" data-hide-for="large">
+      <div data-toggle="nav-menu">
+        <button class="menu-icon" type="button"></button>
+        <div class="logo logo--animated title-bar-title"><span class="c-yellow">open</span> <span class="c-yellow">summer</span> <span class="c-yellow">of</span> <span class="c-yellow">code</span></div>
+      </div>
+    </div>
+
+    <div data-sticky-container>
+      <div class="top-bar bs--darken-light" id="nav-menu" data-sticky data-options="marginTop:0;" style="width:100%">
+        
+        
+        <div class="top-bar-left show-for-large" style="max-width: 425px;">
+			<a class="logo" href="index.html" data-hide-for="medium">
+				<img src="img/logo/logo-osoc-color.svg" alt="open summer of code logo, very abstract, fun, but professional">
+			</a>
+			<h1 class="osoctitle">Open Summer of Code</h1>
+			<h6 class="osocsubtitle">online edition, 2020</h6>
+        </div>
+
+        <div class="top-bar-right">
+          <ul class="menu vertical large-horizontal">
+            <li><a href="agenda.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.agenda"></a></li>
+            <li><a href="challenges.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.hackathon"></a></li>
+            <li><a href="practical.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.faq"></a></li>
+            <li><a href="inscription.html" class="button lowercase u-margin--right inscribe i18n" data-i18n="template.menu.inscribe"></a></li>
+            <li><a href="#" class="button lowercase u-margin--right langflag" onclick="switch_lang()"><img id="lang-flag" src=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+     
+
+	<header class="hero-detail u-padding-x-large--tb">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-4 medium-offset-0 large-4 cell">
+          <h1 class="hero-head i18n" data-i18n="[html]students.stitle"></h1>
+        </div>
+        <div class="medium-6 medium-offset-0 large-5 cell large-offset-1">
+          <p class="hero-text i18n" data-i18n="[html]students.list"></p>
+          <div class="osoc-float-element-c"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- info students -->
+    <div class="students_wrapper">
+    <div class="grid-x grid-padding-x u-margin-large--tb align-middle" >
+        <div class="medium-8 large-5 cell">
+            <p class="hero-text u-margin-large--b i18n" data-i18n="[html]students.wellcome1"></p>
+            <p class="hero-text u-margin-large--b i18n" data-i18n="[html]students.wellcome2"></p>
+        </div>
+
+        
+        <div class="medium-8 large-6 cell large-offset-1">
+            <p class="i18n" data-i18n="[html]students.wellcome3"></p>
+            <p class="i18n" data-i18n="[html]students.wellcome4"></p>
+            <p class="i18n" data-i18n="[html]students.wellcome5"></p>
+            <p class="i18n" data-i18n="[html]students.wellcome6"></p>
+        </div>
+    </div>
+    </div>
+    
+
+
+    <!-- projects -->
+    
+    <!-- <div class="grid-x u-padding-x-large--tb grid-padding-x c-projects-old bg-lighter-gray align-center text-center">
+      <div class="small-12 cell">
+        <p class="opiniones i18n" data-i18n="students.opinions"></p>
+      </div>
+      
+      <!-- Esto habría que actualizarlo o pensar cómo se puede generar dinámicamente 
+
+      <div class="small-12 large-4 cell">
+        <div style="margin-top: -10px; position: relative;">
+          <blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Open Summer of Code y BBVA Open Talent 2018 son dos demostraciones de que la <a href="https://twitter.com/hashtag/innovaci%C3%B3n?src=hash&amp;ref_src=twsrc%5Etfw">#innovación</a> no se frena en fechas veraniegas y que el uso de los <a href="https://twitter.com/hashtag/datos?src=hash&amp;ref_src=twsrc%5Etfw">#datos</a> sigue dando mucho que hablar<a href="https://twitter.com/hashtag/oSoc18?src=hash&amp;ref_src=twsrc%5Etfw">#oSoc18</a> <a href="https://twitter.com/hashtag/OpenData?src=hash&amp;ref_src=twsrc%5Etfw">#OpenData</a><a href="https://t.co/hDkDU3cC54">https://t.co/hDkDU3cC54</a> vía <a href="https://twitter.com/bbva?ref_src=twsrc%5Etfw">@BBVA</a> <a href="https://t.co/KTlIAq280W">pic.twitter.com/KTlIAq280W</a></p>&mdash; OEG UPM (@oeg_upm) <a href="https://twitter.com/oeg_upm/status/1042353361599819777?ref_src=twsrc%5Etfw">19 de septiembre de 2018</a></blockquote>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+           
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+
+      <div class="small-12 large-4 cell">
+        <div style="margin-top: -10px; position: relative;">
+        <blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">En el demo day del <a href="https://twitter.com/oSocode?ref_src=twsrc%5Etfw">@oSocode</a> con el grupo que ha trabajado en el proyecto <a href="https://twitter.com/MachinetoPeople?ref_src=twsrc%5Etfw">@MachinetoPeople</a> para <a href="https://twitter.com/LillyES?ref_src=twsrc%5Etfw">@LillyES</a> .Muy buena experiencia la interacción Universidad y Empresa. Y muy buen trabajo de los estudiantes con sólo 2 semanas de tiempo. <a href="https://twitter.com/hashtag/oSoc18?src=hash&amp;ref_src=twsrc%5Etfw">#oSoc18</a> <a href="https://t.co/hSnFcxaOSw">pic.twitter.com/hSnFcxaOSw</a></p>&mdash; Fernando Perez (@FPerezCastillo) <a href="https://twitter.com/FPerezCastillo/status/1020328138990026752?ref_src=twsrc%5Etfw">20 de julio de 2018</a></blockquote>
+      </div>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
+
+      <div class="small-12 large-4 cell">
+        <div style="margin-top: -10px; position: relative;">
+          <blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Gran final para <a href="https://twitter.com/hashtag/oSoc18?src=hash&amp;ref_src=twsrc%5Etfw">#oSoc18</a> con la presentación de los proyectos y sobre todo con el gran equipo humano, gracias <a href="https://twitter.com/dchavesf?ref_src=twsrc%5Etfw">@dchavesf</a> <a href="https://twitter.com/oeg_upm?ref_src=twsrc%5Etfw">@oeg_upm</a> <a href="https://twitter.com/idafensp?ref_src=twsrc%5Etfw">@idafensp</a> <a href="https://twitter.com/ocorcho?ref_src=twsrc%5Etfw">@ocorcho</a> <a href="https://twitter.com/ciclopegroup?ref_src=twsrc%5Etfw">@ciclopegroup</a> <a href="https://twitter.com/OASIS_team_?ref_src=twsrc%5Etfw">@OASIS_team_</a> <a href="https://twitter.com/datalabx?ref_src=twsrc%5Etfw">@datalabx</a> <a href="https://t.co/EZwgH4kAZ5">pic.twitter.com/EZwgH4kAZ5</a></p>&mdash; Adolfo Antón Bravo (@adolflow) <a href="https://twitter.com/adolflow/status/1020349037046845442?ref_src=twsrc%5Etfw">20 de julio de 2018</a></blockquote>
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="small-12 cell">
+        <a class="button u-margin-large--t" href="2018.html">¡Echa un vistazo a la primera edición!</a>
+      </div>-->
+    </div> 
+
+
+    
+
+    <footer>
+      <div class="grid-x grid-padding-x">
+        <div class="small-12 medium-12 large-5 cell">
+			
+			<!-- previous edition -->
+
+          <div class="grid-x c-previous-editions">            
+            <div class="small-2 medium-auto cell">
+				<a href="http://2013.summerofcode.be" target="_blank">2013</a><br>
+				<a href="http://2014.summerofcode.be" target="_blank">2014</a><br>
+				<a href="http://2015.summerofcode.be" target="_blank">2015</a>
+			</div>
+            <div class="small-2 medium-auto cell">
+				<a href="http://2016.summerofcode.be" target="_blank">2016</a><br>
+				<a href="http://2017.summerofcode.be" target="_blank">2017</a><br>
+				<a href="http://2018.summerofcode.es" target="_blank">2018</a>
+			</div>
+            <div class="small-2 medium-auto cell">
+				<a href="http://2019.summerofcode.es" target="_blank">2019</a><br>
+				<a href="http://2020.summerofcode.es" target="_blank">2020</a>
+			</div>
+          </div>
+
+        </div>        
+
+        <div class="small-12 medium-12 large-5 cell">
+          <div class="grid-x grid-padding-x">
+            <!-- links -->
+                    <div class="small-4 medium-4 cell">
+                        <ul class="inline-list">
+                            <li>
+                                <a href="students.html" class="i18n" data-i18n="template.menu.students"></a>
+                            </li>
+                            <li>
+                                <a href="companies.html" class="i18n" data-i18n="template.menu.organizations"></a>
+                            </li>
+                            <li>
+                                <a href="coaches.html" class="i18n" data-i18n="template.menu.coaches"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="small-4 medium-4 cell">
+                        <ul class="inline-list">
+                            <li>
+                                <a href="whoweare.html" class="i18n" data-i18n="template.menu.whoweare"></a>
+                            </li>
+                            <li>
+                                <a href="practical.html" class="i18n" data-i18n="template.menu.previous"></a>
+                            </li>
+                            <li>
+                                <a href="practical.html" class="i18n" data-i18n="template.menu.faq"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- contact --><div class="small-4 medium-4 cell">
+                <ul class="inline-list">
+                <li><a href="https://twitter.com/osocode_es" target="_blank">Twitter</a></li>
+                <li><a href="https://www.facebook.com/osocspain" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/osocode_es/" target="_blank">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+		<div class="small-12 medium-12 large-2 cell text-center">
+			<img class="global-goals" src="img/logo/other/global-goals-logo.png" alt="Sustainable Development Goals logo">
+		</div>
+
+        <div class="small-12 medium-12 large-12 cell">
+        <p class="i18n source" data-i18n="[html]template.footer.source"></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/foundation.js"></script>
+    
+    <!-- i18n -->
+    <script src="./js/i18next.js"></script>
+    <script src="./js/jquery-i18next.min.js"></script>
+	<script src="./js/i18nextXHRBackend.js"></script>
+	<script src="./js/i18nextBrowserLanguageDetector.js"></script>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/i18n.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+    
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134746082-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-134746082-1');
+	</script>
+	</body>
+	
+</html>

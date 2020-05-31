@@ -1,0 +1,102 @@
+{
+	"template": {
+		"menu": {
+			"home": "Inicio",
+			"students": "Estudiantes",
+			"organizations": "Organizaciones",
+			"hackathon": "Retos",
+			"agenda": "Agenda",
+			"coaches": "Mentores",
+			"whoweare": "Quiénes somos",
+			"inscribe": "Inscríbete!",
+			"previous": "Ediciones anteriores",
+			"faq": "FAQ"
+		},
+		"footer": {
+			"poweredby": "Impulsado por el <a href='http://www.oeg-upm.net/'>Ontology Engineering Group</a> y el <a href='https://www.openknowledge.be/'>Open Knowledge Belgium</a>",
+			"source": "Código fuente disponible en <a href='https://github.com/osoc-es/website/tree/deploy-online'>GitHub</a>"
+			
+		}
+	},
+	
+	"home": {
+		"title": "Open Summer of Code"
+	},
+	
+	"agenda": {
+		
+		"title": "Agenda | Open Summer of Code",
+		"wellcome1": "Open Summer of Code está pensado para cualquier persona con motivación, entusiasmo y talento. ¡Anímate!",
+		"wellcome2": "Puedes inscribirte <a href='./inscription.html'>aquí</a>.",
+		"timeline": {
+			"item1": {
+				"name": "Presentación edición online",
+				"date": "27 de abril",
+				"description": "Se presentará la propuesta de edición online del oSoc, al ser imposible la edición presencial planificada."
+			},
+			"item2": {
+				"name": "Apertura",
+				"date": "6 de julio",
+				"description": "Durante dos semanas, desde el día 6 hasta el 17 de julio se desarrollará la edición online del oSoc 2020."
+			},
+			"item3": {
+				"name": "Demo Day",
+				"date": "17 de julio",
+				"description": "Llegados el día 17 se hará una exposición abierta del trabajo realizado en el que llamamos Demo Day. Desde las 16:00 hasta las 17:00."
+			}
+		}
+		
+	},
+	
+	"challenges": {
+		
+		"msg": "¡Estamos trabajando en ello!"
+		
+	},
+	
+	"inscription": {
+		
+		"title": "Inscripción | Open Summer of Code",
+		"stitle": "Inscripción",
+		"msg": "Las inscripciones están abiertas. Recuerda, si te inscribiste en la edición presencial no es necesario que te vuelvas a inscribir, recibirás noticias pronto! <br><a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScGnuiol98FPtykrP7wab3l7p5oS2CNA2bccP90rzQ2f55UVA/viewform'>Rellena el formulario</a>"
+		
+	},
+	
+	
+	"faq": {
+		
+		"title": "Preguntas frecuentes  | Open Summer of Code",
+		"stitle": "Preguntas frecuentes",
+		"subtitle": "Porque no existen las preguntas tontas.",
+
+		"general": {
+			
+			"q1": "¿Es #oSoc20 virtual?",
+			"a1": "Sí, la edición oSoc 2020 será con una participación no presencial. Así lo hemos diseñado. Para poder participar el desarrollo de los proyectos propuestos habrá que estar presente de forma virtual (slack, skype, etc). Tendremos videoconferencias programadas cada día para planificar y conocer las tareas realizadas y también para compartir jornadas con el resto de compañeros del equipo, debatir y preguntar las dudas que tengamos. Durante el día los integrantes del equipo, incluyendo a los mentores, estarán en línea para cualquier duda o comentario específico a algún proyecto.",
+			"q2": "¿Es #oSoc20 un programa de aprendizaje­?",
+			"a2": "Sí. Es una manera de abordar y aplicar los conocimientos adquiridos durante los estudios. Aprenderás a gestionar y a desarrollar el proyecto propuesto, podrás probar tus habilidades… y tendrás un mentor que guiará el aprendizaje durante el desarrollo de todo el programa.",
+			"q3": "¿Cómo puedo entender #oSoc20?",
+			"a3": "#oSoc20 es una escuela de verano dónde pondrás a prueba tus habilidades. Está pensado para que estudiantes de distintas disciplinas formen parte de un mismo proyecto, intercambiando experiencias y conocimientos para aplicarlos en al reto que se ha diseñado para este año.",
+			"q4": "¿Qué compromiso adquiero con #oSoc20 al inscribirme? ",
+			"a4": "Cuando un alumno se compromete a formar parte del programa debe participar en el desarrollo del proyecto bajo las condiciones del compromiso previamente firmado. Además, el #oSoc20 permite al estudiante ampliar su red de contactos, adquirir experiencia en proyectos multidisciplinares y aprender de las habilidades de los mentores.",
+			"q5": "El diseño y código desarrollado por los alumnos ¿pasa a ser del dominio de la UPM?",
+			"a5": "No. Todo el desarrollo es abierto. Tanto el diseño como el código es dominio de todos.",
+			"q6": "¿Dónde puedo encontrar información sobre #oSoc20? ¿Cómo puedo explicar a compañeros de la Universidad qué es #oSoc20?",
+			"a6": "Tenemos información en nuestra web https://summerofcode.es/  y en redes sociales! Hemos abierto un perfil en Instagram en el que iremos informando de los avances en la preparación de la edición de este año: https://www.instagram.com/osocode_es. Nuestra cuenta en Twitter es https://twitter.com/oSocode_es (haz todos los retuits que puedas) y nuestro perfil en Facebook es https://fb.me/oSocodees. Acude también a las sesiones informativas....",
+			"q7": "¿Puedo ser estudiante y a la vez mentor de #oSoc20?",
+			"a7": "Son perfiles distintos, pero algunos perfiles de estudiantes de perfil “avanzado” (si han terminado sus estudios, cuentan con experiencia profesional… ) pueden dar lugar a un “coach” de equipo. Los estudiantes formarán parte del grupo asignado –del que se les informará con tiempo, antes del inicio del programa–, y los mentores son profesionales que guiarán a cada equipo a lo largo del desarrollo de todo #oSoc20 y que darán atención pormenorizada a los grupos.",
+			"q8": "¿Puedo contactar con #oSoc20 si tengo más dudas?",
+			"a8": "Sí. Utiliza nuestra dirección de e-mail: osocspain@gmail.com siempre que tengas algo que preguntar, sea lo que sea. No te lo pienses dos veces.",
+			"q9": "¿Cuales son los cambios relevantes respecto a anteriores ediciones?",
+			"a9": "Hemos diseñado un reto que será el eje principal de todos los proyectos que se desarrollen durante #oSoc20. Inicialmente cada participante se apunta en una propuesta. Luego, se hará “brainstorming” para definir con más detalle el proyecto. El día final del programa se celebrará un Demo Day para dar a conocer los resultados del proyecto.",
+			"q10": "¿Cuanto dura #oSoc20?",
+			"a10": "La edición de este año, de forma excepcional, tendrá una duración de dos semanas: del 6 al 17 de julio.",
+			"q11": "¿Es #oSoc20 un programa remunerado?",
+			"a11": "Teniendo en cuenta la situación excepcional causada por la crisis del Covid-19, no tenemos empresas que financien nuestros proyectos, por lo que la participación es voluntaria."
+	
+		}
+
+		
+	}
+	
+}
