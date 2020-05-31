@@ -3,6 +3,13 @@
 	vertical-align: top !important;
 }
 
+.menu{
+
+	background-color: rgba(0,0,0,0) !important;
+	
+}
+
+
 .menu a.button {
 	@include breakpoint(medium only) {
 		padding-left: 0.5rem;
