@@ -50,7 +50,10 @@
 	},
 	
 	"challenges": {
-		
+		"title": "Challenges | Open Summer of Code",
+		"cards": {
+			"detail": "Read more..."
+		},
 		"msg": "We are working on it!"
 	},
 	

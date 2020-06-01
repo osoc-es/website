@@ -17,11 +17,11 @@
   "devDependencies": {
     "autoprefixer": "^9.1.5",
     "browser-sync": "^2.18.13",
-    "gulp": "^4.0.0",
-    "gulp-template-html": "^0.2.2",
+    "gulp": "^4.0.2",
     "gulp-load-plugins": "^1.1.0",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.1"
+    "gulp-sass": "^4.0.1",
+    "gulp-template-html": "^0.2.2"
   },
   "repository": {
     "type": "git",
