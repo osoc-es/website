@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-<title class="i18n" data-i18n="students.title"></title>
+<title class="i18n" data-i18n="challenges.title"></title>
 
     <link rel="stylesheet" type="text/css" href="./css/app.css">
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
@@ -16,40 +16,15 @@
 	
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script defer src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <style>
 
-ul.timeline {
-    list-style-type: none;
-    position: relative;
-}
-ul.timeline:before {
-    content: ' ';
-    background: #d4d9df;
-    display: inline-block;
-    position: absolute;
-    left: 0px;
-    width: 3px;
-    height: 100%;
-    z-index: 400;
-}
-ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px;
-}
-ul.timeline > li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #22c0e8;
-    left: -9px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
+.challenge_intro{
+	
+	margin-bottom: 30px;
+	
 }
 
 </style>
@@ -162,12 +137,63 @@ ul.timeline > li:before {
 
     <!-- info students -->
     <div class="students_wrapper">
-    <div class="grid-x grid-padding-x u-margin-large--tb align-middle" >
-        <div class="medium-12 large-12">
-            <h2 class="i18n" data-i18n="challenges.msg"></h2>
-            <img style="width:100%" src="/img/misc/rick.webp">
+		<div class="row">
+			<div class="challenge_intro col-sm-12">
+				<h1 class="hero-head i18n" data-i18n="challenges.stitle"></h1>
+				<p class="i18n" data-i18n="challenges.intro.p1"></p>
+
+				<p class="i18n" data-i18n="challenges.intro.p2"></p>
+			
+			</div>
+		
+		</div>
+        <div class="row">
+			<div class="col-sm-6">
+				<div class="card">
+				  <img class="card-img-top" src="/img/challenges/challenge1.jpg" alt="Card image cap">
+				  <div class="card-body">
+					<h5 class="card-title i18n" data-i18n="challenges.cards.card1.title"></h5>
+					<p class="card-text i18n" data-i18n="challenges.cards.card1.description"></p>
+					<!--<button type="button" class="btn btn-primary" class="btn btn-primary i18n" data-i18n="challenges.cards.detail" data-toggle="modal" data-target="#challenge1modal">Go somewhere</button>-->
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="card">
+				  <img class="card-img-top" src="/img/challenges/challenge2.jpg" alt="Card image cap">
+				  <div class="card-body">
+					<h5 class="card-title i18n" data-i18n="challenges.cards.card2.title"></h5>
+					<p class="card-text i18n" data-i18n="challenges.cards.card2.description"></p>
+					<!--<a href="#" class="btn btn-primary i18n" data-i18n="challenges.cards.detail">Go somewhere</a>-->
+				  </div>
+				</div>
+			</div>
+						<div class="col-sm-6">
+				<div class="card">
+				  <img class="card-img-top" src="/img/challenges/challenge3.jpg" alt="Card image cap">
+				  <div class="card-body">
+					<h5 class="card-title i18n" data-i18n="challenges.cards.card3.title"></h5>
+					<p class="card-text i18n" data-i18n="challenges.cards.card3.description"></p>
+					<!--<a href="#" class="btn btn-primary i18n" data-i18n="challenges.cards.detail">Go somewhere</a>-->
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="card">
+				  <img class="card-img-top" src="/img/challenges/challenge4.jpg" alt="Card image cap">
+				  <div class="card-body">
+					<h5 class="card-title i18n" data-i18n="challenges.cards.card4.title"></h5>
+					<p class="card-text i18n" data-i18n="challenges.cards.card4.description"></p>
+					<!--<a href="#" class="btn btn-primary i18n" data-i18n="challenges.cards.detail">Go somewhere</a>-->
+				  </div>
+				</div>
+			</div>
         </div>
-    </div>
+        
+       
+        
+        
+        
     </div>
 
 
