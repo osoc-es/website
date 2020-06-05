@@ -50,7 +50,7 @@
 	
 	"challenges": {
 		"title": "Retos | Open Summer of Code",
-		"stitle": "Retos",
+		"stitle": "Ret<img src='https://online2020.summerofcode.es/img/logo/other/global-goals-logo.png' style='width: 24px;/*! margin-bottom: 15px; *//*! margin-left: 5px; */'>s",
 		"intro": {
 			"p1": "Debido a la situación que se está viviendo en todo el mundo por la crisis del Coronavirus, Open Summer of Code 2020 Special Edition planteará a los estudiantes una serie de retos asociados al “Día Después”: ¿Qué pasará cuando la gente vuelva a poder salir de sus casas?, ¿qué hemos aprendido y cómo deberíamos tenerlo en cuenta y aplicarlas a nuestro día a día (contaminación, cambio climático?, ¿cuáles deben ser nuestras prioridades a partir de ahora: la ciencia o el fútbol?",
 			"p2": "En Open Summer of Code creemos y apostamos por la innovación digital con impacto social, y somos conscientes de que los Objectivo de Desarrollo Sostenible (ODS) y la agenda 2030 están propiciando la aceleración hacia un mundo mejor que debe cambiar ya. Por eso proponemos 3 proyectos (retos) con este enfoque en los cuales los estudiantes podrán participar y colaborar guiados por un mentor:"
@@ -59,14 +59,14 @@
 			"detail": "Leer más...",
 			"card1": {
 				"title": "Proyecto de recomendación de buenos hábitos para la agenda 2030",
-				"description": "Proponemos analizar datos derivados de la situación COVID-19 para medir cómo hemos cambiado nuestros hábitos. Si no existen, diseñar o utilizar aplicaciones para recoger este tipo de información. Posteriormente, crearemos un sistema de recomendaciones para mantener buenos hábitos durante la nueva normalidad."
+				"description": "Proponemos analizar datos derivados de la situación COVID-19 para medir cómo hemos cambiado nuestros hábitos. Si no existen, diseñar o utilizar aplicaciones para recoger este tipo de información. Posteriormente, crearemos un sistema de recomendaciones para mantener buenos hábitos durante la Nueva Normalidad."
 			},
 			"card2": {
 				"title": "Proyecto de innovación en contra del cambio climático",
 				"description": "Proponemos diseñar un videojuego (formato plataforma o aventura gráfica sencilla) con el objetivo de concienciar sobre las consecuencias (sociales, medioambientales...) a largo plazo que conlleva el COVID19. Por ejemplo: mediante diferentes tipos de personajes, el usuario tendrá que tomar ciertas decisiones que le llevarán a diferentes situaciones."
 			},
 			"card3": {
-				"title": "Proyecto de innovación para el apoyo de Organización culturales de barrio",
+				"title": "Proyecto de innovación para el apoyo de organizaciones culturales de barrio",
 				"description": "Actualmente, dada la transición a la “nueva normalidad”  se prevé que las personas que asisten a actividades culturales tengan ahora más limitaciones en cuanto a opciones disponibles  dadas las restricciones de aforo. Se propone una app que en base a las preferencias del usuario en cuanto a tipo de espectáculo y horarios disponibles y a las restricciones de aforo,  funciones y horarios de los espectáculos, se  pueda recomendar al usuario su “Itinerario Cultural”."
 			},
 			"card4": {
@@ -74,6 +74,7 @@
 				"description": "La organización ha hecho algo de investigación y hemos encontrado varios conjuntos de datos abiertos muy interesantes para trabajar con ellos, el equipo que forme parte de este proyecto desarrollará un producto digital desde 0 usando estos datos."
 			}
 		},
+		"objectives": "Objetivos:",
 		"msg": "Estamos trabajando en ello!"
 	},
 	

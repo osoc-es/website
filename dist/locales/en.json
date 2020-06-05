@@ -51,9 +51,31 @@
 	
 	"challenges": {
 		"title": "Challenges | Open Summer of Code",
-		"cards": {
-			"detail": "Read more..."
+		"stitle": "Challenges<img src='https://online2020.summerofcode.es/img/logo/other/global-goals-logo.png' style='width: 24px; margin-bottom: 15px; margin-left: 5px;'>",
+		"intro": {
+			"p1": "Due to the situation that is being experienced around the world by the Coronavirus crisis, Open Summer of Code 2020 Special Edition pose to students a series of challenges associated with the 'Day After': What will happen when people can go out again from their houses? What have we learned and how should we take it into account and apply them to our day to day (pollution, climate change...)?, what should our problems be from now on: science or soccer?",
+			"p2": "At Open Summer of Code we believe and are committed to digital innovation with social impact, we are changers of the Sustainable Development Goals (SDGs) and the 2030 agenda is promoting acceleration towards a better world that must change now. That is why we propose 3 projects (challenges) with this approach in which students can participate and collaborate guided by a mentor:"
 		},
+		"cards": {
+			"detail": "Read more...",
+			"card1": {
+				"title": "Recommendation project of good habits for the 2030 agenda",
+				"description": "We propose to analyze data derived from the COVID-19 situation to measure how we have changed our habits. If they do not exist, design or use applications to collect this type of information. Subsequently, we will create a system of recommendations to maintain good habits during the 'Nueva Normalidad'."
+			},
+			"card2": {
+				"title": "Innovation project against climate change",
+				"description": "We propose to design a video game (platform format or simple graphic adventure) with the aim of raising awareness of the long-term consequences (social, environmental...) that COVID19 entails. For example: through different types of characters, the user will have to make certain decisions that will lead to different situations."
+			},
+			"card3": {
+				"title": "Innovation project to support neighborhood cultural organizations",
+				"description": "Currently, given the transition to the 'Nueva Normalidad', it is expected that people who attend cultural activities will now have more limitations in terms of available options given the capacity restrictions. An app is proposed that based on the user's preferences regarding the type of show and available hours and the restrictions on capacity, functions and hours of shows, the user can be recommended their 'Cultural Itinerary'."
+			},
+			"card4": {
+				"title": "Free Project",
+				"description": "The organization has done some research and we have found several very interesting open data sets to work with, the team that is part of this project will develop a digital product from scratch using this data."
+			}
+		},
+		"objectives": "Objectives:",
 		"msg": "We are working on it!"
 	},
 	
