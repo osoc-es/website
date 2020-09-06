@@ -41,4 +41,4 @@ function html(){
 gulp.task('sass', sass);
 gulp.task('html', html);
 gulp.task('serve', gulp.series('sass', 'html', serve));
-gulp.task('default', gulp.series('sass', 'html', serve));
+gulp.task('default', gulp.series('sass', 'html'));

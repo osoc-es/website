@@ -5,12 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio | Open Summer of Code</title>
+    
+<title class="i18n" data-i18n="home.title">...</title>
+
     <link rel="stylesheet" type="text/css" href="./css/app.css">
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C600%2C700%7COpen%2BSans%3A300%2C400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<!-- build:extrahead -->
 
     <meta name="description" content="Proyectos innovadores de código abierto desarrollados por estudiantes, mentores y organizaciones entusiastas.">
@@ -30,7 +32,7 @@
     <meta name="twitter:url" content="https://summerofcode.es/" />
 
 
-    <!-- FAVICONS -->
+    <!-- favicons (?) -->
     <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-touch-icon-72x72.png">
@@ -48,11 +50,107 @@
     <meta name="msapplication-TileColor" content="‪#FFFFFF">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="theme-color" content="‪#FFFFFF">
+    <style>
+			
+	.langflag img{
+		border: 1px solid black;
+		border-radius: 4px;
+		width: 30px;
+		margin-top: 6px;
+	}
+    
+    .langflag{
+		filter: grayscale(50%);
+		outline: none;
+		background:none !important;
+		padding: 0px 5px 0px 5px !important;
+		margin-right: 0px !important;
+    }
+    
+    .langflag:hover{
+		filter: grayscale(0%);
+		outline: none;
+		background:none !important;
+		padding: 0px 5px 0px 5px !important;
+		margin-right: 0px !important;
+    }
+    
+    .warning{
+		
+		position: fixed;
+		bottom: 10px;
+		left: 2%;
+		width: 96%;
+		background-color: rgba(255,250,250,1);
+		padding: 25px;
+		z-index: 10000;
+		border: 3px dashed rgba(255,50,50,1);
+		-webkit-box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
+		-moz-box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
+		box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
+		border-radius: 5px;
+		animation: heartbeat 10s infinite;
+
+	}
+	@keyframes heartbeat
+	{
+	  0% {
+		transform: scale( 1 );
+	  }
+	  
+	  40% {
+		transform: scale( 1 );
+	  }
+	  
+	  42% {
+		transform: scale( 0.90 );
+	  }
+	  
+	  44% {
+		transform: scale( 1 );
+	  }
+	  
+	  100% {
+		transform: scale( 1 );
+	  }
+	}
+	
+	.warning p{
+		margin: 0px !important;
+	}
+	
+	.warning-close{
+		position: absolute;
+		top:15px;
+		right:15px;
+		cursor: pointer;
+		
+	}
+
+    </style>
+    <script>
+    
+    function hide_warning(){
+		
+		document.getElementById("warning").style.display = 'none';
+		
+	}
+    
+    
+    </script>
   </head>
 
   <body onLoad="i18n_init();">
 	  
 	<!-- topbar -->
+	  
+	<div class="warning" id="warning">
+		<h3 class="i18n" data-i18n="warning.title"></h3>
+		<p class="i18n" data-i18n="warning.msg"></p>
+		<i class="fa fa-lg fa-window-close warning-close" onclick="hide_warning()" aria-hidden="true"></i>
+		<a href="https://online2020.summerofcode.es" class="i18n btn float-right btn-sm btn-outline-dark" role="button"  data-i18n="warning.button">Saber más...</a>
+	</div>
+
 	  
 	<div class="title-bar hide-for-large" data-responsive-toggle="nav-menu" data-hide-for="large">
       <div data-toggle="nav-menu">
@@ -63,6 +161,8 @@
 
     <div data-sticky-container>
       <div class="top-bar bs--darken-light" id="nav-menu" data-sticky data-options="marginTop:0;" style="width:100%">
+        
+        
         <div class="top-bar-left show-for-large"><a class="logo" href="index.html" data-hide-for="medium"><img src="img/logo/logo-osoc-color.svg" alt="open summer of code logo, very abstract, fun, but professional"></a>
          <a href="index.html"> <h1 class="osoctitle">Open Summer of Code</h1></a>
         </div>
@@ -74,9 +174,10 @@
             <li><a href="organizations.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.organizations"></a></li>
             <li><a href="coaches.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.coaches"></a></li>
             <li><a href="whoweare.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.whoweare"></a></li>
-            <li><a href="inscription.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.inscribe"></a></li>
             <li><a href="previous.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.previous"></a></li>
             <li><a href="practical.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.faq"></a></li>
+            <li><a href="inscription.html" class="button lowercase u-margin--right inscribe i18n" data-i18n="template.menu.inscribe"></a></li>
+            <li><a href="#" class="button lowercase u-margin--right langflag" onclick="switch_lang()"><img id="lang-flag" src=""></a></li>
           </ul>
         </div>
       </div>
@@ -88,10 +189,10 @@
     <div class="hero-intro">
       <div class="grid-x grid-padding-x">
         <div class="medium-8 large-7 cell">
-          <h2 class="hero-head i18n" data-i18n="home.wellcome1"></h2>
-          <h2 class="hero-description i18n" data-i18n="home.wellcome2"></h2>
+          <h2 class="hero-head i18n" data-i18n="home.wellcome1">...</h2>
+          <h2 class="hero-description i18n" data-i18n="home.wellcome2">...</h2>
         </div>
-         <div class="medium-10 large-5 cell large-offset-1">
+        <div class="medium-10 large-5 cell large-offset-1">
           <div class="osoc-float-element-o"></div>
           <div class="osoc-float-element-s"></div>
           <div class="osoc-float-element-o-small"></div>
@@ -107,19 +208,18 @@
         <div class="banner-text">
         <h3 class="amarillo">OPEN SUMMER OF CODE</h3>
       </div>
-      </div>
     </section>
 
     <div class="hero-themes">
       <div class="grid-x grid-padding-x grid-x--equal-height">
         <div class="small-12 medium-6 large-4 cell">
-          <h2 class="h3"><a href="students.html" class="i18n" data-i18n="[html]home.forstudents"></a></h2>
+          <h2 class="h3"><a href="students.html" class="i18n" data-i18n="[html]home.forstudents">...</a></h2>
         </div>
         <div class="small-12 medium-6 large-4 cell">
-          <h2 class="h3"><a href="organizations.html" class="i18n" data-i18n="[html]home.fororganizations"></a></h2>
+          <h2 class="h3"><a href="organizations.html" class="i18n" data-i18n="[html]home.fororganizations">...</a></h2>
         </div>
         <div class="small-12 medium-6 large-4 cell">
-          <h2 class="h3"><a href="coaches.html" class="i18n" data-i18n="[html]home.forcoaches"></a></h2>
+          <h2 class="h3"><a href="coaches.html" class="i18n" data-i18n="[html]home.forcoaches">...</a></h2>
         </div>
       </div>
     </div><!-- what is it -->
@@ -127,19 +227,23 @@
   <div class="wrapper_video">
     <div class="grid-x grid-padding-x align-middle" >
         <div class="small-12 medium-12 large-5 cell">
-			<h2 class="hero-title i18n" data-i18n="home.titlewhat"></h2>
-            <p class="intro-text u-margin-large--b i18n" data-i18n="[html]home.descwhat"></p>
+			<h2 class="hero-title i18n" data-i18n="home.titlewhat">...</h2>
+            <p class="intro-text i18n" data-i18n="[html]home.descwhat">...</p>
 				
         </div>
         
         <div class="small-12 medium-12 large-6 cell large-offset-1 right_item">
-	  <div class="video_container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/NVWFx9vktiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+			<div class="video_container">
+				<iframe class="video_home" src="https://www.youtube.com/embed/NVWFx9vktiQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 	  </div>
 
     </div>
   </div>
+  <div class="c-white">
+  <h2 class="hero-title i18n" data-i18n="home.titlestats">...</h2>
     <div class="grid-x c-brag">
+	  
       <div class="small-6 medium-4 large-auto cell">
         <div class="grid-x c-brag__component">
           <div class="small-12 medium-12 cell c-brag__component__label i18n" data-i18n="home.stats1-t"></div>
@@ -176,14 +280,16 @@
           <div class="small-12 medium-12 cell c-brag__component__counter i18n" data-i18n="home.stats5-b"></div>
         </div>
       </div>
-    </div><!-- partners  -->
-    <!-- <div class="c-partners">
+    </div>
+    </div>
+    
+    <div class=" c-grey">
         <h2 class="hero-title i18n" data-i18n="home.titlepartners"></h2>
         <div class="grid-x ">
             <div class="small-12 cell">
               <div class="grid-x partner_container align-center">
-                <div class="small-auto medium-auto cell "><a href="https://www.lilly.es/" target="_blank" class="vertical-align-container"><img class=" responsive" src="img/osoc19/logo_lilly.png"></a></div>
-                <div class="small-auto medium-auto cell "><a href="https://www.fundaciononce.es/" target="_blank" class="vertical-align-container"><img class=" responsive" src="img/osoc19/fundacion-logo.png"></a></div>
+                <div class="small-auto medium-auto cell "><a href="https://www.lilly.es/" target="_blank" class="vertical-align-container"><img class=" responsive" src="img/logo/partners/logo_lilly.png"></a></div>
+                <div class="small-auto medium-auto cell "><a href="https://www.fundaciononce.es/" target="_blank" class="vertical-align-container"><img class=" responsive" src="img/logo/partners/logo_fundacion_once.png"></a></div>
 
               </div>
             </div>
@@ -191,44 +297,68 @@
           <div class="grid-x align-center ">
             <div class="small-12 cell">
               <div class="grid-x partner_container">
-                  <div class="small-auto medium-auto cell"><a href="https://www.roctar.com/en/home" target="_blank" class="vertical-align-container"><img class="responsive p-2" src="img/osoc19/roctar.png"></a></div>
-                  <div class="small-auto medium-auto cell"><a href="https://www.snap-project.eu/" target="_blank" class="vertical-align-container"><img class="responsive p-2" src="img/osoc19/logo-snap.png"></a></div>
-                  <div class="small-auto medium-auto cell"><a href="https://socialdinapp-es.webnode.es/" target="_blank" class="vertical-align-container"><img class="responsive p-2" src="img/osoc19/socialdinapp.png"></a></div>
+                  <div class="small-auto medium-auto cell"><a href="https://www.roctar.com/en/home" target="_blank" class="vertical-align-container"><img class="responsive p-2" src="img/logo/partners/logo_roctar.png"></a></div>
+                  <div class="small-auto medium-auto cell"><a href="https://www.snap-project.eu/" target="_blank" class="vertical-align-container"><img class="responsive p-2" src="img/logo/partners/logo_snap.png"></a></div>
+                  <div class="small-auto medium-auto cell"><a href="https://www.socialdinapp.es/" target="_blank" class="vertical-align-container"><img class="responsive p-2" src="img/logo/partners/logo_socialdinapp.png"></a></div>
               </div>
             </div>
           </div>
-          <div class="grid-x align-center">
+          <div class="grid-x align-center ">
               <div class="small-12 cell">
                 <div class="grid-x partner_container">
-                    <div class="small-auto medium-auto cell"><a href="https://oasis.team/" target="_blank" class="vertical-align-container"><img class="responsive p-3" src="img/osoc19/logo_oasis.svg"></a></div>
-                    <div class="small-auto medium-auto cell"><a href="http://venus.datsi.fi.upm.es/inicio" target="_blank" class="vertical-align-container"><img class="responsive p-3" src="img/osoc19/logo_ofs.png"></a></div>
-                    <div class="small-auto medium-auto cell"><a href="http://lynx-project.eu/" target="_blank" class="vertical-align-container"><img class="responsive p-3" src="img/osoc19/lynx.png"></a></div>
+                    <div class="small-auto medium-auto cell"><a href="https://oasis.team/" target="_blank" class="vertical-align-container"><img class="responsive p-3" src="img/logo/partners/logo_oasis.png"></a></div>
+                    <div class="small-auto medium-auto cell"><a href="https://cslab-upm.github.io/" target="_blank" class="vertical-align-container"><img class="responsive p-3" src="img/logo/partners/logo_ofs.png"></a></div>
+                    <div class="small-auto medium-auto cell"><a href="http://lynx-project.eu/" target="_blank" class="vertical-align-container"><img class="responsive p-3" src="img/logo/partners/logo_lynx.png"></a></div>
                   </div>
               </div>
             </div>       
-    </div> -->
+    </div> 
 
-    <div class="c-partners">
-        <h2 class="hero-title i18n" data-i18n="home.titleorganizers"></h2>
+    <div class="c-grey">
+        <h2 class="hero-title i18n" data-i18n="home.titleorganizers">...</h2>
         <div class="grid-x ">
             <div class="small-12 cell">
               <div class="grid-x partner_container align-center">
-                  <div class="small-auto medium-auto cell"><a href="http://www.oeg-upm.net/" target="_blank" class="vertical-align-container"><img class="p-1 responsive" src="img/osoc19/logo_oeg1.png"></a></div>
-                  <div class="small-auto medium-auto cell"><a href="http://www.upm.es/" target="_blank" class="vertical-align-container"><img class="p-1 responsive" src="img/osoc19/logo_upm.png"></a></div>
-                  <div class="small-auto medium-auto cell"><a href="https://www.openknowledge.be/" target="_blank" class="vertical-align-container"><img class="responsive p-1 " src="img/osoc19/logo_okb1.png"></a></div>
+                  <div class="small-auto medium-auto cell">
+					  <a href="http://www.oeg-upm.net/" target="_blank" class="vertical-align-container">
+						  <img class="p-1 responsive" alt="Logo OEG" src="img/logo/orgs/logo_oeg.png">
+					  </a>
+				  </div>
+                  <div class="small-auto medium-auto cell">
+					  <a href="http://www.upm.es/" target="_blank" class="vertical-align-container">
+						  <img class="p-1 responsive" alt="Logo UPM" src="img/logo/orgs/logo_upm.png">
+					  </a>
+				  </div>
+                  <div class="small-auto medium-auto cell">
+					  <a href="http://www.dia.fi.upm.es/" target="_blank" class="vertical-align-container">
+						  <img class="p-1 responsive" alt="Logo DIA" src="img/logo/orgs/logo_dia.png">
+				      </a>
+				  </div>
                 </div>
             </div>
           </div>
     </div>
     
-    <div class="c-partners">
-         <h2 class="hero-title i18n" data-i18n="home.titlesupport"></h2>
+    <div class="c-grey">
+         <h2 class="hero-title i18n" data-i18n="home.titlesupport">...</h2>
         <div class="grid-x ">
             <div class="small-12 cell">
               <div class="grid-x partner_container align-center">
-				  <div class="small-auto medium-auto cell"><a href="https://www.openknowledge.be/" target="_blank" class="vertical-align-container"><img class="responsive p-1 " src="img/osoc19/logo_okb1.png"></a></div>
-                  <div class="small-auto medium-auto cell"><a href="http://madrid.theodi.org/" target="_blank" class="vertical-align-container"><img class="responsive p-1 " src="img/osoc19/logo_odi1.png"></a></div>
-                  <div class="small-auto medium-auto cell"><a href="http://www.lanavemadrid.com/" target="_blank" class="vertical-align-container"><img class="responsive p-1 " src="img/osoc19/logo_nave.png"></a></div>
+				  <div class="small-auto medium-auto cell">
+					  <a href="https://www.openknowledge.be/" target="_blank" class="vertical-align-container">
+						  <img class="responsive p-1" alt="Logo OKB" src="img/logo/orgs/logo_okb.png">
+				      </a>
+				  </div>
+                  <div class="small-auto medium-auto cell">
+					  <a href="http://madrid.theodi.org/" target="_blank" class="vertical-align-container">
+						  <img class="responsive p-1" alt="Logo ODI" src="img/logo/orgs/logo_odi.png">
+					  </a>
+				  </div>
+                  <div class="small-auto medium-auto cell">
+					  <a href="https://www.lanavemadrid.com/" target="_blank" class="vertical-align-container">
+						  <img class="responsive p-1" alt="Logo La Nave" src="img/logo/orgs/logo_nave.png">
+					  </a>
+				  </div>
                 </div>
             </div>
           </div>
@@ -239,23 +369,30 @@
 
     <footer>
       <div class="grid-x grid-padding-x">
-        <div class="small-12 medium-12 large-6 cell">
+        <div class="small-12 medium-12 large-5 cell">
 			
 			<!-- previous edition -->
 
           <div class="grid-x c-previous-editions">            
-            <div class="small-3 medium-auto cell"><a href="http://2013.summerofcode.be" target="_blank">2013</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2014.summerofcode.be" target="_blank">2014</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2015.summerofcode.be" target="_blank">2015</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2016.summerofcode.be" target="_blank">2016</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2017.summerofcode.be" target="_blank">2017</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2018.summerofcode.es/" target="_blank">2018</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2019.summerofcode.es/" target="_blank">2019</a></div>
+            <div class="small-2 medium-auto cell">
+				<a href="http://2013.summerofcode.be" target="_blank">2013</a><br>
+				<a href="http://2014.summerofcode.be" target="_blank">2014</a><br>
+				<a href="http://2015.summerofcode.be" target="_blank">2015</a>
+			</div>
+            <div class="small-2 medium-auto cell">
+				<a href="http://2016.summerofcode.be" target="_blank">2016</a><br>
+				<a href="http://2017.summerofcode.be" target="_blank">2017</a><br>
+				<a href="http://2018.summerofcode.es" target="_blank">2018</a>
+			</div>
+            <div class="small-2 medium-auto cell">
+				<a href="http://2019.summerofcode.es" target="_blank">2019</a><br>
+				<a href="http://2020.summerofcode.es" target="_blank">2020</a>
+			</div>
           </div>
 
         </div>        
 
-        <div class="small-12 medium-12 large-6 cell">
+        <div class="small-12 medium-12 large-5 cell">
           <div class="grid-x grid-padding-x">
             <!-- links -->
                     <div class="small-4 medium-4 cell">
@@ -277,6 +414,9 @@
                                 <a href="whoweare.html" class="i18n" data-i18n="template.menu.whoweare"></a>
                             </li>
                             <li>
+                                <a href="practical.html" class="i18n" data-i18n="template.menu.previous"></a>
+                            </li>
+                            <li>
                                 <a href="practical.html" class="i18n" data-i18n="template.menu.faq"></a>
                             </li>
                         </ul>
@@ -292,33 +432,39 @@
           </div>
         </div>
 
+		<div class="small-12 medium-12 large-2 cell text-center">
+			<img class="global-goals" src="img/logo/other/global-goals-logo.png" alt="Sustainable Development Goals logo">
+		</div>
 
         <div class="small-12 medium-12 large-12 cell">
-          <!--<p class="i18n" data-i18n="[html]template.footer.poweredby"></p> -->
-          <p class="i18n source" data-i18n="[html]template.footer.source"></p>
+        <p class="i18n source" data-i18n="[html]template.footer.source"></p>
         </div>
       </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/foundation.js"></script>
     
     <!-- i18n -->
-    <script src="https://unpkg.com/i18next/i18next.js"></script>
+    <script src="./js/i18next.js"></script>
     <script src="./js/jquery-i18next.min.js"></script>
-	<script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
-	<script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
+	<script src="./js/i18nextXHRBackend.js"></script>
+	<script src="./js/i18nextBrowserLanguageDetector.js"></script>
 
     <script src="./js/app.js"></script>
     <script src="./js/i18n.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+    
 	<!-- Global site tag (gtag.js) - Google Analytics -->
+
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134746082-1"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-
 	  gtag('config', 'UA-134746082-1');
 	</script>
 	</body>
+	
 </html>

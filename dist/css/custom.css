@@ -456,13 +456,13 @@ color: #fcb70e;
 }
 
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+  color: #007bb5;
+  /*color: white; */
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+  /* background: #55ACEE; */
+  color: #55ACEE;
 }
 
 /* Popup container - can be anything you want */
@@ -723,7 +723,13 @@ margin-top: 0.85rem;
 /*media*/
  /*mapa*/
 
-#mapid { height: 180px; }
+.map-site { 
+
+	height: 700px;
+	min-width: 400px;
+	z-index: 1;
+
+}
 	
 	
 .responsive{

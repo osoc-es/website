@@ -5,12 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiénes somos | Open Summer of Code</title>
+    
+<title class="i18n" data-i18n="whoweare.title"></title>
+
     <link rel="stylesheet" type="text/css" href="./css/app.css">
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C600%2C700%7COpen%2BSans%3A300%2C400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<!-- build:extrahead -->
 
     <meta name="description" content="Proyectos innovadores de código abierto desarrollados por estudiantes, mentores y organizaciones entusiastas.">
@@ -30,7 +32,7 @@
     <meta name="twitter:url" content="https://summerofcode.es/" />
 
 
-    <!-- FAVICONS -->
+    <!-- favicons (?) -->
     <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-touch-icon-72x72.png">
@@ -48,11 +50,107 @@
     <meta name="msapplication-TileColor" content="‪#FFFFFF">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="theme-color" content="‪#FFFFFF">
+    <style>
+			
+	.langflag img{
+		border: 1px solid black;
+		border-radius: 4px;
+		width: 30px;
+		margin-top: 6px;
+	}
+    
+    .langflag{
+		filter: grayscale(50%);
+		outline: none;
+		background:none !important;
+		padding: 0px 5px 0px 5px !important;
+		margin-right: 0px !important;
+    }
+    
+    .langflag:hover{
+		filter: grayscale(0%);
+		outline: none;
+		background:none !important;
+		padding: 0px 5px 0px 5px !important;
+		margin-right: 0px !important;
+    }
+    
+    .warning{
+		
+		position: fixed;
+		bottom: 10px;
+		left: 2%;
+		width: 96%;
+		background-color: rgba(255,250,250,1);
+		padding: 25px;
+		z-index: 10000;
+		border: 3px dashed rgba(255,50,50,1);
+		-webkit-box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
+		-moz-box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
+		box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.54);
+		border-radius: 5px;
+		animation: heartbeat 10s infinite;
+
+	}
+	@keyframes heartbeat
+	{
+	  0% {
+		transform: scale( 1 );
+	  }
+	  
+	  40% {
+		transform: scale( 1 );
+	  }
+	  
+	  42% {
+		transform: scale( 0.90 );
+	  }
+	  
+	  44% {
+		transform: scale( 1 );
+	  }
+	  
+	  100% {
+		transform: scale( 1 );
+	  }
+	}
+	
+	.warning p{
+		margin: 0px !important;
+	}
+	
+	.warning-close{
+		position: absolute;
+		top:15px;
+		right:15px;
+		cursor: pointer;
+		
+	}
+
+    </style>
+    <script>
+    
+    function hide_warning(){
+		
+		document.getElementById("warning").style.display = 'none';
+		
+	}
+    
+    
+    </script>
   </head>
 
   <body onLoad="i18n_init();">
 	  
 	<!-- topbar -->
+	  
+	<div class="warning" id="warning">
+		<h3 class="i18n" data-i18n="warning.title"></h3>
+		<p class="i18n" data-i18n="warning.msg"></p>
+		<i class="fa fa-lg fa-window-close warning-close" onclick="hide_warning()" aria-hidden="true"></i>
+		<a href="https://online2020.summerofcode.es" class="i18n btn float-right btn-sm btn-outline-dark" role="button"  data-i18n="warning.button">Saber más...</a>
+	</div>
+
 	  
 	<div class="title-bar hide-for-large" data-responsive-toggle="nav-menu" data-hide-for="large">
       <div data-toggle="nav-menu">
@@ -63,6 +161,8 @@
 
     <div data-sticky-container>
       <div class="top-bar bs--darken-light" id="nav-menu" data-sticky data-options="marginTop:0;" style="width:100%">
+        
+        
         <div class="top-bar-left show-for-large"><a class="logo" href="index.html" data-hide-for="medium"><img src="img/logo/logo-osoc-color.svg" alt="open summer of code logo, very abstract, fun, but professional"></a>
          <a href="index.html"> <h1 class="osoctitle">Open Summer of Code</h1></a>
         </div>
@@ -74,9 +174,10 @@
             <li><a href="organizations.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.organizations"></a></li>
             <li><a href="coaches.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.coaches"></a></li>
             <li><a href="whoweare.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.whoweare"></a></li>
-            <li><a href="inscription.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.inscribe"></a></li>
             <li><a href="previous.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.previous"></a></li>
             <li><a href="practical.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.faq"></a></li>
+            <li><a href="inscription.html" class="button lowercase u-margin--right inscribe i18n" data-i18n="template.menu.inscribe"></a></li>
+            <li><a href="#" class="button lowercase u-margin--right langflag" onclick="switch_lang()"><img id="lang-flag" src=""></a></li>
           </ul>
         </div>
       </div>
@@ -88,7 +189,7 @@
 		<header class="hero-detail u-padding-x-large--tb">
 			<div class="grid-x grid-padding-x">
 				<div class="medium-4 medium-offset-0 large-4 cell">
-					<h1 class="hero-head i18n" data-i18n="[html]whoweare.title"></h1>
+					<h1 class="hero-head i18n" data-i18n="[html]whoweare.stitle"></h1>
 				</div>
 
 				<div class="medium-6 medium-offset-0 large-5 cell large-offset-1">
@@ -104,96 +205,83 @@
 
         <article class="member1">
             <div class="memberimg">
-            <img src="img/osoc19/david.png" class="u-margin--b oeg" alt="David Chaves Fraga">
+				<img src="img/whoweare/david.png" class="u-margin--b oeg" alt="David Chaves Fraga">
             </div>
             <h3>David Chaves Fraga</h3>
-
             <h4 class="i18n" data-i18n="whoweare.david1"></h4>
             <p class="i18n" data-i18n="whoweare.david2"></p>
-            <a href="https://twitter.com/dchavesf" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/david-chaves-fraga/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://twitter.com/dchavesf" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/david-chaves-fraga/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </article>
+
 
         <article class="member2">
             <div class="memberimg">
-            <img src="img/osoc19/carlos.png" class="u-margin--b oeg" alt="Carlos Badenes Olmedo">
-            </div>
-            <h3>Carlos Badenes Olmedo</h3>
-            <h4 class="i18n" data-i18n="whoweare.carlos1"></h4>
-            <p class="i18n" data-i18n="whoweare.carlos2"></p>
-            <a href="https://twitter.com/carbadol" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/cbadenes" class="fa fa-linkedin" target="_blank"></a>
-        </article>
-
-        <article class="member3">
-            <div class="memberimg">
-            <img src="img/osoc19/esteban.png" class="u-margin--b oeg" alt="Esteban González Guardia">
+				<img src="img/whoweare/esteban.png" class="u-margin--b oeg" alt="Esteban González Guardia">
             </div>
             <h3>Esteban González Guardia</h3>
             <h4 class="i18n" data-i18n="whoweare.esteban1"></h4>
             <p class="i18n" data-i18n="whoweare.esteban2"></p>
-            <a href="https://twitter.com/eglezguardia" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/cbadenes" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://twitter.com/eglezguardia" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/cbadenes" target="_blank"><i class="fab fa-linkedin"></i></a>
         </article>
 
-        <article class="member4">
+        <article class="member3">
             <div class="memberimg">
-            <img src="img/osoc19/patricia.png" class="u-margin--b oeg" alt="Patricia Martín Chozas">
+				<img src="img/whoweare/patricia.png" class="u-margin--b oeg" alt="Patricia Martín Chozas">
             </div>
             <h3>Patricia Martín Chozas</h3>
             <h4 class="i18n" data-i18n="whoweare.patricia1"></h4>
             <p class="i18n" data-i18n="whoweare.patricia2"></p>
-            <a href="https://twitter.com/pmchozas" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/pmchozas" class="fa fa-linkedin" target="_blank"></a>
-            </div>
-
+            <a href="https://twitter.com/pmchozas" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/pmchozas" target="_blank"><i class="fab fa-linkedin"></i></a>
         </article>
 
-        <article class="member5">
-            <div class="memberimg">
-            <img src="img/osoc19/adolfo.png" class="u-margin--b oeg" alt="Adolfo Antón">
-            </div>
-            <h3>Adolfo Antón Bravo</h3>
-            <h4 class="i18n" data-i18n="whoweare.adolfo1"></h4>
-            <p class="i18n" data-i18n="whoweare.adolfo2"></p>
-            <a href="https://twitter.com/adolflow" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/adolfoantonbravo" class="fa fa-linkedin" target="_blank"></a>
-            </div>
-        
-        </article>
 
-        <article class="member6">
+        <article class="member4">
             <div class="memberimg">
-            <img src="img/osoc19/flora.png" class="u-margin--b oeg" alt="Flora Fosset">
+				<img src="img/whoweare/flora.png" class="u-margin--b oeg" alt="Flora Fosset">
             </div>
             <h3>Flora Fosset</h3>
             <h4 class="i18n" data-i18n="whoweare.flora1"></h4>
             <p class="i18n" data-i18n="whoweare.flora2"></p>
-            <a href="https://twitter.com/florafosset" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/florafosset/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://twitter.com/florafosset" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/florafosset/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </article>
 
-        <article class="member7">
+        <article class="member5">
             <div class="memberimg">
-            <img src="img/osoc19/juan.png" class="u-margin--b oeg" alt="Juan Utande">
+				<img src="img/whoweare/juan.png" class="u-margin--b oeg" alt="Juan Utande">
             </div>
             <h3>Juan Utande</h3>
             <h4 class="i18n" data-i18n="whoweare.juan1"></h4>
             <p class="i18n" data-i18n="whoweare.juan2"></p>
-            </div>   
-            <a href="https://twitter.com/jutande" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/juan-utande/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://twitter.com/jutande" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/juan-utande/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </article>
-        <article class="member8">
+        
+        <article class="member6">
             <div class="memberimg">
-            <img src="img/osoc19/virginia.png" class="u-margin--b oeg" alt="Vicky de Pablo">
+				<img src="img/whoweare/virginia.png" class="u-margin--b oeg" alt="Vicky de Pablo">
             </div>
             <h3>Vicky de Pablo</h3>
             <h4 class="i18n" data-i18n="whoweare.vicky1"></h4>
             <p class="i18n" data-i18n="whoweare.vicky2"></p>
-            <a href="https://twitter.com/v_depablo" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/vdepablo/" class="fa fa-linkedin" target="_blank"></a>
-        </article>        
+            <a href="https://twitter.com/v_depablo" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/vdepablo/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </article>
+        
+        
+        <article class="member7">
+            <div class="memberimg">
+				<img src="img/whoweare/edna.png" class="u-margin--b oeg" alt="Edna Ruckhaus">
+            </div>
+            <h3>Edna Ruckhaus</h3>
+            <h4 class="i18n" data-i18n="whoweare.edna1"></h4>
+            <p class="i18n" data-i18n="whoweare.edna2"></p>
+            <a href="https://twitter.com/eruckhaus" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://es.linkedin.com/in/ednaruckhaus" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </article>       
     </section>
 <!-- info partners -->
     <section class="partners_wrapper clearfix">
@@ -204,7 +292,7 @@
             <h3>Ontology Engineering Group</h3>
             </div>
             <div class="imgcontainer">
-            <img src="img/osoc19/logo_oeg.jpg" class="u-margin--b oeg" alt="Logo OEG">
+            <img src="img/logo/orgs/logo_oeg.png" class="u-margin--b oeg" alt="Logo OEG">
             </div>
             <p class="i18n" data-i18n="whoweare.oeg"></p>
         
@@ -215,7 +303,7 @@
             <h3>Open Data Institute</h3>
             </div>
             <div class="imgcontainer">
-            <img src="img/osoc19/logo_odimadrid.png" class="u-margin--b" alt="Logo ODI">
+            <img src="img/logo/orgs/logo_odi.png" class="u-margin--b" alt="Logo ODI">
             </div>
             <p class="i18n" data-i18n="whoweare.odi"></p>
         </article>
@@ -225,7 +313,7 @@
             <h3>Universidad Politécnica de Madrid</h3>
             </div>
             <div class="imgcontainer">
-            <img src="img/osoc19/logo_upm.png" class="u-margin--b" alt="Logo UPM">
+            <img src="img/logo/orgs/logo_upm.png" class="u-margin--b" alt="Logo UPM">
             </div>
             <p class="i18n" data-i18n="whoweare.upm"></p>
         </article>
@@ -234,38 +322,41 @@
             <h3>Open Knowledge Belgium</h3>
             </div>
             <div class="imgcontainer">
-            <img src="img/osoc19/logo_okb.png" class="u-margin--b" alt="Logo Open Knowledge Belgium">
+            <img src="img/logo/orgs/logo_okb.png" class="u-margin--b" alt="Logo Open Knowledge Belgium">
             </div>
             <p class="i18n" data-i18n="whoweare.okb"></p>
-            </div>
-
         </article>
     </section>
-
-</div>
 
 
     
 
     <footer>
       <div class="grid-x grid-padding-x">
-        <div class="small-12 medium-12 large-6 cell">
+        <div class="small-12 medium-12 large-5 cell">
 			
 			<!-- previous edition -->
 
           <div class="grid-x c-previous-editions">            
-            <div class="small-3 medium-auto cell"><a href="http://2013.summerofcode.be" target="_blank">2013</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2014.summerofcode.be" target="_blank">2014</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2015.summerofcode.be" target="_blank">2015</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2016.summerofcode.be" target="_blank">2016</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2017.summerofcode.be" target="_blank">2017</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2018.summerofcode.es/" target="_blank">2018</a></div>
-            <div class="small-3 medium-auto cell"><a href="http://2019.summerofcode.es/" target="_blank">2019</a></div>
+            <div class="small-2 medium-auto cell">
+				<a href="http://2013.summerofcode.be" target="_blank">2013</a><br>
+				<a href="http://2014.summerofcode.be" target="_blank">2014</a><br>
+				<a href="http://2015.summerofcode.be" target="_blank">2015</a>
+			</div>
+            <div class="small-2 medium-auto cell">
+				<a href="http://2016.summerofcode.be" target="_blank">2016</a><br>
+				<a href="http://2017.summerofcode.be" target="_blank">2017</a><br>
+				<a href="http://2018.summerofcode.es" target="_blank">2018</a>
+			</div>
+            <div class="small-2 medium-auto cell">
+				<a href="http://2019.summerofcode.es" target="_blank">2019</a><br>
+				<a href="http://2020.summerofcode.es" target="_blank">2020</a>
+			</div>
           </div>
 
         </div>        
 
-        <div class="small-12 medium-12 large-6 cell">
+        <div class="small-12 medium-12 large-5 cell">
           <div class="grid-x grid-padding-x">
             <!-- links -->
                     <div class="small-4 medium-4 cell">
@@ -287,6 +378,9 @@
                                 <a href="whoweare.html" class="i18n" data-i18n="template.menu.whoweare"></a>
                             </li>
                             <li>
+                                <a href="practical.html" class="i18n" data-i18n="template.menu.previous"></a>
+                            </li>
+                            <li>
                                 <a href="practical.html" class="i18n" data-i18n="template.menu.faq"></a>
                             </li>
                         </ul>
@@ -302,33 +396,39 @@
           </div>
         </div>
 
+		<div class="small-12 medium-12 large-2 cell text-center">
+			<img class="global-goals" src="img/logo/other/global-goals-logo.png" alt="Sustainable Development Goals logo">
+		</div>
 
         <div class="small-12 medium-12 large-12 cell">
-          <!--<p class="i18n" data-i18n="[html]template.footer.poweredby"></p> -->
-          <p class="i18n source" data-i18n="[html]template.footer.source"></p>
+        <p class="i18n source" data-i18n="[html]template.footer.source"></p>
         </div>
       </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/foundation.js"></script>
     
     <!-- i18n -->
-    <script src="https://unpkg.com/i18next/i18next.js"></script>
+    <script src="./js/i18next.js"></script>
     <script src="./js/jquery-i18next.min.js"></script>
-	<script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
-	<script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
+	<script src="./js/i18nextXHRBackend.js"></script>
+	<script src="./js/i18nextBrowserLanguageDetector.js"></script>
 
     <script src="./js/app.js"></script>
     <script src="./js/i18n.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+    
 	<!-- Global site tag (gtag.js) - Google Analytics -->
+
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134746082-1"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-
 	  gtag('config', 'UA-134746082-1');
 	</script>
 	</body>
+	
 </html>

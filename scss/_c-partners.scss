@@ -1,14 +1,16 @@
-.c-partners {
+.c-white {
+
+	background-color: $white;
+	padding: 1rem 30px;
+
+}
+
+.c-grey {
+
+	margin-top: 25px;
+
 	background-color: $lighter-gray;
-	padding: 1rem 0;
-
-	@include breakpoint(medium) {
-		padding: 0;
-	}
-
-	@include breakpoint(large) {
-		padding: 1rem;
-	}
+	padding: 1rem 30px;
 
 	.grid-x > .cell {
 		display: flex;
@@ -31,7 +33,7 @@
 		width: auto;
 		height: auto;
 		max-height: 3rem;
-		filter: grayscale(100%);
+		filter: sepia(100%) opacity(40%);
 		opacity: 0.8;
 		transition: all 300ms;
 
