@@ -45,7 +45,7 @@ function i18n_init(){
 	{
 		fallbackLng: 'en',
 		backend: {
-			loadPath: './../locales/{{lng}}.json?mierdadecache=aversiasifunciona'
+			loadPath: './../locales/{{lng}}.json?rnd='+Math.random()
 		}
 	};
 
