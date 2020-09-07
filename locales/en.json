@@ -27,7 +27,7 @@
 		"forcoaches": "For <br> coaches",
 		"titlewhat": "What is oSoc?",
 		"descwhat": "A four-week programme that helps <b>students</b> from Spanish universities <b>develop innovation projects</b> for companies and organisations to transform them in <b>useful services for our society</b>.",
-		"titlestats": "In the previous edition...",
+		"titlestats": "On previous editions...",
 		"stats1-t": "we had",
 		"stats1-b": "students",
 		"stats2-t": "from",
@@ -79,7 +79,7 @@
 		"list": "developers <br> designers <br> engineers <br> business analysts <br> data scientists <br> and other digital profiles",
 		"titlecoach": "You don't need to be a teacher to share your knowledge.",
 		"descl1": "If you are interested in technological innovation and its applications in society, come and <b>tell us your experience.</b>",
-		"descl2": "You'll definitely learn a lot! <b>To be a coach in #oSoc20</b>, send us an e-mail to <u>osocspain@gmail.com</u>.",
+		"descl2": "You'll definitely learn a lot! <b>To be a coach in #oSoc21</b>, send us an e-mail to <u>osocspain@gmail.com</u>.",
 		"descr1": "The students need someone to teach them what cannot be learnt at the university. This is your opportunity to <strong>share your knowledge</strong>, support the community, develop new skills and expand your network.",
 		"descr2": "You can be the coach of a group of students with different profiles and a lot of talent. You may even want to hire some of them!",
 		"descr3": "<a href='practical.html'>Visit our FAQ</a> for more info or send us an e-mail <u>osocspain@gmail.com</u></a>.",
@@ -118,7 +118,7 @@
 		
 		"title": "Registration | Open Summer of Code",
 		"stitle": "Registration",
-		"msg": "Registration for oSoc 2020 is closed!"
+		"msg": "We are already working on the 2021 edition! Two months before its start we will open the registration period. Stay tuned!"
 		
 	},
 	
@@ -164,48 +164,48 @@
 		
 		"general": {
 			
-			"q1": "Is #oSoc20 a face-to-face activity? Do we have to be in La Nave during the duration of the event?",
-			"a1": "Yes, #oSoc20 is a job. That's how it has been designed. To participate in the development of the proposed projects, the team has to work face-to-face in order to learn new skills and apply them in the team project.",
-			"q2": "Is #oSoc20 training programme?",
+			"q1": "Is #oSoc21 a face-to-face activity? Do we have to be in La Nave during the duration of the event?",
+			"a1": "Yes, #oSoc21 is a job. That's how it has been designed. To participate in the development of the proposed projects, the team has to work face-to-face in order to learn new skills and apply them in the team project.",
+			"q2": "Is #oSoc21 training programme?",
 			"a2": "Yes. It is a method apply the knowledge acquired during the career. You will learn to manage and develop the proposed project and test your skills with a coach that will guide you through the whole programme.",
-			"q3": "What is #oSoc20?",
-			"a3": "#oSoc20 is a programme to find talented University students. It is thought to help students from different universities join efforts on the same project, interchanging experiments and knowledge to apply it to the business area.",
-			"q4": "Does #oSoc20 have any contractual obligation?",
-			"a40": "Yes. If the students are committed to participate in the programme, they must attend and develop the project for which they have been selected, under the signed established conditions, since the students will get a remuneration for their work at #oSoc20.",
-			"a41": "In addition to this amount, #oSoc20 helps the students expand their network, acquire experience in multidisciplinary projects and learn new skills.",
+			"q3": "What is #oSoc21?",
+			"a3": "#oSoc21 is a programme to find talented University students. It is thought to help students from different universities join efforts on the same project, interchanging experiments and knowledge to apply it to the business area.",
+			"q4": "Does #oSoc21 have any contractual obligation?",
+			"a40": "Yes. If the students are committed to participate in the programme, they must attend and develop the project for which they have been selected, under the signed established conditions, since the students will get a remuneration for their work at #oSoc21.",
+			"a41": "In addition to this amount, #oSoc21 helps the students expand their network, acquire experience in multidisciplinary projects and learn new skills.",
 			"q5": "Will the company own the code developed by the students?",
 			"a5": "No. Everything is open source. However, a licence can be agreed.",
-			"q6": "Where can I find more information about #oSoc20? How can I explain my classmates what is #oSoc20?",
+			"q6": "Where can I find more information about #oSoc21? How can I explain my classmates what is #oSoc21?",
 			"a6": "You can download brochures and images from our website. Follow us on Twitter (@oSocode_es) and Instagram (@oSocode_es). Retweet and stay tuned.",
 			"q7": "Can I be student and coach at the same time?",
-			"a7": "They are different profiles, but if there are advanced students (that already finished their studies and have some professional experience) can act as coaches of their teams. Students will be part of their assigned team –information about this will be given before the start of the programme–, and coaches will guide each team throughout the whole #oSoc20, giving special attention to their specific team.",
-			"q8": "Can I contact #oSoc20 if I have more doubts?",
+			"a7": "They are different profiles, but if there are advanced students (that already finished their studies and have some professional experience) can act as coaches of their teams. Students will be part of their assigned team –information about this will be given before the start of the programme–, and coaches will guide each team throughout the whole #oSoc21, giving special attention to their specific team.",
+			"q8": "Can I contact #oSoc21 if I have more doubts?",
 			"a8": "Yes. Use our e-mail address <u>osocspain@gmail.com</u> at any time. For any doubt. Don't think twice."
 	
 		},
 		
 		"students": {
 			
-			"q1": "When can I register at #oSoc20?",
-			"a1": "Now. <strike>Whenever you want, you only have to fill this form in.</strike> (Registration for #oSoc20 is still closed). Once we receive the form, we will contact you via e-mail to tell you about the next steps.",
-			"q2": "Do I need a specific profile to participate at #oSoc20?",
+			"q1": "When can I register at #oSoc21?",
+			"a1": "Now. <strike>Whenever you want, you only have to fill this form in.</strike> (Registration for #oSoc21 is still closed). Once we receive the form, we will contact you via e-mail to tell you about the next steps.",
+			"q2": "Do I need a specific profile to participate at #oSoc21?",
 			"a2": "Yes. We expect you to have advanced knowledge of your area of expertise. You must be a university student. However, you don't need to study a specific topic: students from Technology, Sciences and Humanities are very welcome.",
-			"q3": "How many students are assigned to each #oSoc20? project?",
+			"q3": "How many students are assigned to each #oSoc21? project?",
 			"a3": "It depends on the type of project and on the company needs. Minimum number is two and the maximum fixed according to the needs of each year's project.",
-			"q4": "What are the requirements to participate in #oSoc20?",
-			"a4": "You have to be +18 and studying at the university (bachelor's or master's degree) If you have recently finished your studies, you can also participate in #oSoc20.",
+			"q4": "What are the requirements to participate in #oSoc21?",
+			"a4": "You have to be +18 and studying at the university (bachelor's or master's degree) If you have recently finished your studies, you can also participate in #oSoc21.",
 			"q5": "When and how will I be informed of the acceptance in the programme?",
 			"a5": "We will ask for your personal data in your registration, including the telephone number, to call you and confirm your participation. This way, we'll establish the conditions, requirements and skills for the sake of your team and the programme. We will contact you with enough time to organise your summer.",
 			"q6": "Can I propose my own project?",
-			"a6": "No. #oSoc20 is composed of projects proposed by start-ups, that have already been defined in previous meetings. Then we assign each project to appropriate student profiles."
+			"a6": "No. #oSoc21 is composed of projects proposed by start-ups, that have already been defined in previous meetings. Then we assign each project to appropriate student profiles."
 			
 			
 		},
 		
 		"organizations": {
 			
-			"q1": "Why #oSoc20 has a reduced cost?",
-			"a1": "Our projects are developed by students that get a remuneration for developing what they learnt at the university and their personal skills. Companies give them economic support and decide if they want to continue developing the project once #oSoc20 is finished.",
+			"q1": "Why #oSoc21 has a reduced cost?",
+			"a1": "Our projects are developed by students that get a remuneration for developing what they learnt at the university and their personal skills. Companies give them economic support and decide if they want to continue developing the project once #oSoc21 is finished.",
 
 			"q2": "What shouldn't we take the students to our headquarters?",
 			"a2": "With Open Summer of Code you can focus on what matters: co-create a digital solution to cover your expectations and allow the growth of your company or organisation. We take care of everything else. <br>We create the best environment for the development of the students' work, with the aim of presenting the project at the DemoDay, celebrated the last day of the programme. Also, we think that having all the students working together improves the acquisition of new knowledge and assures the achievement of the objectives.",
@@ -219,10 +219,10 @@
 			"q5": "What do we do with the results of the project?",
 			"a5": "Open Summer of Code has been designed with the goal of promoting open science; that's why the code developed in the programme will be published in GitHub when the event finishes. The organisation guarantees the anonymity of the data and previous developments of the collaborating organisation.",
 
-			"q6": "What happens if #oSoc20 ends but the project is not finished?",
+			"q6": "What happens if #oSoc21 ends but the project is not finished?",
 			"a6": "Our aim is to go create a student team according to the needs of the project to avoid this kind of situations. However, there always are some issues during the development. The team, both students and coaches will work to minimize the impact of such issues to the minimum.",
 						
-			"q7": "Will the companies be able to hire #oSoc20 students?",
+			"q7": "Will the companies be able to hire #oSoc21 students?",
 			"a7": "Yes. In fact, that's one of our objectives: easing the employability of the participating students, bringing talent to companies."
 						
 		},
@@ -231,9 +231,9 @@
 
 			"q1": "Can I register as a coach of a team?",
 			"a1": "Yes. Send us an e-mail to <u>osocspain@gmail.com</u> and tell us about your experience, your area of expertise and the tasks you feel more comfortable with: development, design, economy... We will contact you to establish the basis of the possible collaboration.",
-			"q2": "What would be my duties as a coach of #oSoc20?",
+			"q2": "What would be my duties as a coach of #oSoc21?",
 			"a2": "Give advice to the student team(s) assigned during the duration of the programme. Also, you'll have to check that the guidelines are implemented in order to respect the deadlines.",
-			"q3": "What are the benefits of being coach at #oSoc20?",
+			"q3": "What are the benefits of being coach at #oSoc21?",
 			"a3": "Expanding your CV with innovation projects, contacting innovation companies and networking."
 			
 		},

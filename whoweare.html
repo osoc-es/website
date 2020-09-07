@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C600%2C700%7COpen%2BSans%3A300%2C400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
 	<!-- build:extrahead -->
 
     <meta name="description" content="Proyectos innovadores de código abierto desarrollados por estudiantes, mentores y organizaciones entusiastas.">
@@ -78,6 +78,7 @@
     .warning{
 		
 		position: fixed;
+		display: none;
 		bottom: 10px;
 		left: 2%;
 		width: 96%;
@@ -144,12 +145,14 @@
 	  
 	<!-- topbar -->
 	  
-	<div class="warning" id="warning">
+	<!-- <div class="warning" id="warning">
 		<h3 class="i18n" data-i18n="warning.title"></h3>
 		<p class="i18n" data-i18n="warning.msg"></p>
 		<i class="fa fa-lg fa-window-close warning-close" onclick="hide_warning()" aria-hidden="true"></i>
 		<a href="https://online2020.summerofcode.es" class="i18n btn float-right btn-sm btn-outline-dark" role="button"  data-i18n="warning.button">Saber más...</a>
 	</div>
+	
+	-->
 
 	  
 	<div class="title-bar hide-for-large" data-responsive-toggle="nav-menu" data-hide-for="large">
@@ -365,7 +368,7 @@
                                 <a href="students.html" class="i18n" data-i18n="template.menu.students"></a>
                             </li>
                             <li>
-                                <a href="companies.html" class="i18n" data-i18n="template.menu.organizations"></a>
+                                <a href="organizations.html" class="i18n" data-i18n="template.menu.organizations"></a>
                             </li>
                             <li>
                                 <a href="coaches.html" class="i18n" data-i18n="template.menu.coaches"></a>
@@ -378,7 +381,7 @@
                                 <a href="whoweare.html" class="i18n" data-i18n="template.menu.whoweare"></a>
                             </li>
                             <li>
-                                <a href="practical.html" class="i18n" data-i18n="template.menu.previous"></a>
+                            <!--    <a href="practical.html" class="i18n" data-i18n="template.menu.previous"></a> -->
                             </li>
                             <li>
                                 <a href="practical.html" class="i18n" data-i18n="template.menu.faq"></a>
@@ -389,7 +392,7 @@
                     <!-- contact --><div class="small-4 medium-4 cell">
                 <ul class="inline-list">
                 <li><a href="https://twitter.com/osocode_es" target="_blank">Twitter</a></li>
-                <li><a href="https://www.facebook.com/osocspain" target="_blank">Facebook</a></li>
+                <!-- <li><a href="https://www.facebook.com/osocspain" target="_blank">Facebook</a></li> -->
                 <li><a href="https://www.instagram.com/osocode_es/" target="_blank">Instagram</a></li>
               </ul>
             </div>
@@ -397,7 +400,9 @@
         </div>
 
 		<div class="small-12 medium-12 large-2 cell text-center">
-			<img class="global-goals" src="img/logo/other/global-goals-logo.png" alt="Sustainable Development Goals logo">
+			<a href="https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/" >
+				<img class="global-goals" src="img/logo/other/global-goals-logo.png" alt="Sustainable Development Goals logo">
+			</a>
 		</div>
 
         <div class="small-12 medium-12 large-12 cell">
