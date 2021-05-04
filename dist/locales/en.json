@@ -83,7 +83,7 @@
 		
 		"title": "Registration | Open Summer of Code",
 		"stitle": "Registration",
-		"msg": "Registration for oSoc 2020 is closed!</a>"
+		"msg": "Registration for oSoc 2020 is now open: <a href='https://docs.google.com/forms/d/e/1FAIpQLSeHt8x1hlebMmc1mqox2JSTlkYzrYvodOj5ccVApROASVpazg/viewform'>goto inscription;</a></a>"
 		
 	},
 	
@@ -98,27 +98,27 @@
 		
 		"general": {
 			
-			"q1": "Is #oSoc20 a virtual programme?",
-			"a1": "Yes, oSoc 2020 will be online. This is how we have designed it. Participants must be virtually present (slack, skype, etc.) in order to take part in the proposed projects. We’ll schedule daily calls to organize the work, update on the progress, chat amongst the participants and ask any doubt we may have. During the day, the members of each team, including coaches, will be online for any doubt or project-specific comment.",
-			"q2": "Is #oSoc20 a training programme?",
+			"q1": "Is #oSoc21 a virtual programme?",
+			"a1": "Yes, oSoc 2021 will be online. This is how we have designed it. Participants must be virtually present (slack, skype, etc.) in order to take part in the proposed projects. We’ll schedule daily calls to organize the work, update on the progress, chat amongst the participants and ask any doubt we may have. During the day, the members of each team, including coaches, will be online for any doubt or project-specific comment.",
+			"q2": "Is #oSoc21 a training programme?",
 			"a2": "Yes. It’s intended to put in practice the knowledge acquired at the university. You’ll learn to manage and develop the proposed project and test your skills. You’ll also have a coach that will guide your training during the whole programme.",
-			"q3": "How is #oSoc20 understood?",
-			"a3": "#oSoc20 is a summer school where you can test your skills. It’s thought for students with different backgrounds to participate in the same project, interchanging experience and knowledge, applying it to the challenge we have designed this year.",
-			"q4": "Which is my commitment when applying to #oSoc20?",
-			"a4": "When the students apply, they are committed to participate in the development of the project under the conditions of the previously signed agreement. In fact, #oSoc20 helps students expand their contact network, acquire experience in multidisciplinary projects and learn from the coaches’ skills.",
+			"q3": "How is #oSoc21 understood?",
+			"a3": "#oSoc21 is a summer school where you can test your skills. It’s thought for students with different backgrounds to participate in the same project, interchanging experience and knowledge, applying it to the challenge we have designed this year.",
+			"q4": "Which is my commitment when applying to #oSoc21?",
+			"a4": "When the students apply, they are committed to participate in the development of the project under the conditions of the previously signed agreement. In fact, #oSoc21 helps students expand their contact network, acquire experience in multidisciplinary projects and learn from the coaches’ skills.",
 			"q5": "Will the design and the code developed by students belong to the UPM?",
 			"a5": "No. The development is open source. Both the design and the code belong to everyone. ",
-			"q6": "Where can I find information about #oSoc20? How can I explain #oSoc20 to my university partners? ",
+			"q6": "Where can I find information about #oSoc21? How can I explain #oSoc21 to my university partners? ",
 			"a6": "We have more information on our website https://summerofcode.es/ and social networks! We’ve recently opened an Instagram profile in which we’ll inform about the preparations of this year’s edition: https://www.instagram.com/osocode_es. Our Twitter account is https://twitter.com/oSocode_es (please RT!) and our Facebook profile is https://fb.me/oSocodees. Join our informative sessions too!",
-			"q7": "Can I be student and coach of #oSoc20?",
-			"a7": "They are different profiles, but some “advanced students” (if they have finished their studies and have some professional experience) can also be “coaches” of a team. The students will be part of the assigned team –they’ll be informed before the programme starts– and the coaches are experts that will guide each team during the whole #oSoc20, giving specific attention to their teams.",
-			"q8": "Can I contact #oSoc20 if I have more doubts? ",
+			"q7": "Can I be student and coach of #oSoc21?",
+			"a7": "They are different profiles, but some “advanced students” (if they have finished their studies and have some professional experience) can also be “coaches” of a team. The students will be part of the assigned team –they’ll be informed before the programme starts– and the coaches are experts that will guide each team during the whole #oSoc21, giving specific attention to their teams.",
+			"q8": "Can I contact #oSoc21 if I have more doubts? ",
 			"a8": "Yes. Use our e-mail address osocspain@gmail.com whenever you have something to ask. Don’t think twice!",
 			"q9": "Which are the most relevant changes regarding previous editions? ",
-			"a9": "We’ve designed a challenge that will be core idea of every project developed during #oSoc20. Initially, each participant chooses a proposal. Then, we’ll have a brainstorming stage to define more details of each project. The final day of the programme we’ll celebratethe Demo Day to expose the results of our projects. ",
-			"q10": "How long is #oSoc20?",
+			"a9": "We’ve designed a challenge that will be core idea of every project developed during #oSoc21. Initially, each participant chooses a proposal. Then, we’ll have a brainstorming stage to define more details of each project. The final day of the programme we’ll celebratethe Demo Day to expose the results of our projects. ",
+			"q10": "How long is #oSoc21?",
 			"a10": "This year’s edition will exceptionally be two weeks long: from the 6th to the 17th of July.",
-			"q11": "Is #oSoc20 a remunerated programme?",
+			"q11": "Is #oSoc21 a remunerated programme?",
 			"a11": "Considering the exceptional situation brought by the Covid-19 crisis, we don’t have funding companies behind our projects, so the participation is voluntary. "
 	
 		}
