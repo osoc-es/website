@@ -37,7 +37,7 @@
 			"item2": {
 				"name": "Apertura",
 				"date": "6 de julio",
-				"description": "Durante dos semanas, desde el día 6 hasta el 17 de julio se desarrollará la edición online del oSoc 2020."
+				"description": "Durante dos semanas, desde el día X hasta el Y de Z se desarrollará la edición online del oSoc 2021."
 			},
 			"item3": {
 				"name": "Demo Day",
@@ -50,9 +50,9 @@
 	
 	"challenges": {
 		"title": "Retos | Open Summer of Code",
-		"stitle": "Ret<img src='https://online2020.summerofcode.es/img/logo/other/global-goals-logo.png' style='width: 24px;/*! margin-bottom: 15px; *//*! margin-left: 5px; */'>s",
+		"stitle": "Ret<img src='/img/logo/other/global-goals-logo.png' style='width: 24px;/*! margin-bottom: 15px; *//*! margin-left: 5px; */'>s",
 		"intro": {
-			"p1": "Debido a la situación que se está viviendo en todo el mundo por la crisis del Coronavirus, Open Summer of Code 2020 Special Edition planteará a los estudiantes una serie de retos asociados al “Día Después”: ¿Qué pasará cuando la gente vuelva a poder salir de sus casas?, ¿qué hemos aprendido y cómo deberíamos tenerlo en cuenta y aplicarlas a nuestro día a día (contaminación, cambio climático...)?, ¿cuáles deben ser nuestras prioridades a partir de ahora: la ciencia o el fútbol?",
+			"p1": "Debido a la situación que se está viviendo en todo el mundo por la crisis del Coronavirus, Open Summer of Code 2021 Special Edition planteará a los estudiantes una serie de retos asociados al “Día Después”: ¿Qué pasará cuando la gente vuelva a poder salir de sus casas?, ¿qué hemos aprendido y cómo deberíamos tenerlo en cuenta y aplicarlas a nuestro día a día (contaminación, cambio climático...)?, ¿cuáles deben ser nuestras prioridades a partir de ahora: la ciencia o el fútbol?",
 			"p2": "En Open Summer of Code creemos y apostamos por la innovación digital con impacto social, y somos conscientes de que los Objetivos de Desarrollo Sostenible (ODS) y la agenda 2030 están propiciando la aceleración hacia un mundo mejor que debe cambiar ya. Por eso proponemos 3 proyectos (retos) con este enfoque en los cuales los estudiantes podrán participar y colaborar guiados por un mentor:"
 		},
 		"cards": {
@@ -82,7 +82,7 @@
 		
 		"title": "Inscripción | Open Summer of Code",
 		"stitle": "Inscripción",
-		"msg": "Las inscripciones están cerradas!</a>"
+		"msg": "Las inscripciones están abiertas: <a href='https://docs.google.com/forms/d/1TABbx03VbFgPQx4jERS7xi6cfI7SfDNRHl8MOlxXCwU/viewform'>goto inscription;</a>"
 		
 	},
 	
@@ -95,27 +95,27 @@
 
 		"general": {
 			
-			"q1": "¿Es #oSoc20 virtual?",
-			"a1": "Sí, la edición oSoc 2020 será con una participación no presencial. Así lo hemos diseñado. Para poder participar el desarrollo de los proyectos propuestos habrá que estar presente de forma virtual (slack, skype, etc). Tendremos videoconferencias programadas cada día para planificar y conocer las tareas realizadas y también para compartir jornadas con el resto de compañeros del equipo, debatir y preguntar las dudas que tengamos. Durante el día los integrantes del equipo, incluyendo a los mentores, estarán en línea para cualquier duda o comentario específico a algún proyecto.",
-			"q2": "¿Es #oSoc20 un programa de aprendizaje­?",
+			"q1": "¿Es #oSoc21 virtual?",
+			"a1": "Sí, la edición oSoc 2021 será con una participación no presencial. Así lo hemos diseñado. Para poder participar el desarrollo de los proyectos propuestos habrá que estar presente de forma virtual (slack, skype, etc). Tendremos videoconferencias programadas cada día para planificar y conocer las tareas realizadas y también para compartir jornadas con el resto de compañeros del equipo, debatir y preguntar las dudas que tengamos. Durante el día los integrantes del equipo, incluyendo a los mentores, estarán en línea para cualquier duda o comentario específico a algún proyecto.",
+			"q2": "¿Es #oSoc21 un programa de aprendizaje­?",
 			"a2": "Sí. Es una manera de abordar y aplicar los conocimientos adquiridos durante los estudios. Aprenderás a gestionar y a desarrollar el proyecto propuesto, podrás probar tus habilidades… y tendrás un mentor que guiará el aprendizaje durante el desarrollo de todo el programa.",
-			"q3": "¿Cómo puedo entender #oSoc20?",
-			"a3": "#oSoc20 es una escuela de verano dónde pondrás a prueba tus habilidades. Está pensado para que estudiantes de distintas disciplinas formen parte de un mismo proyecto, intercambiando experiencias y conocimientos para aplicarlos en al reto que se ha diseñado para este año.",
-			"q4": "¿Qué compromiso adquiero con #oSoc20 al inscribirme? ",
-			"a4": "Cuando un alumno se compromete a formar parte del programa debe participar en el desarrollo del proyecto bajo las condiciones del compromiso previamente firmado. Además, el #oSoc20 permite al estudiante ampliar su red de contactos, adquirir experiencia en proyectos multidisciplinares y aprender de las habilidades de los mentores.",
+			"q3": "¿Cómo puedo entender #oSoc21?",
+			"a3": "#oSoc21 es una escuela de verano dónde pondrás a prueba tus habilidades. Está pensado para que estudiantes de distintas disciplinas formen parte de un mismo proyecto, intercambiando experiencias y conocimientos para aplicarlos en al reto que se ha diseñado para este año.",
+			"q4": "¿Qué compromiso adquiero con #oSoc21 al inscribirme? ",
+			"a4": "Cuando un alumno se compromete a formar parte del programa debe participar en el desarrollo del proyecto bajo las condiciones del compromiso previamente firmado. Además, el #oSoc21 permite al estudiante ampliar su red de contactos, adquirir experiencia en proyectos multidisciplinares y aprender de las habilidades de los mentores.",
 			"q5": "El diseño y código desarrollado por los alumnos ¿pasa a ser del dominio de la UPM?",
 			"a5": "No. Todo el desarrollo es abierto. Tanto el diseño como el código es dominio de todos.",
-			"q6": "¿Dónde puedo encontrar información sobre #oSoc20? ¿Cómo puedo explicar a compañeros de la Universidad qué es #oSoc20?",
+			"q6": "¿Dónde puedo encontrar información sobre #oSoc21? ¿Cómo puedo explicar a compañeros de la Universidad qué es #oSoc21?",
 			"a6": "Tenemos información en nuestra web https://summerofcode.es/  y en redes sociales! Hemos abierto un perfil en Instagram en el que iremos informando de los avances en la preparación de la edición de este año: https://www.instagram.com/osocode_es. Nuestra cuenta en Twitter es https://twitter.com/oSocode_es (haz todos los retuits que puedas) y nuestro perfil en Facebook es https://fb.me/oSocodees. Acude también a las sesiones informativas....",
-			"q7": "¿Puedo ser estudiante y a la vez mentor de #oSoc20?",
-			"a7": "Son perfiles distintos, pero algunos perfiles de estudiantes de perfil “avanzado” (si han terminado sus estudios, cuentan con experiencia profesional… ) pueden dar lugar a un “coach” de equipo. Los estudiantes formarán parte del grupo asignado –del que se les informará con tiempo, antes del inicio del programa–, y los mentores son profesionales que guiarán a cada equipo a lo largo del desarrollo de todo #oSoc20 y que darán atención pormenorizada a los grupos.",
-			"q8": "¿Puedo contactar con #oSoc20 si tengo más dudas?",
+			"q7": "¿Puedo ser estudiante y a la vez mentor de #oSoc21?",
+			"a7": "Son perfiles distintos, pero algunos perfiles de estudiantes de perfil “avanzado” (si han terminado sus estudios, cuentan con experiencia profesional… ) pueden dar lugar a un “coach” de equipo. Los estudiantes formarán parte del grupo asignado –del que se les informará con tiempo, antes del inicio del programa–, y los mentores son profesionales que guiarán a cada equipo a lo largo del desarrollo de todo #oSoc21 y que darán atención pormenorizada a los grupos.",
+			"q8": "¿Puedo contactar con #oSoc21 si tengo más dudas?",
 			"a8": "Sí. Utiliza nuestra dirección de e-mail: osocspain@gmail.com siempre que tengas algo que preguntar, sea lo que sea. No te lo pienses dos veces.",
 			"q9": "¿Cuales son los cambios relevantes respecto a anteriores ediciones?",
-			"a9": "Hemos diseñado un reto que será el eje principal de todos los proyectos que se desarrollen durante #oSoc20. Inicialmente cada participante se apunta en una propuesta. Luego, se hará “brainstorming” para definir con más detalle el proyecto. El día final del programa se celebrará un Demo Day para dar a conocer los resultados del proyecto.",
-			"q10": "¿Cuanto dura #oSoc20?",
+			"a9": "Hemos diseñado un reto que será el eje principal de todos los proyectos que se desarrollen durante #oSoc21. Inicialmente cada participante se apunta en una propuesta. Luego, se hará “brainstorming” para definir con más detalle el proyecto. El día final del programa se celebrará un Demo Day para dar a conocer los resultados del proyecto.",
+			"q10": "¿Cuanto dura #oSoc21?",
 			"a10": "La edición de este año, de forma excepcional, tendrá una duración de dos semanas: del 6 al 17 de julio.",
-			"q11": "¿Es #oSoc20 un programa remunerado?",
+			"q11": "¿Es #oSoc21 un programa remunerado?",
 			"a11": "Teniendo en cuenta la situación excepcional causada por la crisis del Covid-19, no tenemos empresas que financien nuestros proyectos, por lo que la participación es voluntaria."
 	
 		}
