@@ -23,7 +23,6 @@
 		"title": "Open Summer of Code"
 	},
 	
-	
 	"agenda": {
 		
 		"title": "Agenda | Open Summer of Code",
@@ -32,18 +31,18 @@
 		"timeline": {
 			"item1": {
 				"name": "Online edition presentation",
-				"date": "27th April",
+				"date": "10th May",
 				"description": "The online edition proposal of the oSoc will be presented, as the planned face-to-face edition is impossible."
 			},
 			"item2": {
 				"name": "Opening",
-				"date": "6th July",
-				"description": "For two weeks, from July 6 to 17, the online edition of the oSoc 2020 will take place."
+				"date": "5th July",
+				"description": "For two weeks, from July 5 to 16, the online edition of the oSoc 2020 will take place."
 			},
 			"item3": {
 				"name": "Demo Day",
-				"date": "17th July",
-				"description": "On the 17th there will be an open exhibition of the work done in what we call Demo Day. From 16:00 to 17:00."
+				"date": "16th July",
+				"description": "On the 16th there will be an open exhibition of the work done in what we call Demo Day."
 			}
 		}
 
