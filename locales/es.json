@@ -31,18 +31,18 @@
 		"timeline": {
 			"item1": {
 				"name": "Presentación edición online",
-				"date": "27 de abril",
+				"date": "10 de mayo",
 				"description": "Se presentará la propuesta de edición online del oSoc, al ser imposible la edición presencial planificada."
 			},
 			"item2": {
 				"name": "Apertura",
 				"date": "6 de julio",
-				"description": "Durante dos semanas, desde el día X hasta el Y de Z se desarrollará la edición online del oSoc 2021."
+				"description": "Durante dos semanas, desde el día 5 hasta el 16 de julio se desarrollará la edición online del oSoc 2021."
 			},
 			"item3": {
 				"name": "Demo Day",
-				"date": "17 de julio",
-				"description": "Llegados el día 17 se hará una exposición abierta del trabajo realizado en el que llamamos Demo Day. Desde las 16:00 hasta las 17:00."
+				"date": "16 de julio",
+				"description": "Llegados el día 17 se hará una exposición abierta del trabajo realizado en el que llamamos Demo Day."
 			}
 		}
 		
