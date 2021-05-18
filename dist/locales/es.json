@@ -14,13 +14,36 @@
 		},
 		"footer": {
 			"poweredby": "Impulsado por el <a href='http://www.oeg-upm.net/'>Ontology Engineering Group</a> y el <a href='https://www.openknowledge.be/'>Open Knowledge Belgium</a>",
-			"source": "Código fuente disponible en <a href='https://github.com/osoc-es/website/tree/deploy-online'>GitHub</a>"
+			"source": "Código fuente disponible en <a href='https://github.com/osoc-es/website/tree/deploy-2021'>GitHub</a>"
 			
 		}
 	},
 	
 	"home": {
-		"title": "Open Summer of Code"
+		
+		"title": "Inicio | Open Summer of Code",
+		"wellcome1": "Bienvenido al Open Summer of Code",
+		"wellcome2": "Programa formativo para entusiastas del código abierto y de la innovación.",
+		"forstudents": "Para <br> estudiantes",
+		"fororganizations": "Para <br> organizaciones",
+		"forcoaches": "Para <br> mentores",
+		"titlewhat": "Qué es",
+		"descwhat": "Un programa de 2 semanas que ayuda a <b>estudiantes</b> de universidades españolas a <b>desarrollar proyectos de innovación</b> para empresas y organizaciones y convertirlos en <b>servicios de utilidad para la sociedad</b>.",
+		"titlestats": "En ediciónes anteriores...",
+		"stats1-t": "participaron",
+		"stats1-b": "estudiantes",
+		"stats2-t": "de",
+		"stats2-b": "universidades",
+		"stats3-t": "desarrollaron",
+		"stats3-b": "proyectos",
+		"stats4-t": "junto con",
+		"stats4-b": "organizaciones",
+		"stats5-t": "y el apoyo de",
+		"stats5-b": "mentores",
+		"titlepartners": "Patrocinadores",
+		"titleorganizers": "Organizadores",
+		"titlesupport": "Soporte"
+
 	},
 	
 	"agenda": {
@@ -36,13 +59,13 @@
 			},
 			"item2": {
 				"name": "Apertura",
-				"date": "6 de julio",
+				"date": "5 de julio",
 				"description": "Durante dos semanas, desde el día 5 hasta el 16 de julio se desarrollará la edición online del oSoc 2021."
 			},
 			"item3": {
 				"name": "Demo Day",
 				"date": "16 de julio",
-				"description": "Llegados el día 17 se hará una exposición abierta del trabajo realizado en el que llamamos Demo Day."
+				"description": "Llegados el día 16 se hará una exposición abierta del trabajo realizado en el que llamamos Demo Day."
 			}
 		}
 		

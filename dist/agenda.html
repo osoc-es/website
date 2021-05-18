@@ -12,12 +12,27 @@
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C600%2C700%7COpen%2BSans%3A300%2C400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script defer src="./js/jquery.js"></script>
+    <script defer src="./js/foundation.js"></script>
+    
+    <!-- i18n -->
+    <script defer src="./js/i18next.js"></script>
+    <script defer src="./js/jquery-i18next.min.js"></script>
+	<script defer src="./js/i18nextXHRBackend.js"></script>
+	<script defer src="./js/i18nextBrowserLanguageDetector.js"></script>
+
+    <script defer src="./js/app.js"></script>
+    <script defer src="./js/i18n.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+    
+
 
 	
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script defer src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <style>
 
@@ -73,23 +88,10 @@ ul.timeline > li:before {
     <meta name="twitter:url" content="https://summerofcode.es/" />
 
 
-    <!-- favicons (?) -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="./img/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="./img/favicons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="./img/favicons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="./img/favicons/favicon-.png" sizes="16x16">
-    <link rel="manifest" href="./img/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="‪#FFFFFF">
-    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <!-- favicons  -->
+
+    <link rel="icon" type="image/png" href="./img/favicons/favicon.png" sizes="32x32">
+
     <meta name="theme-color" content="‪#FFFFFF">
     <style>
 			
@@ -147,10 +149,11 @@ ul.timeline > li:before {
 
         <div class="top-bar-right">
           <ul class="menu vertical large-horizontal">
+			<li><a href="/" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.home"></a></li>
             <li><a href="agenda.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.agenda"></a></li>
-            <li><a href="challenges.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.hackathon"></a></li>
+            <!-- <li><a href="challenges.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.hackathon"></a></li> -->
             <li><a href="faq.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.faq"></a></li>
-            <!--<li><a href="2020.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.2020">2020</a></li> -->
+            <!-- <li><a href="2020.html" class="button link lowercase u-margin--right i18n" data-i18n="template.menu.2020">2020</a></li> -->
             <li><a href="inscription.html" class="button lowercase u-margin--right inscribe i18n" data-i18n="template.menu.inscribe"></a></li>
             <li><a href="#" class="button lowercase u-margin--right langflag" onclick="switch_lang()"><img id="lang-flag" src=""></a></li>
           </ul>
@@ -164,7 +167,7 @@ ul.timeline > li:before {
     <!-- info agenda -->
     <div class="agenda_wrapper">
     <div class="grid-x grid-padding-x u-margin-large--tb align-middle" >
-        <div class="medium-8 large-5 cell">
+        <div class="medium-12 large-5 cell">
             <p class="hero-text u-margin-large--b i18n" data-i18n="[html]agenda.wellcome1"></p>
             <p class="hero-text u-margin-large--b i18n" data-i18n="[html]agenda.wellcome2"></p>
         </div>
@@ -175,17 +178,17 @@ ul.timeline > li:before {
 					<ul class="timeline">
 						<li>
 							<a href="#" class="i18n" data-i18n="[html]agenda.timeline.item1.name"></a>
-							<a href="#" class="float-right" data-i18n="[html]agenda.timeline.item1.date"></a>
+							<a href="#" class="float-right i18n" data-i18n="[html]agenda.timeline.item1.date"></a>
 							<p class="i18n" data-i18n="[html]agenda.timeline.item1.description"></p>
 						</li>
 						<li>
 							<a href="#" class="i18n" data-i18n="[html]agenda.timeline.item2.name"></a>
-							<a href="#" class="float-right" data-i18n="[html]agenda.timeline.item2.date"></a>
+							<a href="#" class="float-right i18n" data-i18n="[html]agenda.timeline.item2.date"></a>
 							<p class="i18n" data-i18n="[html]agenda.timeline.item2.description"></p>
 						</li>
 						<li>
 							<a href="#" class="i18n" data-i18n="[html]agenda.timeline.item3.name"></a>
-							<a href="#" class="float-right" data-i18n="[html]agenda.timeline.item3.date"></a>
+							<a href="#" class="float-right i18n" data-i18n="[html]agenda.timeline.item3.date"></a>
 							<p class="i18n" data-i18n="[html]agenda.timeline.item3.description"></p>
 						</li>
 						
@@ -227,7 +230,7 @@ ul.timeline > li:before {
         <div class="small-12 medium-12 large-5 cell">
           <div class="grid-x grid-padding-x">
             <!-- links -->
-                    <div class="small-4 medium-4 cell">
+                    <!--<div class="small-4 medium-4 cell">
                         <ul class="inline-list">
                             <li>
                                 <a href="students.html" class="i18n" data-i18n="template.menu.students"></a>
@@ -252,12 +255,12 @@ ul.timeline > li:before {
                                 <a href="practical.html" class="i18n" data-i18n="template.menu.faq"></a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
 
                     <!-- contact --><div class="small-4 medium-4 cell">
                 <ul class="inline-list">
                 <li><a href="https://twitter.com/osocode_es" target="_blank">Twitter</a></li>
-                <li><a href="https://www.facebook.com/osocspain" target="_blank">Facebook</a></li>
+                <!-- <li><a href="https://www.facebook.com/oSocodees" target="_blank">Facebook</a></li> -->
                 <li><a href="https://www.instagram.com/osocode_es/" target="_blank">Instagram</a></li>
               </ul>
             </div>
@@ -274,20 +277,7 @@ ul.timeline > li:before {
       </div>
     </footer>
 
-    <script src="./js/jquery.js"></script>
-    <script src="./js/foundation.js"></script>
-    
-    <!-- i18n -->
-    <script src="./js/i18next.js"></script>
-    <script src="./js/jquery-i18next.min.js"></script>
-	<script src="./js/i18nextXHRBackend.js"></script>
-	<script src="./js/i18nextBrowserLanguageDetector.js"></script>
 
-    <script src="./js/app.js"></script>
-    <script src="./js/i18n.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
-    
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134746082-1"></script>
