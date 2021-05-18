@@ -20,8 +20,30 @@
 	},
 	
 	"home": {
-		"title": "Open Summer of Code"
-	},
+		
+		"title": "Home | Open Summer of Code",
+		"wellcome1": "Welcome to Open Summer of Code",
+		"wellcome2": "Training programme for open source and innovation fans.",
+		"forstudents": "For <br> students",
+		"fororganizations": "For <br> organisations",
+		"forcoaches": "For <br> coaches",
+		"titlewhat": "What is oSoc?",
+		"descwhat": "A four-week programme that helps <b>students</b> from Spanish universities <b>develop innovation projects</b> for companies and organisations to transform them in <b>useful services for our society</b>.",
+		"titlestats": "In previous editions...",
+		"stats1-t": "we had",
+		"stats1-b": "students",
+		"stats2-t": "from",
+		"stats2-b": "universities",
+		"stats3-t": "developing",
+		"stats3-b": "projects",
+		"stats4-t": "together with",
+		"stats4-b": "organisations",
+		"stats5-t": "and the support of",
+		"stats5-b": "coaches",
+		"titlepartners": "Sponsors",
+		"titleorganizers": "Organisers",
+		"titlesupport": "Support"
+
 	
 	"agenda": {
 		
