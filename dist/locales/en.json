@@ -4,7 +4,7 @@
 			"home": "Home",
 			"students": "Students",
 			"organizations": "Organisations",
-			"hackathon": "Challenges",
+			"challenges": "Challenges",
 			"agenda": "Agenda",
 			"coaches": "Coaches",
 			"whoweare": "Who we are",
@@ -80,20 +80,16 @@
 		"cards": {
 			"detail": "Read more...",
 			"card1": {
-				"title": "Recommendation project of good habits for the 2030 agenda",
-				"description": "We propose to analyze data derived from the COVID-19 situation to measure how we have changed our habits. If they do not exist, design or use applications to collect this type of information. Subsequently, we will create a system of recommendations to maintain good habits during the 'Nueva Normalidad'."
+				"title": "HIGH QUALITY OPEN DATA IN MADRID",
+				"description": "This project proposes the implementation of a system to analyze and validate the quality of geographic data in CSV of the Madrid open data portal. It will make use of semantic technologies (SPARQL for queries, CSV on the Web for metadata) and is expected to be implemented in Python. The tool will be accompanied by a simple web application to facilitate its use by the end user."
 			},
 			"card2": {
-				"title": "Innovation project against climate change",
-				"description": "We propose to design a video game (platform format or simple graphic adventure) with the aim of raising awareness of the long-term consequences (social, environmental...) that COVID19 entails. For example: through different types of characters, the user will have to make certain decisions that will lead to different situations."
+				"title": "LATERALITY",
+				"description": "Laterality is a disorder in which children do not have a defined dominant side in the brain, which produces a series of difficulties in learning from reading problems to pronunciation problems. \n This project proposes to build a mobile application to help, through a series of exercises, children with difficulties in the pronunciation of the trabadas. Trabadas are those words that contain syllables with two consonants followed by a vowel. The application will have a series of levels through which the student will go through."
 			},
 			"card3": {
-				"title": "Innovation project to support neighborhood cultural organizations",
-				"description": "Currently, given the transition to the 'Nueva Normalidad', it is expected that people who attend cultural activities will now have more limitations in terms of available options given the capacity restrictions. An app is proposed that based on the user's preferences regarding the type of show and available hours and the restrictions on capacity, functions and hours of shows, the user can be recommended their 'Cultural Itinerary'."
-			},
-			"card4": {
-				"title": "Free Project",
-				"description": "The organization has done some research and we have found several very interesting open data sets to work with, the team that is part of this project will develop a digital product from scratch using this data."
+				"title": "HIRE A SENIOR",
+				"description": "Growing older should not be an obstacle when it’s time to perform an activity that you like, allows you to remain active and with which you feel fulfilled. The idea of this project is to develop an app focused on hiring retired people who are interested, so that they can continue to perform useful tasks and remain mentally active, and at the same time get an additional contribution to their pension. In addition, this will allow those interested in hiring, to have people with great experience in their staff."
 			}
 		},
 		"objectives": "SDG associated objectives:",

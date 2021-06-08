@@ -4,7 +4,7 @@
 			"home": "Inicio",
 			"students": "Estudiantes",
 			"organizations": "Organizaciones",
-			"hackathon": "Retos",
+			"challenges": "Retos",
 			"agenda": "Agenda",
 			"coaches": "Mentores",
 			"whoweare": "Quiénes somos",
@@ -81,20 +81,16 @@
 		"cards": {
 			"detail": "Leer más...",
 			"card1": {
-				"title": "Proyecto de recomendación de buenos hábitos para la agenda 2030",
-				"description": "Proponemos analizar datos derivados de la situación COVID-19 para medir cómo hemos cambiado nuestros hábitos. Si no existen, diseñar o utilizar aplicaciones para recoger este tipo de información. Posteriormente, crearemos un sistema de recomendaciones para mantener buenos hábitos durante la Nueva Normalidad."
+				"title": "HIGH QUALITY OPEN DATA IN MADRID",
+				"description": "Este proyecto propone la implementación de un sistema que analice y valide la calidad de los datos geográficos en CSV del portal de datos abiertos de Madrid. Para ello se hará uso de tecnologías semánticas (SPARQL para consultas, CSV on the Web para los metadatos) y se prevé que la implementación sea en python. La herramienta irá acompañada de una aplicación web sencilla que facilite su uso al usuario final."
 			},
 			"card2": {
-				"title": "Proyecto de innovación en contra del cambio climático",
-				"description": "Proponemos diseñar un videojuego (formato plataforma o aventura gráfica sencilla) con el objetivo de concienciar sobre las consecuencias (sociales, medioambientales...) a largo plazo que conlleva el COVID19. Por ejemplo: mediante diferentes tipos de personajes, el usuario tendrá que tomar ciertas decisiones que le llevarán a diferentes situaciones."
+				"title": "LATERALIDAD",
+				"description": "La lateralidad es un trastorno por el que los niños no tienen definido en el cerebro el lado dominante, lo que produce una serie de dificultades en el aprendizaje desde problemas de lectura a problemas de pronunciación. \n Este proyecto propone construir una aplicación de móvil para ayudar, a través de una serie de ejercicios, a los niños con dificultades a la hora de pronunciar las trabadas. Las trabadas son aquellas palabras que contienen sílabas con dos consonantes seguidas seguidas de una vocal. La aplicación tendrá una serie de niveles por los que irá pasando el alumno."
 			},
 			"card3": {
-				"title": "Proyecto de innovación para el apoyo de organizaciones culturales de barrio",
-				"description": "Actualmente, dada la transición a la “nueva normalidad”  se prevé que las personas que asisten a actividades culturales tengan ahora más limitaciones en cuanto a opciones disponibles  dadas las restricciones de aforo. Se propone una app que en base a las preferencias del usuario en cuanto a tipo de espectáculo y horarios disponibles y a las restricciones de aforo,  funciones y horarios de los espectáculos, se  pueda recomendar al usuario su “Itinerario Cultural”."
-			},
-			"card4": {
-				"title": "Proyecto Libre",
-				"description": "La organización ha hecho algo de investigación y hemos encontrado varios conjuntos de datos abiertos muy interesantes para trabajar con ellos, el equipo que forme parte de este proyecto desarrollará un producto digital desde 0 usando estos datos."
+				"title": "HIRE A SENIOR",
+				"description": "Ir cumpliendo años no debería ser un obstáculo a la hora de realizar una actividad que te guste, te permita seguir activo  y con la que te sientas realizado. La idea de este proyecto es desarrollar una app centrada en la contratación de las personas retiradas que estén interesadas, de modo que puedan seguir realizando tareas útiles y sigan activos mentalmente, y a la vez consigan un aporte adicional a su pensión. Además, esto permitirá a los interesados en contratar, contar con gente con gran experiencia en su plantilla."
 			}
 		},
 		"objectives": "ODS asociados a este reto:",
